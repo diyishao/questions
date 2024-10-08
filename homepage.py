@@ -335,7 +335,7 @@ The key technical aspects of Wav2Lip are:\n
 4. Frame-by-Frame Prediction: For each frame in the video, Wav2Lip generates new lip movements that match the audio, creating a seamless result that looks like the person in the video is speaking the given audio. The model can do this frame-by-frame without requiring any manual intervention.\n
 By combining these techniques, Wav2Lip achieves impressive results in creating realistic lip-syncing for a variety of speakers and languages.""")
 
-    with st.expander("How to evaluate wav2lip model"):
+    with st.expander("How to evaluate wav2lip model?"):
         st.write("""Evaluating the Wav2Lip model, or any lip-sync model, involves both subjective and objective metrics to ensure it produces realistic and accurate lip movements in sync with audio. Here’s how you can approach evaluating Wav2Lip:\n
 1. Lip-Sync Quality\n
 - Lip-Sync Error (LSE): This is a common metric for evaluating lip-sync models. It calculates the difference between the actual lip movements and the predicted ones. The lower the LSE, the better the model's ability to sync lips with speech.\n
