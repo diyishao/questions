@@ -42,7 +42,8 @@ With the rise of large language models (LLMs) and Generative AI, I’ve found my
 I also admire Duolingo’s focus on making learning fun and engaging. It’s rare to find a company that combines data-driven iteration with such a strong commitment to improving the user experience. I’m really drawn to that kind of culture, and I feel it’s a place where I can grow, while also making a real difference.""")
 
     with st.expander("Why do want to step back to lead only one team?"):
-        st.write("""""")
+        st.write("""I’ve been overseeing four sub-teams in China, which has been a valuable experience. However, as I’m planning to return to the U.S., my focus isn’t necessarily on managing multiple teams, but on working on projects that are both interesting and impactful. The U.S. is leading the AI trend, and I’m excited to be a part of cutting-edge developments, even if that means managing a smaller team.\n
+In my view, the quality of the work and the opportunity to make a significant impact matter more than the size of the team. If I’m working on an exciting project that pushes boundaries and drives real-world results, I’ll be just as motivated and invested as I’ve always been.""")
 
 with tab2:
     st.header("General questions")
@@ -252,6 +253,11 @@ This approach ensures well-rounded, achievable goals that drive both team and pe
 As the engineering manager, I stepped in to mediate. First, I met with both engineers individually to understand their concerns. The backend architect was focused on the need to scale for potential explosive user growth, while the infrastructure engineer wanted to avoid unnecessary complexity and costs.\n
 To move forward, I also met with the manager of the infrastructure team. Together, we estimated the required resources, task complexity, and the timeline for either approach. After a thorough assessment, we agreed that redesigning the resource scheduling system was the best long-term solution for scalability and performance. We adjusted the project scope to accommodate the changes, ensuring that both teams had the resources and time needed.\n
 By fostering open communication and collaborating with the infrastructure manager, we reached a solution that balanced immediate technical needs with future scalability, turning the conflict into an opportunity to build a more robust system.""")
+
+    with st.expander("Tell me about a time you had conflicts with other team."):
+        st.write("""During the development of our digital human product, there was a debate between teams about whether we should focus more on 2D or 3D digital humans. The machine learning team had been splitting resources almost equally between the two, believing that 3D would offer more advanced capabilities, such as a higher level of realism and interactivity. However, 3D models were also more resource-intensive and time-consuming to develop. On the other hand, 2D digital humans, while less visually complex, could be produced much faster and at a lower cost, making them more practical for the immediate needs of our users.\n
+I stepped in to mediate by conducting a thorough analysis of user feedback and market trends. It became clear that 2D digital humans aligned better with what our users actually wanted in the short term and would allow us to deliver value faster with fewer resource constraints. I presented this data-backed analysis to senior management and external teams, explaining that focusing on 2D would lead to a quicker, more successful product launch, while we could still explore 3D in the future as the market evolved.\n
+By keeping communication open and providing a clear comparison of the pros and cons of each approach, I was able to convince the external teams to reallocate resources towards 2D digital humans. This decision helped the project stay focused and contributed to its overall success in the market.""")
 
     with st.expander("How do you balance engineering limitations with customer requirements?"):
         st.write("""Balancing engineering limitations with customer requirements is a constant challenge, but it’s key to ensuring both technical feasibility and customer satisfaction. My approach typically involves a combination of listening, technical assessment, and prioritization.\n
