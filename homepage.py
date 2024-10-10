@@ -37,7 +37,11 @@ With the rise of large language models (LLMs) and Generative AI, I’ve found my
     with st.expander("Expected Compensation."):
         st.write("""Based on my research and understanding of the industry standards for this role, along with my skills and experience, I would expect a compensation range between 400K and 700K. This range reflects the value I can bring to the position and is aligned with current market rates. However, I’m open to discussing the full compensation package, including benefits and other forms of compensation, to find a mutually agreeable arrangement.""")
 
-    with st.expander("Why do you want to join Duolingo?"): 
+    with st.expander("Why do you want to step back to lead only one team?"):
+        st.write("""I’ve been overseeing four sub-teams in China, which has been a valuable experience. However, as I’m planning to return to the U.S., my focus isn’t necessarily on managing multiple teams, but on working on projects that are both interesting and impactful. The U.S. is leading the AI trend, and I’m excited to be a part of cutting-edge developments, even if that means managing a smaller team.\n
+In my view, the quality of the work and the opportunity to make a significant impact matter more than the size of the team. If I’m working on an exciting project that pushes boundaries and drives real-world results, I’ll be just as motivated and invested as I’ve always been.""")
+
+    with st.expander("Why do you want to join Duolingo?"):
         st.write("""I’m really excited about the opportunity to join Duolingo because its mission of making education accessible to everyone resonates with me. I love how Duolingo uses AI to personalize learning experiences, and that’s something I’m passionate about—using technology to solve real-world problems in a meaningful way. Given my background working on AI-powered products, I see a lot of ways I could contribute to building even more impactful tools for learners around the world.\n
 I also admire Duolingo’s focus on making learning fun and engaging. It’s rare to find a company that combines data-driven iteration with such a strong commitment to improving the user experience. I’m really drawn to that kind of culture, and I feel it’s a place where I can grow, while also making a real difference.""")
 
@@ -45,9 +49,29 @@ I also admire Duolingo’s focus on making learning fun and engaging. It’s rar
         st.write("""I’m really excited about the opportunity at adMarketplace because of its unique approach to search advertising. The chance to use AI/ML to optimize search intent and drive real value for advertisers is the kind of challenge I’m passionate about.\n
 With my experience in building scalable AI solutions, especially in consumer-facing products, I see a strong alignment between my skills and adMarketplace’s mission. I’m eager to join a team that values innovation and contribute to advancing AI-driven solutions that have a real impact on both advertisers and users.""")
 
-    with st.expander("Why do you want to step back to lead only one team?"):
-        st.write("""I’ve been overseeing four sub-teams in China, which has been a valuable experience. However, as I’m planning to return to the U.S., my focus isn’t necessarily on managing multiple teams, but on working on projects that are both interesting and impactful. The U.S. is leading the AI trend, and I’m excited to be a part of cutting-edge developments, even if that means managing a smaller team.\n
-In my view, the quality of the work and the opportunity to make a significant impact matter more than the size of the team. If I’m working on an exciting project that pushes boundaries and drives real-world results, I’ll be just as motivated and invested as I’ve always been.""")
+    with st.expander("Why do you want to join Capital One?"):
+        st.write("""I’m excited about the opportunity at Capital One because the company is a leader in combining finance and technology to innovate within the banking industry. Capital One’s commitment to being a “tech company that happens to be in finance” really resonates with me, as it highlights the importance of data-driven decisions and cutting-edge technology, particularly in AI/ML.\n
+I’m particularly drawn to the role because it provides a chance to leverage my experience in machine learning to solve impactful problems in finance, like fraud detection, customer personalization, and credit risk management. Capital One’s focus on innovation and continuous learning also aligns with my passion for driving advancements in AI/ML, and I’m excited to contribute to pushing those boundaries in the financial space.""")
+
+    with st.expander("Why do you want to join Meta?"):
+        st.write("""I’m excited about the opportunity at Meta because it’s at the forefront of innovation in AI and machine learning, driving advancements that impact billions of users globally. Meta’s work in areas like recommendation systems, augmented reality, and large-scale AI models aligns perfectly with my experience and passion for building impactful machine learning products.\n
+As a Machine Learning Engineering Manager, I’m eager to contribute to projects that shape the future of social interaction and digital experiences. Meta’s mission of connecting people and pushing the boundaries of technology resonates with me, and I’m excited about the chance to lead teams that will make a meaningful difference in that vision.""")
+
+    with st.expander("What questions do you have for me?"):
+        st.write("""Company Culture and Values:\n
+- "Can you describe the company culture and what it’s like to work here day-to-day?"\n
+- "How does the company support professional development and career growth?"\n
+Role and Expectations:\n
+- "What are the key challenges and opportunities for this role in the first six months?"\n
+- "How do you measure success in this position, and what are the primary goals for the person in this role?"\n
+Team Dynamics:\n
+- "Can you tell me more about the team I would be working with and how they collaborate?"\n
+- "How does the team handle conflicts or differing opinions?"\n
+Company Goals and Vision:\n
+- "What are the company’s short-term and long-term goals, and how does this role contribute to achieving them?"\n
+- "How has the company’s strategy evolved recently, and what are the key initiatives for the upcoming year?"\n
+Next Steps:\n
+- "What are the next steps in the hiring process, and when can I expect to hear back?""")
 
 with tab2:
     st.header("General questions")
@@ -87,22 +111,6 @@ Finally, I know that delivering results is one of the most important ways to bui
 To address this, we developed a system that automated the entire process. Instead of relying on manual steps, we created a system where users could upload their audio and video recordings directly. The system provided step-by-step recording guides, and to make it engaging, we gamified the recording process—especially for audio, where there were more steps to follow. This made the experience less tedious for users.\n
 On the backend, our operations team could review the uploaded content within the same system and provide feedback for improvements. Algorithm engineers were notified automatically when new training tasks were ready, and once the custom models were trained, they could be deployed with a single click. The system would then notify users that their personalized avatars were ready for use.\n
 This automated solution not only scaled effectively with user growth but also enhanced the user experience and improved internal workflow efficiency.""")
-
-    with st.expander("What questions do you have for me?"):
-        st.write("""Company Culture and Values:\n
-- "Can you describe the company culture and what it’s like to work here day-to-day?"\n
-- "How does the company support professional development and career growth?"\n
-Role and Expectations:\n
-- "What are the key challenges and opportunities for this role in the first six months?"\n
-- "How do you measure success in this position, and what are the primary goals for the person in this role?"\n
-Team Dynamics:\n
-- "Can you tell me more about the team I would be working with and how they collaborate?"\n
-- "How does the team handle conflicts or differing opinions?"\n
-Company Goals and Vision:\n
-- "What are the company’s short-term and long-term goals, and how does this role contribute to achieving them?"\n
-- "How has the company’s strategy evolved recently, and what are the key initiatives for the upcoming year?"\n
-Next Steps:\n
-- "What are the next steps in the hiring process, and when can I expect to hear back?""")
 
     st.header("Managing individuals")
     with st.expander("Tell me about a few people on your team and the career development plans you created with them."):
