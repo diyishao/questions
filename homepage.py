@@ -44,14 +44,6 @@ In my view, the quality of the work and the opportunity to make a significant im
     with st.expander("Why do you want to join Capital One?"):
         st.write("""I’m excited about the opportunity at Capital One because the company is a leader in combining finance and technology to innovate within the banking industry. Capital One’s commitment to being a “tech company that happens to be in finance” really resonates with me, as it highlights the importance of data-driven decisions and cutting-edge technology, particularly in AI/ML.\n
 I’m particularly drawn to the role because it provides a chance to leverage my experience in machine learning to solve impactful problems in finance, like fraud detection, customer personalization, and credit risk management. Capital One’s focus on innovation and continuous learning also aligns with my passion for driving advancements in AI/ML, and I’m excited to contribute to pushing those boundaries in the financial space.""")
-    with st.expander(""):
-        st.write("""""")
-
-    with st.expander(""):
-        st.write("""""")
-
-    with st.expander(""):
-        st.write("""""")
 
 with tab2:
     st.header("Meta specific questions")
