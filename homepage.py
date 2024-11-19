@@ -2,10 +2,10 @@ import streamlit as st
 
 st.title("Behavior questions")
 
-tab1, tab2, tab3, tab4 = st.tabs(["Introduction", "Management Skills", "Digital Avatar", "Web Table"])
+tab1, tab2, tab3, tab4 = st.tabs(["Introduction", "Management Skills", "Digital Human", "Web Table"])
 with tab1:
     with st.expander("Introduction."):
-        st.write("""Hello, I’m Hongjun. I have over ten years of experience in the software engineering industry, specializing in machine learning and large-scale system architecture. Currently, I’m working at CloudWalk Technology in Shanghai, where I lead teams in developing AI products. My work includes developing LLM-based Knowledge Engines, as well as creating an AIGC product that integrates digital avatar and LLM for video creation and e-commerce live streaming.\n
+        st.write("""Hello, I’m Hongjun. I have over ten years of experience in the software engineering industry, specializing in machine learning and large-scale system architecture. Currently, I’m working at CloudWalk Technology in Shanghai, where I lead teams in developing AI products. My work includes developing LLM-based Knowledge Engines, as well as creating an AIGC product that integrates digital human and LLM for video creation and e-commerce live streaming.\n
 Before CloudWalk, I worked at Google in New York as a Tech Lead Manager. There, I led the development of Search Architecture and launched several key Google search products. One of my major accomplishments was building a machine learning-based web table platform, which became a key data source for the Google Knowledge Graph.\n
 Earlier in my career, I worked at Bloomberg as a Tech Lead, where I designed and implemented the Bloomberg Legal Platform, integrating services to support legal, news, and financial research.\n
 I’m passionate about leveraging AI to solve complex problems and build scalable solutions that have a real-world impact.""")
@@ -19,7 +19,7 @@ At CloudWalk, my responsibility expanded further. My team grew from around 30 to
 
     with st.expander("Machine learning experience."):
         st.write("""I began working on machine learning projects as soon as I joined Google, and one of my major contributions was developing a machine learning-based web table platform. There are an immense number of tables on the internet, with approximately one in every two web pages containing a table. We used machine learning to extract and understand these web tables. To better identify tables on web pages, we applied vision-based machine learning algorithms. Then, we leveraged early LLMs like BERT and T5 to enhance our understanding of the tables. This included classifying the tables, identifying the ones most relevant to the web page's topic, and generating appropriate titles for them. The information extracted from these tables became a key data source for Google’s knowledge graph and was later integrated into other products like Google Search, Google Maps, and YouTube.\n
-After I joined CloudWalk, I continued leading the Knowledge Engine team. My team developed two key products: one was a knowledge engine based on large language models, and the other was an AIGC platform that integrated these models with digital avatars. The knowledge engine extracts information from documents to build knowledge graphs, which are then used to enhance retrieval augumented generation (RAG). On the AIGC platform, we helped users create e-commerce live-streaming scripts and dialogues, and enabled real-time interactions with viewers through large language models. To ensure our products performed well, we carried out extensive data processing and fine-tuned the models using machine learning techniques.""")
+After I joined CloudWalk, I continued leading the Knowledge Engine team. My team developed two key products: one was a knowledge engine based on large language models, and the other was an AIGC platform that integrated these models with digital humans. The knowledge engine extracts information from documents to build knowledge graphs, which are then used to enhance retrieval augumented generation (RAG). On the AIGC platform, we helped users create e-commerce live-streaming scripts and dialogues, and enabled real-time interactions with viewers through large language models. To ensure our products performed well, we carried out extensive data processing and fine-tuned the models using machine learning techniques.""")
 
     with st.expander("Performance review experience."):
         st.write("""Google’s performance evaluation system is quite structured and thorough. It begins with a self-assessment, followed by peer reviews and a manager’s evaluation. To keep things fair and consistent across teams, managers hold calibration sessions to agree on a rating for each employee. Once the ratings and evaluations are finalized, the manager sits down with the employee to go over the results and provide feedback.\n
@@ -48,7 +48,7 @@ I’m particularly drawn to the role because it provides a chance to leverage my
 with tab2:
     st.header("Meta specific questions")
     with st.expander("Why do you want to join Meta?"):
-        st.write("""I’m excited about the opportunity at Meta because it’s at the forefront of innovation in AI and machine learning, driving advancements that impact billions of users globally. Meta’s work in areas like recommendation systems, augmented reality, and large-scale AI models aligns perfectly with my experience and passion for building impactful machine learning products.\n
+        st.write("""I’m excited about the opportunity at Meta because it’s at the forefront of innovation in AI and machine learning, driving advancements that impact billions of users globally. Meta’s work in areas like recommendation systems, augmented reality, and large language models aligns perfectly with my experience and passion for building impactful AI products.\n
 One aspect that particularly excites me is Meta’s commitment to openness and collaboration in AI. By open-sourcing models like Llama, Meta is empowering the global AI community to innovate and build on top of its cutting-edge work. In many ways, Meta has become the “real OpenAI,” fostering accessibility and transparency while advancing the boundaries of AI research.\n
 As a Machine Learning Engineering Manager, I’m eager to contribute to projects that shape the future of social interaction and digital experiences. Meta’s mission of connecting people and pushing the boundaries of technology resonates with me, and I’m excited about the chance to lead teams that will make a meaningful difference in that vision.""")
 
@@ -89,7 +89,7 @@ The AI assistant would act as a highly personalized digital companion, capable o
 1. Long-Term Memory: The agent would retain contextual knowledge about users over months or years, enabling it to evolve with their needs. For example, it could remember a user’s interests, past interactions, and ongoing goals, offering tailored recommendations and insights.\n  
 2. Personalization: Using advanced AI and knowledge graph technologies, the agent would dynamically adapt to users’ preferences, whether it’s curating content, facilitating social connections, or assisting with productivity tasks.  \n
 3. Knowledge-Powered Intelligence: With a robust foundation in search and structured data from knowledge graphs, the agent would provide accurate and actionable responses, acting as both a conversational partner and a reliable information source.\n  
-4. Generative and Multimodal Interaction: The agent would support text, voice, video, and even digital avatar-based communication, ensuring a seamless and immersive experience across Meta’s platforms (Facebook, Instagram, WhatsApp, Horizon, etc.). \n 
+4. Generative and Multimodal Interaction: The agent would support text, voice, video, and even digital human-based communication, ensuring a seamless and immersive experience across Meta’s platforms (Facebook, Instagram, WhatsApp, Horizon, etc.). \n 
 5. Cross-Platform Synchronization: It would integrate across devices and Meta's ecosystem, allowing users to pick up conversations or tasks wherever they are.  \n
 Why This Feature?\n
 1. Stronger User Engagement: By offering deeply personalized and context-aware interactions, the agent would create stronger user connections to Meta’s platforms.\n  
@@ -164,17 +164,42 @@ I’m eager to grow further in this area by learning from experts in marketing a
 For example, when our company shifted its strategy to focus more on large language model (LLM) applications after the release of ChatGPT, I conducted thorough research to understand the new landscape and identified a market opportunity in digital human technology. Despite this being a major change in direction, I successfully led the development of a new product that became a core offering and generated significant revenue for the company.\n
 I’ve learned that the key to adapting well is staying proactive, communicating regularly with stakeholders, and ensuring that I align my actions with the evolving business goals. By staying resilient and open to feedback, I’m able to turn changes into opportunities for growth and innovation.""")
 
+    with st.expander("Some other examples of adapting to change."):
+        st.write("""Here are additional ideas:\n
+---
+#### **Example 1: Refactoring for Efficiency During Digital Avatar Development**\n  
+During the early development of our digital avatar platform, we initially relied on an existing engine call framework for rendering, but it caused inefficiencies and frequent errors. Recognizing this as a blocker, I made the decision to pivot and lead the team in refactoring the system specifically for digital avatar rendering. This decision, though disruptive, improved efficiency by 5x and resolved the technical challenges, enabling us to deliver a stable product on time.\n
+---
+#### **Example 2: Shifting Focus from 3D to 2D Avatars**  \n
+While working on the digital human product, there was internal debate about focusing on 2D vs. 3D avatars. Market feedback indicated that customers preferred cost-effective and easily customizable 2D avatars. Despite significant initial investment in 3D, I persuaded the team and stakeholders to pivot toward 2D. This shift aligned with user demand, and the resulting product exceeded revenue expectations with over 10,000 paying users.\n
+---
+#### **Example 3: Adjusting Timeline to Accommodate Large Model Integration**  \n
+In one project, the product manager prioritized integrating a large language model as a key feature, but the engineering team found it challenging to achieve within the timeline. To adapt, I proposed a phased approach: starting with a simpler implementation of smaller models while reserving time for gradual large model integration. This compromise enabled us to meet immediate market needs without sacrificing long-term goals.\n
+---
+#### **Example 4: Adapting Strategy for Knowledge Engine Development**  \n
+In our knowledge engine project, initially designed for structured datasets, we faced challenges with semi-structured web tables. Realizing the limitations, I led the team to pivot by incorporating machine learning-based visual recognition techniques. This adaptation allowed us to extract tables more effectively, expanding the scope of the project and delivering greater value to users.\n
+---
+#### **Example 5: Responding to Rapid Team Growth**  \n
+When our team grew from 20 to over 30 people, it became clear that my hands-on management style was no longer scalable. I adapted by delegating more responsibilities, mentoring an architect to take on leadership for the digital human product, and establishing clear processes for cross-team communication. This pivot ensured the team maintained high productivity despite the rapid growth.\n
+---
+Each example demonstrates adaptability, critical decision-making, and a focus on aligning with business needs or solving critical challenges.""")
+
     with st.expander("What was some difficult feedback that you received? and why was it hard to receive?"):
         st.write("""One of the most difficult pieces of feedback I received was when I was promoted to engineering manager for the first time at Google. A colleague pointed out that I wasn’t giving enough autonomy to my team. I tended to get too involved in the details, especially when we were under tight deadlines. At the time, I thought I was helping, but the team felt micromanaged and less empowered to make decisions.\n
 This feedback was hard to accept because I saw myself as a supportive leader, and it challenged my perception of my leadership style. Initially, I felt defensive, as I believed I was just ensuring everything was done right. But after reflecting on it, I realized that by not fully trusting my team, I was limiting their ability to grow and contributing to inefficiencies.\n
 To address this, I began delegating more responsibility, trusting my team to handle challenges on their own, and stepping in only when necessary. Over time, this approach led to improved team morale, better decision-making, and allowed me to focus on higher-level strategic tasks. It was a tough lesson, but it made me a stronger and more effective leader.""")
 
-    with st.expander("Tell me about a time you had to make a unpopular decision."):
+    with st.expander("Tell me about a time you had to make a unpopular/tough decision."):
         st.write("""When we launched the first version of our digital human product at CloudWalk, large language models were experiencing tremendous popularity. However, the initial version of our product didn’t have the model performance we wanted—it wasn’t delivering the level of quality and accuracy that our users would expect.\n
 I made the unpopular decision to delay the launch of the product until we had improved the model’s performance. Instead of pushing out the unrefined version that was ready, I decided to hold off and use the additional time to fine-tune the model for better results. This wasn’t an easy choice, as the product team, sales, and other stakeholders were eager to release something in response to the high demand for large language models at that time.\n
 I took the time to explain the situation to both the product manager and the sales team. I emphasized that releasing a suboptimal product could damage our brand’s reputation and lead to negative user experiences, which would ultimately hurt us more in the long run. I assured them that the additional time spent refining the model would pay off with better quality and user satisfaction.\n
 At the same time, I worked closely with the machine learning team, prioritizing resources and closely managing the process to ensure we could improve the model quickly. We focused on fine-tuning and testing to achieve better performance.\n
 Though this decision was unpopular, especially with the pressure to capitalize on the hype around large language models, it proved to be the right call. When we finally launched the improved version, the product was much better received by users, and it helped establish our product as a high-quality offering in the market.""")
+
+    with st.expander("Another example of unpopular/tough decision."):
+        st.write("""During the development of our digital human product at CloudWalk, we faced a difficult decision when a traditional B2B client approached us to build a customized version of the product. While the project promised immediate revenue, it required significant engineering resources and would have delayed the release of our main product. Additionally, the customized features didn’t align with our long-term vision or market strategy.\n  
+I decided to reject the offer and prioritize the timely release of our core product. This decision wasn’t popular initially, as both the marketing team and senior management were concerned about missing out on guaranteed revenue. I worked to convince them by highlighting the strategic importance of focusing on our target market and the scalability potential of our main product.  \n
+In the end, this decision paid off. We launched the product on time, gained over 10,000 paying users, and generated tens of millions in annual revenue, far surpassing what the customized project would have brought. It was a tough call but one that solidified our product's success and positioned us as a leader in the market.""")
 
     st.header("General questions")
     with st.expander("How do you prioritize tasks and projects when your team is under tight deadlines?"):
@@ -198,7 +223,7 @@ By following this method, I ensure the team delivers on deadlines without compro
   - I collect as much relevant data as possible within the given constraints. For example, during the early phases of developing the knowledge engine at CloudWalk, I relied on partial user feedback and historical project data to guide initial decisions.\n
 2. Leverage Frameworks:\n
   - Decision Trees: I map out possible outcomes of each option, weighing their likelihood and impact.\n
-  - Cost-Benefit Analysis: I compare the potential benefits of a decision against its risks and costs. For instance, when deciding whether to refactor the rendering engine for digital avatars, this approach helped me justify the resource investment.\n
+  - Cost-Benefit Analysis: I compare the potential benefits of a decision against its risks and costs. For instance, when deciding whether to refactor the rendering engine for digital humans, this approach helped me justify the resource investment.\n
 3. Consult Experts:\n
   - I leverage the expertise within my team or network. Collaborative brainstorming often surfaces perspectives I hadn’t considered, reducing ambiguity.\n
 4. Emphasize Iteration:\n
@@ -210,7 +235,7 @@ This approach enables me to act decisively, even in ambiguous situations, while 
     with st.expander("What frameworks or principles guide your decision-making as a leader?"):
         st.write("""Several core principles guide my leadership decisions:\n
 1. Data-Driven Approach:\n
-  - Decisions should be backed by data whenever possible. For example, when deciding which features to prioritize for the digital avatar platform, I analyzed user behavior data and market research to ensure our efforts aligned with user needs and ROI.\n
+  - Decisions should be backed by data whenever possible. For example, when deciding which features to prioritize for the digital human platform, I analyzed user behavior data and market research to ensure our efforts aligned with user needs and ROI.\n
 2. Customer-Centric Focus:\n
   - I always consider the impact on end-users. If a decision improves user experience or solves a pain point, it takes precedence.\n
 3. Iterative Improvement:\n
@@ -270,10 +295,15 @@ Once they consistently demonstrated leadership and technical depth, I advocated 
 This experience not only boosted their career but also strengthened the team by adding a strong technical leader.""")
 
     with st.expander("How would you describe your role in coaching and career development?"):
-        st.write("""As a coach, my role in career development is to help my team members grow both personally and professionally by providing guidance, feedback, and opportunities that align with their goals. I take an active interest in understanding their aspirations, strengths, and areas for improvement. Based on this, I work with them to create personalized development plans that focus on expanding their skills, building confidence, and preparing them for the next level in their careers.\n
-I also make it a point to provide regular feedback during our 1:1s, ensuring that it's constructive and actionable. Whether it's technical skills or leadership abilities, I offer insights on how they can improve and continuously build on what they do well.\n
-One of the key aspects of my coaching approach is giving team members the autonomy *[ɔːˈtɑːnəmi]* to take on new challenges. For example, I helped an architect on my team transition into an engineering manager role. We identified their potential for leadership, and I provided them with opportunities to lead cross-functional projects, manage resources, and build stronger relationships with other teams. I also coached them on team management, communication, and decision-making to ensure a smooth transition into the new role.\n
-Overall, my role is to empower team members, foster an open and growth-oriented environment, and provide support when they need it, while holding them accountable for their progress. I believe that with the right guidance and opportunities, each individual can reach their full potential.""")
+        st.write("""As a coach, my primary goal is to empower team members to grow both personally and professionally by aligning their aspirations with meaningful opportunities. Here are the four most important aspects of my coaching approach:  \n
+1. **Personalized Development Plans**:  \n
+   I work closely with team members to understand their goals and strengths, creating tailored development plans that focus on skill enhancement and career progression.\n  
+2. **Actionable Feedback**:  \n
+   I provide regular, constructive feedback during 1:1s, ensuring it is specific and actionable to guide improvement in both technical and leadership areas.\n  
+3. **Encouraging Leadership Through Challenges**:  \n
+   I help team members step out of their comfort zones by assigning leadership roles or challenging projects. For example, I guided an architect to transition into an engineering manager role by providing mentorship and growth opportunities.\n  
+4. **Fostering a Growth-Oriented Environment**:  \n
+   I cultivate an environment where team members feel supported, are held accountable, and are empowered to reach their full potential.  """)
 
     with st.expander("Can you tell me about your leadership style?"):
         st.write("""My leadership style is flexible because I believe that different situations and team dynamics require different approaches. While I adapt my style based on the context, I primarily lean on a combination of visionary coaching and democratic leadership.\n
@@ -339,10 +369,10 @@ By combining these approaches, I ensure that my team is delivering value, growin
     with st.expander("How do you ensure that your team is focusing on building scalable and sustainable solutions?"):
         st.write("""To ensure my team focuses on building scalable and sustainable solutions, I emphasize the following principles:  \n
 1. **Start with Clear Requirements**: I ensure the team understands the long-term business needs and potential growth scenarios. For example, during the development of the digital human rendering platform, I emphasized scalability to support both small businesses and larger enterprises as the product gained traction.\n  
-2. **Architect for Scalability Early**: I encourage designing systems with scalability in mind from the outset. For instance, we refactored our rendering engine system to handle real-time digital avatar rendering efficiently, optimizing the pipeline to accommodate more concurrent users without significant additional costs.\n  
+2. **Architect for Scalability Early**: I encourage designing systems with scalability in mind from the outset. For instance, we refactored our rendering engine system to handle real-time digital human rendering efficiently, optimizing the pipeline to accommodate more concurrent users without significant additional costs.\n  
 3. **Leverage Best Practices**: I promote the use of proven frameworks, modular design, and cloud-native architectures to ensure systems are easy to extend and maintain. For example, in the RAG-based Q&A system, we used a microservices architecture to make individual components scalable independently.  \n
 4. **Encourage Regular Refactoring**: I prioritize technical debt management by setting aside time for code reviews and refactoring. This ensures that short-term solutions don’t hinder long-term sustainability.  \n
-5. **Monitor and Test Continuously**: I implement robust monitoring and load-testing practices to ensure systems perform well under expected and peak loads. For example, we stress-tested the digital avatar platform using simulated live-stream traffic to confirm it could handle spikes in demand.\n  
+5. **Monitor and Test Continuously**: I implement robust monitoring and load-testing practices to ensure systems perform well under expected and peak loads. For example, we stress-tested the digital human platform using simulated live-stream traffic to confirm it could handle spikes in demand.\n  
 6. **Foster a Culture of Ownership**: I encourage the team to think beyond immediate goals, considering maintainability and scalability in every decision.  \n
 These practices have consistently helped my teams deliver robust and future-proof solutions, balancing immediate deliverables with long-term sustainability.""")
 
@@ -414,20 +444,25 @@ By following this approach, I ensure that our quarterly OKRs are not only aligne
 
     with st.expander("How do you set goals for your team?"):
         st.write("""I take a structured approach to ensure alignment with organizational objectives and address the team’s needs and capabilities.\n
-Gather Inputs: I start by aligning with senior leadership to understand company goals, gather feedback from internal customers through surveys, and collect insights from my team on technical challenges and opportunities.\n
-Plan and Prioritize: Using this data, I create and prioritize a list of goals based on impact and feasibility, considering KPIs like scalability, security, and balancing innovation with tech debt.\n
-Define and Communicate Goals: I set clear, actionable goals, often using OKRs or roadmaps, and include stretch goals to motivate the team with ambitious targets.\n
-Execution and Review: I ensure capacity planning aligns with goals and monitor progress through regular check-ins. If issues arise, we conduct blameless retrospectives to learn and improve.\n
-Motivation and Support: I maintain transparent communication about goal prioritization and align tasks with team members' interests and career growth opportunities, framing even challenging tasks as learning experiences.\n
+**Gather Inputs**: I start by aligning with senior leadership to understand company goals, gather feedback from internal customers through surveys, and collect insights from my team on technical challenges and opportunities.\n
+**Plan and Prioritize**: Using this data, I create and prioritize a list of goals based on impact and feasibility, considering KPIs like scalability, security, and balancing innovation with tech debt.\n
+**Define and Communicate Goals**: I set clear, actionable goals, often using OKRs or roadmaps, and include stretch goals to motivate the team with ambitious targets.\n
+**Execution and Review**: I ensure capacity planning aligns with goals and monitor progress through regular check-ins. If issues arise, we conduct blameless retrospectives to learn and improve.\n
+**Motivation and Support**: I maintain transparent communication about goal prioritization and align tasks with team members' interests and career growth opportunities, framing even challenging tasks as learning experiences.\n
 This approach ensures well-rounded, achievable goals that drive both team and personal development.""")
 
     st.header("Cross functional collaboration")
     with st.expander("How do you balance engineering limitations with customer requirements?"):
-        st.write("""Balancing engineering limitations with customer requirements is a constant challenge, but it’s key to ensuring both technical feasibility and customer satisfaction. My approach typically involves a combination of listening, technical assessment, and prioritization.\n
-First, I always start by deeply understanding the customer requirement. I aim to clarify not only what the customer is asking for but also why it’s important for them. Understanding the underlying business goals helps me think creatively about potential solutions. Sometimes, there might be alternative ways to meet the same objectives with less complexity or cost. For example, when we began developing our digital human product, we faced significant complaints about the slow rendering speeds. After gathering user feedback, I researched the situation thoroughly and discovered two key points: 1) rendering was indeed slow, with a 1-minute video taking over 10 minutes to render, and 2) users were frustrated because they had no idea how long the rendering would take or when it was complete.\n
-After understanding the requirements, I evaluated the technical feasibility and communicated transparently with both the customer and internal stakeholders. During this communication, I found that users understood rendering takes time and were willing to wait; what they disliked was the uncertainty about how long they would have to wait. I identified the need for optimizing server utilization and improving the efficiency of the rendering pipeline. Additionally, I realized that we could speed up the process significantly by splitting a one-minute video into smaller segments that could be rendered in parallel across multiple servers. To improve the user experience, I proposed providing accurate estimates of rendering times, implementing a progress bar so users could see how much of the video had been rendered, and creating a notification system to alert them as soon as their rendering tasks were completed. This way, users no longer had to wonder how long it would take or keep checking back for the final result.\n
-Finally, I aligned the customer requests with the broader engineering roadmap, assessing how they fit with our current priorities and business goals. Once that was established, I communicated with both the users and stakeholders to outline a timeline for the improvements, assuring them that we would deliver an initial version quickly to enhance the user experience while committing to ongoing optimizations. For high-impact but resource-intensive requests, I collaborated with the team to negotiate realistic timelines and identify a balanced approach. By employing a phased strategy, we were able to ensure timely progress on the project without overwhelming the engineering team.\n
-Ultimately, it’s about maintaining open communication, understanding the real problem, and finding creative solutions that meet both technical constraints and customer needs. This approach has allowed me to maintain a balance between engineering efficiency and delivering value to customers.""")
+        st.write("""Balancing engineering limitations with customer requirements is critical to ensuring technical feasibility while meeting user needs. Here are the four key aspects of my approach:  \n
+1. **Understanding Customer Goals**:  \n
+   I start by clarifying not just what the customer is asking for but why it’s important. This helps uncover the underlying business goals and explore alternative solutions. For instance, when users complained about slow rendering speeds for our digital human product, I identified that the main frustration was uncertainty about completion times, not just the speed itself.\n  
+2. **Evaluating Feasibility and Communicating Transparently**:  \n
+   I assess the technical challenges and share clear updates with customers and stakeholders. In the rendering example, I proposed splitting videos into smaller segments for parallel processing and adding features like progress bars and notifications, which improved both performance and user satisfaction without overloading the engineering team.\n  
+3. **Aligning Requests with Priorities**:  \n
+   I align customer requests with our engineering roadmap by evaluating their impact and urgency. I prioritize high-value improvements while negotiating realistic timelines for more resource-intensive changes, ensuring steady progress without compromising team efficiency.\n  
+4. **Delivering Incremental Value**:  \n
+   I focus on phased delivery, rolling out immediate enhancements to address key pain points while planning longer-term optimizations. This ensures customers see quick improvements and stay engaged as we refine the solution.\n  
+By combining open communication, creative problem-solving, and thoughtful prioritization, I balance technical constraints with delivering meaningful customer outcomes.  """)
 
     with st.expander("Explaining engineering concept to non-technical team members."):
         st.write("""Explaining engineering concepts to non-technical team members is a critical skill that I've practiced throughout my career. My approach revolves around several key principles:\n
@@ -480,7 +515,7 @@ By embedding these practices, I ensure that solutions not only meet immediate ne
     with st.expander("Describe a time when you had to make a build-vs-buy decision for a key component in your system."):
         st.write("""During the development of the digital human live-streaming platform, we faced a critical decision about the speech synthesis module: should we build our own TTS (Text-to-Speech) engine or integrate an existing third-party solution?\n
 1. Evaluate Requirements:\n
-  - Our primary goals were high-quality voice output, real-time performance, and compatibility with our digital avatar system.\n
+  - Our primary goals were high-quality voice output, real-time performance, and compatibility with our digital human system.\n
 2. Assess Options:\n
   - Build: Building in-house would give us complete control and customization but required significant time and resources.\n
   - Buy: Third-party APIs like Google Cloud TTS or Azure TTS offered quick integration and good performance but at a recurring cost and limited customization.\n
@@ -496,7 +531,7 @@ This experience highlighted the importance of balancing short-term needs with lo
     with st.expander("How do you encourage innovation while ensuring alignment with technical constraints?"):
         st.write("""Encouraging innovation while respecting constraints requires fostering creativity within a structured framework:\n
 1. Promote Exploration:\n
-  - I allocate dedicated time for research and experimentation, such as hackathons or innovation sprints. For example, during the digital human project, team members explored using GANs for realistic avatar facial animations, which eventually became a differentiating feature.\n
+  - I allocate dedicated time for research and experimentation, such as hackathons or innovation sprints. For example, during the digital human project, team members explored using GANs for realistic human facial animations, which eventually became a differentiating feature.\n
 2. Set Clear Guardrails:\n
   - I define non-negotiable constraints like performance, scalability, or compliance. Within these boundaries, the team has freedom to experiment. For instance, when optimizing rendering, we constrained GPU usage to consumer-grade devices, which inspired innovative pipeline improvements.\n
 3. Encourage Knowledge Sharing:\n
@@ -568,9 +603,22 @@ with tab3:
 The idea came about while we were working on a knowledge engine product for enterprise clients. We had a few e-commerce clients in the live-streaming industry who needed intelligent customer service solutions. This sparked an idea: in China, live-streaming e-commerce is huge, but it's also very expensive to hire human hosts, and the barriers to entry are high. We thought, why not build a solution where digital humans could assist or even partially replace live hosts?\n
 We created a product that allows users to select a virtual host’s appearance and voice, generate product scripts automatically, and even set up interactive features to engage with viewers. This product became incredibly successful and was adopted as a core strategic application within the company, generating millions of RMB in revenue. It’s one of the projects I’m most proud of because it not only solved a real problem in the market but also demonstrated the power of AI-driven innovation.""")
 
+    with st.expander("What's the feature of this product?"):
+        st.write("""The digital human live-streaming product has the following key features:  \n
+1. **Customizable Virtual Hosts**:  \n
+   Users can select and customize virtual hosts’ appearances and voices, tailoring them to match their brand and audience preferences.\n  
+2. **Automated Script Generation**:  \n
+   The platform uses LLMs to generate engaging product scripts from simple inputs, which users can edit to ensure alignment with their needs.\n  
+3. **Interactive Viewer Features**:  \n
+   To foster real-time interaction, the product includes features like automated Q&A. Viewers can ask questions during the live stream, and the system, powered by Retrieval-Augmented Generation (RAG), extracts relevant answers from pre-uploaded product documents or FAQs.\n  
+4. **Seamless Integration**:  \n
+   The product integrates with major live-streaming platforms and supports easy setup for businesses of all sizes.\n  
+5. **Cost-Effective Scalability**:  \n
+   Optimized rendering pipelines enable use on consumer-grade GPUs, lowering costs and making the technology accessible to small businesses.  """)
+
     with st.expander("Why did you decide to initiate the project?"):
         st.write("""I decided to initiate the digital human product because I saw a clear opportunity in the live-streaming e-commerce space. Through my research, I noticed several pain points in the industry, especially in China—live hosts are expensive, and it’s tough for smaller businesses to break in. With the rise of large language models (LLMs) and advancements in AI, it became clear that we could automate much of the live-streaming process, from creating personalized virtual hosts to generating scripts and interactive features.\n
-I also saw that this digital human product fit perfectly with the growing demand for scalable, AI-powered solutions. By combining the intelligence of large language models with digital avatars—where AI acts as the "brain" and the avatars as the "body"—we could reduce costs while engaging audiences in ways traditional methods just can't match. This approach allows businesses to connect with their customers in a more dynamic and cost-effective way, while solving real-world challenges.\n
+I also saw that this digital human product fit perfectly with the growing demand for scalable, AI-powered solutions. By combining the intelligence of large language models with digital humans—where AI acts as the "brain" and the humans as the "body"—we could reduce costs while engaging audiences in ways traditional methods just can't match. This approach allows businesses to connect with their customers in a more dynamic and cost-effective way, while solving real-world challenges.\n
 In the end, the decision came down to the potential for a big market impact. It not only helps reduce the overhead of live-streaming but also positions the company as a leader in AI innovation within the entertainment and e-commerce sectors.""")
 
     with st.expander("What made the project technically interesting or complex."):
