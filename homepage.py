@@ -167,8 +167,8 @@ I’ve learned that the key to adapting well is staying proactive, communicating
     with st.expander("Some other examples of adapting to change."):
         st.write("""Here are additional ideas:\n
 ---
-#### **Example 1: Refactoring for Efficiency During Digital Avatar Development**\n  
-During the early development of our digital avatar platform, we initially relied on an existing engine call framework for rendering, but it caused inefficiencies and frequent errors. Recognizing this as a blocker, I made the decision to pivot and lead the team in refactoring the system specifically for digital avatar rendering. This decision, though disruptive, improved efficiency by 5x and resolved the technical challenges, enabling us to deliver a stable product on time.\n
+#### **Example 1: Refactoring for Efficiency During Digital Human Development**\n  
+During the early development of our digital human platform, we initially relied on an existing resources scheduling system for rendering, but it caused inefficiencies and frequent errors. Recognizing this as a blocker, I made the decision to pivot and lead the team in refactoring the system specifically for digital avatar rendering. This decision, though disruptive, improved efficiency by 5x and resolved the technical challenges, enabling us to deliver a stable product on time.\n
 ---
 #### **Example 2: Shifting Focus from 3D to 2D Avatars**  \n
 While working on the digital human product, there was internal debate about focusing on 2D vs. 3D avatars. Market feedback indicated that customers preferred cost-effective and easily customizable 2D avatars. Despite significant initial investment in 3D, I persuaded the team and stakeholders to pivot toward 2D. This shift aligned with user demand, and the resulting product exceeded revenue expectations with over 10,000 paying users.\n
@@ -270,6 +270,22 @@ Finally, I know that delivering results is one of the most important ways to bui
 To address this, we developed a system that automated the entire process. Instead of relying on manual steps, we created a system where users could upload their audio and video recordings directly. The system provided step-by-step recording guides, and to make it engaging, we gamified the recording process—especially for audio, where there were more steps to follow. This made the experience less tedious for users.\n
 On the backend, our operations team could review the uploaded content within the same system and provide feedback for improvements. Machine learning engineers were notified automatically when new training tasks were ready, and once the custom models were trained, they could be deployed with a single click. The system would then notify users that their personalized avatars were ready for use.\n
 This automated solution not only scaled effectively with user growth but also enhanced the user experience and improved internal workflow efficiency.""")
+
+    with st.expander("How do you encourage innovation while ensuring alignment with technical constraints?"):
+        st.write("""Encouraging innovation while respecting constraints requires fostering creativity within a structured framework:\n
+1. Promote Exploration:\n
+  - I allocate dedicated time for research and experimentation, such as hackathons or innovation sprints. For example, during the digital human project, team members explored using GANs for realistic human facial animations, which eventually became a differentiating feature.\n
+2. Set Clear Guardrails:\n
+  - I define non-negotiable constraints like performance, scalability, or compliance. Within these boundaries, the team has freedom to experiment. For instance, when optimizing rendering, we constrained GPU usage to consumer-grade devices, which inspired innovative pipeline improvements.\n
+3. Encourage Knowledge Sharing:\n
+  - I create an environment where ideas are shared freely through tech talks, code reviews, and brainstorming sessions. Collaboration often sparks new approaches while identifying practical challenges early.\n
+4. Celebrate Wins and Learn from Failures:\n
+  - Recognizing and rewarding innovative contributions motivates the team to think creatively. Equally, I encourage learning from failures, ensuring a no-blame culture that values experimentation.\n
+5. Iterative Approach:\n
+  - I advocate for building prototypes to validate ideas quickly. For example, we built a lightweight version of the live Q&A system using RAG models before scaling it to production.\n
+6. Cross-functional Collaboration:\n
+  - By involving stakeholders early, such as product managers and designers, I ensure innovative ideas align with business needs and constraints.\n
+Through this balanced approach, I enable my team to innovate while ensuring technical feasibility and alignment with organizational goals.""")
 
     with st.expander("Since you've managed sub teams, are you still technically hands on?"):
         st.write("""Yes, I consider myself still technically hands-on. During my time at Google as a Tech Lead Manager, it was a core part of the role to stay hands-on, and I brought that mindset to my role at CloudWalk. As my team grew from about 20 to over 30 members, I had more time to contribute technically when the team was smaller. For example, when we started the digital human project, I stepped in to design the initial architecture since we hadn't yet found the right architect.\n
@@ -527,22 +543,6 @@ By embedding these practices, I ensure that solutions not only meet immediate ne
 5. Outcome:\n
   - The hybrid approach worked well: the third-party solution allowed us to launch quickly, and the custom engine replaced it later, reducing costs and increasing flexibility.\n
 This experience highlighted the importance of balancing short-term needs with long-term goals.""")
-
-    with st.expander("How do you encourage innovation while ensuring alignment with technical constraints?"):
-        st.write("""Encouraging innovation while respecting constraints requires fostering creativity within a structured framework:\n
-1. Promote Exploration:\n
-  - I allocate dedicated time for research and experimentation, such as hackathons or innovation sprints. For example, during the digital human project, team members explored using GANs for realistic human facial animations, which eventually became a differentiating feature.\n
-2. Set Clear Guardrails:\n
-  - I define non-negotiable constraints like performance, scalability, or compliance. Within these boundaries, the team has freedom to experiment. For instance, when optimizing rendering, we constrained GPU usage to consumer-grade devices, which inspired innovative pipeline improvements.\n
-3. Encourage Knowledge Sharing:\n
-  - I create an environment where ideas are shared freely through tech talks, code reviews, and brainstorming sessions. Collaboration often sparks new approaches while identifying practical challenges early.\n
-4. Celebrate Wins and Learn from Failures:\n
-  - Recognizing and rewarding innovative contributions motivates the team to think creatively. Equally, I encourage learning from failures, ensuring a no-blame culture that values experimentation.\n
-5. Iterative Approach:\n
-  - I advocate for building prototypes to validate ideas quickly. For example, we built a lightweight version of the live Q&A system using RAG models before scaling it to production.\n
-6. Cross-functional Collaboration:\n
-  - By involving stakeholders early, such as product managers and designers, I ensure innovative ideas align with business needs and constraints.\n
-Through this balanced approach, I enable my team to innovate while ensuring technical feasibility and alignment with organizational goals.""")
 
     st.header("Hiring and building team")
     with st.expander("How do you identify and hire top talent for your team?"):
