@@ -48,17 +48,17 @@ I’m particularly drawn to the role because it provides a chance to leverage my
 with tab2:
     st.header("Meta specific questions")
     with st.expander("Why do you want to join Meta?"):
-        st.write("""I’m excited about the opportunity at Meta because it’s at the forefront of innovation in AI and machine learning, driving advancements that impact billions of users globally. Meta’s work in areas like recommendation systems, augmented reality, and large language models aligns perfectly with my experience and passion for building impactful AI products.\n
-One aspect that particularly excites me is Meta’s commitment to openness and collaboration in AI. By open-sourcing models like Llama, Meta is empowering the global AI community to innovate and build on top of its cutting-edge work. In many ways, Meta has become the “real OpenAI,” fostering accessibility and transparency while advancing the boundaries of AI research.\n
-As a Machine Learning Engineering Manager, I’m eager to contribute to projects that shape the future of social interaction and digital experiences. Meta’s mission of connecting people and pushing the boundaries of technology resonates with me, and I’m excited about the chance to lead teams that will make a meaningful difference in that vision.""")
+        st.write("""1. **Meta is leading in AI innovation**: I want to join Meta because it’s driving breakthroughs in AI and machine learning that impact billions of people. The work in areas like recommendation systems, augmented reality, and large language models fits perfectly with my experience and passion.\n
+2. **Meta's Commitment to openness and collaboration**: I admire Meta’s approach to open-sourcing models like Llama, which helps the AI community grow and innovate together. In many ways, Meta has become the “real OpenAI,” fostering transparency and accessibility while advancing cutting-edge research.\n
+3. **Excited to contribute to Meta’s mission**: As a Machine Learning Engineering Manager, I’m eager to lead teams and work on projects that shape the future of social connections and digital experiences. Meta’s mission of connecting people through technology deeply resonates with me, and I’m excited about the chance to lead teams that will make a meaningful difference in that vision.""")
 
     with st.expander("What questions do you have for me?"):
         st.write("""Company Culture and Values:\n
 - "Can you describe the company culture and what it’s like to work here day-to-day?"\n
 - "How does the company support professional development and career growth?"\n
 Role and Expectations:\n
-- "What are the key challenges and opportunities for this role in the first six months?"\n
-- "How do you measure success in this position, and what are the primary goals for the person in this role?"\n
+- "What are the key challenges and opportunities for ML engineering manager in the first six months?"\n
+- "How do you measure success of a ML engineering manager, and what are the primary goals for the person in this role?"\n
 Team Dynamics:\n
 - "Can you tell me more about the team I would be working with and how they collaborate?"\n
 - "How does the team handle conflicts or differing opinions?"\n
@@ -128,9 +128,19 @@ Meta’s ability to combine cutting-edge research with practical applications ac
 
     st.header("Conflicts and other challenges")
     with st.expander("Tell me about a time you had to mediate a conflict inside your team."):
-        st.write("""While working on the digital human product, a conflict arose between our frontend and backend engineers. The frontend engineer proposed directly integrating the LLM API to simplify the process and quickly show results. The backend engineer, however, insisted that all API calls should be routed through the backend, just like the other APIs, to maintain consistency and control.\n
-As the engineering manager, I facilitated a discussion to understand both perspectives. The frontend engineer was focused on the simplicity and speed of directly integrating the API, while the backend engineer was concerned about scalability and long-term maintainability. After assessing the technical implications, we realized that if the frontend handled the API calls, we wouldn't be able to track user behavior effectively. This would hinder our ability to improve the LLM's performance based on user feedback.\n
-In the end, we decided to route the LLM API calls through the backend to ensure better scalability, user tracking, and overall consistency with our system architecture. This resolution aligned both teams and ensured long-term flexibility for improving the product.""")
+        st.write("""While working on the digital human product, we faced a conflict between the frontend and backend engineers about how to integrate the LLM API into our system. The frontend engineer wanted to directly connect to the LLM API from the frontend, thinking it would be faster to implement and allow us to quickly showcase results. On the other hand, the backend engineer insisted that the API calls should go through the backend, like the other APIs we used, to keep things consistent and manageable.\n
+As the engineering manager, I organized a meeting to hear both sides and figure out the best approach. The frontend engineer explained that direct integration would reduce development time and allow for quicker iterations. Meanwhile, the backend engineer shared concerns about scalability, security, and long-term maintainability, as well as the need to align with our existing system architecture.\n
+I also brought up an additional point: if the frontend handled API calls directly, we would lose the ability to track user interactions effectively. Tracking this data is critical because it helps us understand user behavior and improve the LLM's performance based on real feedback.\n
+After discussing the technical implications together, the team agreed to route the API calls through the backend. This approach ensured consistency, better scalability, and the ability to track user data. The frontend engineer was also happy with this solution because it made their work simpler. They could still directly call the LLM API during development for experiments and testing without any extra complexity.\n
+By organizing this discussion and focusing on the product's long-term needs, I helped the team align on a solution. The conflict was resolved with both engineers feeling heard and satisfied, and this strengthened collaboration within the team moving forward.""")
+
+    with st.expander("Another example of conflicts inside my team."):
+        st.write("""There was a conflict between our product manager and a machine learning engineer while working on the digital human live-streaming product. The product manager wanted to include a feature to automatically generate live-stream scripts, believing it would save users time and make the product stand out. However, the machine learning engineer was concerned that the automatically generated scripts might not meet user expectations, leading to dissatisfaction.\n
+As the engineering manager, I brought the two together to understand their perspectives. The product manager explained that adding this feature was key to differentiating our product in the market and addressing user pain points. The machine learning engineer, on the other hand, pointed out that without a robust system, the generated scripts might lack quality and relevance, which could hurt the user experience and damage trust in the product.\n
+After discussing both sides, we decided to redesign the feature and turn the "autopilot" into a "copilot." Instead of fully automating the script generation, the product would now work collaboratively with users. The system would provide a draft script based on the product and context, and users could review and refine it. This gave users control while still saving them time.\n
+We took a phased approach to develop this feature. First, we built a prototype to gather user feedback, ensuring the functionality met their needs. At the same time, we focused on improving the large language model to provide better initial drafts. This solution satisfied the product manager’s goal of adding a standout feature while addressing the engineer’s concerns about quality and user satisfaction.\n
+The conflict was resolved, and both sides were happy with the new direction. This collaborative approach strengthened the team and led to a more user-friendly and impactful feature.""")
+
     with st.expander("Tell me about a time you resolved a conflict between an engineer on your team and a cross-functional partner. "):
         st.write("""While working on the digital human product at CloudWalk, a conflict arose between our backend architect and an engineer from the infrastructure team. The backend architect believed we needed a new resource scheduling system to support the unique requirements of digital human rendering for a consumer-facing product. The infrastructure engineer, however, felt that the existing system, designed for B2B projects, could be adapted with minor adjustments rather than a full overhaul.\n
 As the engineering manager, I stepped in to mediate. First, I met with both engineers individually to understand their concerns. The backend architect was focused on the need to scale for potential explosive user growth, while the infrastructure engineer wanted to avoid unnecessary complexity and costs.\n
@@ -142,6 +152,7 @@ By fostering open communication and collaborating with the infrastructure manage
 After conducting market research, we found that e-commerce professionals preferred 2D digital humans because they appear more realistic, as they are derived from real video footage. Although 3D digital humans have a more high-tech and dynamic appearance, it’s pretty clear right away that they aren’t real, which made them less ideal for e-commerce live-streaming.\n
 I stepped in to mediate by conducting a thorough analysis of user feedback and market trends. It became clear that 2D digital humans aligned better with what our users actually wanted in the short term and would allow us to deliver value faster with fewer resource constraints. I presented this data-backed analysis to senior management and external teams, explaining that focusing on 2D would lead to a quicker, more successful product launch, while we could still explore 3D in the future as the market evolved.\n
 By keeping communication open and providing a clear comparison of the pros and cons of each approach, I was able to convince the external teams to reallocate resources towards 2D digital humans. This decision helped the project stay focused and contributed to its overall success in the market.""")
+
     with st.expander("What areas do you seek for growth? "):
         st.write("""I'm always seeking opportunities to grow both :blue-background[technically and as a leader].\n
 On the leadership side, I want to further enhance my ability to coach and mentor engineers, helping them reach their full potential. While I have experience managing teams, I'm particularly focused on refining my skills in aligning individual goals with broader company objectives and fostering a collaborative environment that drives innovation.\n
@@ -189,6 +200,19 @@ Each example demonstrates adaptability, critical decision-making, and a focus on
 This feedback was hard to accept because I saw myself as a supportive leader, and it challenged my perception of my leadership style. Initially, I felt defensive, as I believed I was just ensuring everything was done right. But after reflecting on it, I realized that by not fully trusting my team, I was limiting their ability to grow and contributing to inefficiencies.\n
 To address this, I began delegating more responsibility, trusting my team to handle challenges on their own, and stepping in only when necessary. Over time, this approach led to improved team morale, better decision-making, and allowed me to focus on higher-level strategic tasks. It was a tough lesson, but it made me a stronger and more effective leader.""")
 
+    with st.expander("What was some difficult feedback that you received? **Another example**"):
+        st.write("""1. **Context:**\n
+While we were developing the digital human live-streaming product, our team faced immense pressure. Competition in the market was intense, and our team had a mix of members—some transitioned from B2B projects and others were newly hired. The workload was heavy, and deadlines were tight. The team started feeling burned out and unsure about how long this pace would last or how we compared to competitors. I received feedback that I was setting expectations too high and pushing the team too hard.\n
+2. **The Feedback**:\n
+It was tough to hear because the product was at a critical stage, and I felt it was necessary to push hard to meet our goals. However, I realized that the team needed more clarity, balance, and motivation to stay on track.\n
+3. **Reaction and Growth**:\n
+I took the feedback seriously and scheduled one-on-one meetings with every team member to understand their concerns and gather common themes. I worked with the product manager to analyze how we compared with competitors—highlighting areas where we were still catching up, areas where we were ahead, and our unique strengths.\n
+Next, I collaborated with the team, including product, marketing, and engineering, to set phased goals. We defined clear deliverables for the next three months, six months, and long-term, with realistic timelines. I also adjusted individual workloads to make targets more achievable and sustainable. Finally, I advocated for additional resources with senior management, which helped ease some of the team's burden.\n
+4. **Outcome**:\n
+The team gained a clearer understanding of their goals and how their work aligned with our strategy. Everyone’s workload became more balanced—challenging but manageable—and morale improved. Ultimately, this approach helped us stay on track and meet our deadlines while keeping the team motivated.\n
+5. **Why the Feedback Was Difficult**:\n
+This feedback was challenging because we were at a critical juncture for the product. I knew we had to push through to launch on time and compete effectively. Balancing the urgency of the project with the team’s well-being was tough, but it taught me the importance of addressing concerns proactively and communicating a clear vision to keep the team aligned and motivated.""")
+
     with st.expander("Tell me about a time you had to make a unpopular/tough decision."):
         st.write("""When we launched the first version of our digital human product at CloudWalk, large language models were experiencing tremendous popularity. However, the initial version of our product didn’t have the model performance we wanted—it wasn’t delivering the level of quality and accuracy that our users would expect.\n
 I made the unpopular decision to delay the launch of the product until we had improved the model’s performance. Instead of pushing out the unrefined version that was ready, I decided to hold off and use the additional time to fine-tune the model for better results. This wasn’t an easy choice, as the product team, sales, and other stakeholders were eager to release something in response to the high demand for large language models at that time.\n
@@ -216,6 +240,12 @@ In the end, this decision paid off. We launched the product on time, gained over
 5. Use Tools for Tracking:\n
   - Tools like JIRA or Asana help me visualize progress, reassign tasks dynamically, and avoid bottlenecks. Regular stand-ups and check-ins ensure alignment and progress tracking.\n
 By following this method, I ensure the team delivers on deadlines without compromising quality or morale.""")
+
+    with st.expander("Tell me about a time when you had to finish a task under a tight deadline."):
+        st.write("""Sure! When we were working on the digital human live-streaming product, the company was getting ready to release our in-house large language model (LLM). We wanted to showcase our product as part of the launch, especially the real-time interaction feature, to show how the LLM could be used in action.\n
+The deadline was tight, and we had a lot to figure out—making sure the real-time interaction was smooth, integrating the LLM, and preparing a demo that would impress both the company and potential customers.\n
+To make it happen, we prioritized tasks carefully, focused only on what was absolutely necessary for the showcase, and worked closely as a team. For example, I made sure engineers, designers, and product managers were all aligned and constantly in sync. We even worked late a few nights to iron out some tricky bugs.\n
+In the end, we finished everything on time, and the demo went really well. The product’s real-time interaction feature was a big hit and showed off the LLM’s potential in a practical, exciting way. It was a great example of how we pulled together as a team under pressure and made something amazing happen.""")
 
     with st.expander("How do you make decisions when faced with incomplete or ambiguous information?"):
         st.write("""Decision-making in uncertain situations requires balancing speed and quality:\n
@@ -346,6 +376,22 @@ Once I have a clear understanding, I have an open and honest conversation with t
 Next, I work with them to set clear goals and provide any resources or support they may need to improve, whether it’s additional training, mentorship, or adjusting their workload. I emphasize that improvement is expected, but I also make sure they understand the steps they can take to succeed.\n
 I monitor progress regularly and provide feedback along the way. I follow up to see if the individual is on track and make adjustments if necessary. This also gives the person a chance to ask questions or raise concerns.\n
 If the individual still doesn't show improvement despite my efforts, I take tough decisions if needed. This could mean reassignment, role adjustments, or, in extreme cases, separation from the team. Ultimately, my goal is to ensure the success of both the individual and the team, and sometimes that means making difficult decisions for the greater good.""")
+
+    with st.expander("Tell me about a time how you handled poor performer and improved the performance."):
+        st.write(""" When we transitioned from the knowledge engine project to the digital human live-streaming project, one of the backend engineers on my team, who had been a strong performer in the past, started struggling. Their code quality and delivery speed declined, and it became clear they were having difficulty adapting.\n
+After discussing with them in one-on-one meetings, I discovered the root cause: while they were highly skilled in backend development for B2B projects, this was their first time working on a consumer-facing product. They lacked understanding of the live-streaming business logic, which was crucial to the new project.\n
+To address this, I created a tailored improvement plan. I encouraged them to immerse themselves in the business by:\n
+1. Watching live-streaming sessions to understand the industry and the role of hosts and audience interactions.\n
+2. Participating in live-streaming sessions and shadowing the process to see how digital tools integrate into the ecosystem.\n
+3. I paired them with a product manager and a more experienced engineer to explain the business requirements in detail and help them connect the dots between the product vision and backend implementation.\n
+Over the next few months, their performance significantly improved. They became more confident in understanding the product requirements and started proactively contributing ideas for improving the backend systems. Their newfound business knowledge not only helped the project but also became a strength they could leverage in future consumer-facing projects.\n
+This experience reinforced the importance of identifying the root cause of performance issues and addressing them through targeted development rather than making assumptions about capability.""")
+
+    with st.expander("Tell me about a time how you handled performance bias in your team."):
+        st.write("""Sure! Once, I noticed that one of the junior engineers wasn’t getting much recognition during team discussions. They were quieter and not the type to speak up a lot, so some teammates assumed they weren’t contributing as much. But when I looked closer, I realized they had fixed some important bugs in our digital human rendering system—work that had a big impact but wasn’t very visible to others.\n
+To fix this, I made a point to highlight their work in team meetings, explaining how their fixes had improved the system. I also encouraged them to share their updates more often and helped them feel more confident talking about their work.\n
+At the same time, I reminded the team that we should value results and impact, not just who talks the most. Over time, this helped shift the team’s mindset. The engineer felt more appreciated, started sharing ideas more often, and the team became better at recognizing everyone’s efforts equally.\n
+This experience taught me how important it is to look deeper and make sure everyone’s contributions are noticed.""")
 
     with st.expander("How do you handle low performance and communicate negative feedback"):
         st.write("""When addressing poor performance, I start by trying to understand the root cause. Whether it’s a lack of clarity on expectations, a skill gap, personal challenges, or motivation issues, I believe it's important to diagnose the situation first. I approach this with empathy, ensuring that I understand the person’s perspective.\n
