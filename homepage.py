@@ -175,6 +175,19 @@ I’m eager to grow further in this area by learning from experts in marketing a
 For example, when our company shifted its strategy to focus more on large language model (LLM) applications after the release of ChatGPT, I conducted thorough research to understand the new landscape and identified a market opportunity in digital human technology. Despite this being a major change in direction, I successfully led the development of a new product that became a core offering and generated significant revenue for the company.\n
 I’ve learned that the key to adapting well is staying proactive, communicating regularly with stakeholders, and ensuring that I align my actions with the evolving business goals. By staying resilient and open to feedback, I’m able to turn changes into opportunities for growth and innovation.""")
 
+    with st.expander("Another example about adapting to change."):
+        st.write("""1. **Key summary:**\n 
+I adapted to change by prioritizing a feature that addressed critical user needs and differentiated our product in a competitive market. \n
+2. **Details:**  \n
+While working on the digital human live-streaming product, we initially focused on enhancing script generation and creating high-quality virtual hosts. However, user feedback revealed that the most critical feature for success was automatic interaction with the audience in real time. Users emphasized that timely and engaging responses to audience questions were essential for live-streaming effectiveness.\n  
+3. **Action taken:**  \n
+I worked with the product manager and engineers to adjust our roadmap, moving the development of the audience interaction module to the top priority. Other competitors relied on users to manually fill FAQs for audience interaction, but we aimed for a more innovative solution. Our approach used a Retrieval Augmented Generation (RAG) system to extract answers from user-uploaded files and generate real-time responses automatically. This feature was a key differentiator, but it required extensive fine-tuning of the LLM and significant infrastructure work.\n  
+To ensure success, I reallocated resources to this module, dedicating additional engineers and adjusting deadlines for less critical features. I also facilitated collaboration between the machine learning team and infrastructure engineers to address the technical challenges efficiently.  \n
+4. **Results:**  \n
+The resulting feature combined automated responses with options for manual adjustments, offering users a flexible and powerful tool for engaging their audience. This innovation set our product apart from competitors and became a major selling point. User satisfaction and adoption rates significantly increased after its release.\n  
+5. **Reflection:**  \n
+This experience highlighted the importance of staying user-focused and being agile in a competitive landscape. By addressing the most important user pain points and investing in innovative solutions, we delivered a feature that not only met user needs but also strengthened our market position.  """)
+
     with st.expander("Some other examples of adapting to change."):
         st.write("""Here are additional ideas:\n
 ---
@@ -262,6 +275,20 @@ In the end, we finished everything on time, and the demo went really well. The p
   - I ensure all decisions are accompanied by documented assumptions. If outcomes don’t align with expectations, this helps in revisiting and refining the decision.\n
 This approach enables me to act decisively, even in ambiguous situations, while minimizing the risk of failure.""")
 
+    with st.expander("Tell me about a time you made decision with incomplete information."):
+        st.write("""1. **Key summary:** \n
+I made decisions by gathering as much relevant information as possible, analyzing risks and trade-offs, and using a phased approach to test and validate assumptions.\n  
+2. **Details:**  \n
+When we started developing the digital human live-streaming product, the concept of using large language models (LLMs) for live-stream script generation was new, and the market response was uncertain. We had limited data on how users would interact with the feature and whether it would truly solve their pain points.\n  
+3. **Action taken:**  \n
+- **Gathering information:** I conducted user interviews and market research to understand live-streaming pain points. Users consistently mentioned challenges in creating engaging and professional scripts, which gave us confidence in the core idea.\n  
+- **Analyzing trade-offs:** Despite this input, there was still uncertainty about whether the auto-generated scripts would meet users' expectations. Instead of committing to a fully automated system immediately, we opted to combine automation with user input, turning the feature into a "co-pilot" where users could edit and enhance generated scripts.\n  
+- **Phased rollout:** We developed an MVP with basic script generation and launched it to a small group of users to gather feedback. This allowed us to test our assumptions without investing too much time or resources upfront.  \n
+4. **Results:**  \n
+The phased approach helped us validate the feature while addressing ambiguity. User feedback showed that they valued the co-pilot feature because it saved time and offered creative suggestions while still allowing customization. This insight guided our development of more advanced features, like improving script personalization and fine-tuning the LLM for specific user needs.\n  
+5. **Reflection:**  \n
+This experience taught me the value of embracing uncertainty by making informed decisions and testing hypotheses early. Breaking complex challenges into smaller steps and validating them through real-world feedback reduces risks and allows for better outcomes.""")
+
     with st.expander("What frameworks or principles guide your decision-making as a leader?"):
         st.write("""Several core principles guide my leadership decisions:\n
 1. Data-Driven Approach:\n
@@ -288,12 +315,20 @@ I also believe in building relationships with my teammates by showing genuine in
 Being transparent and open is key in these early stages. I make sure that my goals and intentions are clear to the team and that I’m honest about what I can bring to the table. I also respect existing team processes and aim to work within them while identifying areas for improvement if needed.\n
 Finally, I know that delivering results is one of the most important ways to build credibility. By consistently following through on commitments and delivering on my responsibilities, I earn the respect and trust of my teammates over time.""")
 
-    with st.expander("How do you work with people who might be technically excellent but hard to work with?"):
-        st.write("""Working with someone who is technically excellent but difficult to collaborate with can be challenging, but it’s important to address the situation with professionalism *[prəˈfeʃənəlɪzəm]* and focus on achieving team goals.\n
-- My approach begins with understanding the root cause of their behavior. I make an effort to build a rapport and find common ground by focusing on their strengths and the value they bring to the project. I also ensure that communication is clear and direct, setting expectations for collaboration and respecting their expertise while also asserting my own.\n
-- For instance, in a previous project, I worked with a highly skilled engineer who was known for being challenging in team settings. I initiated one-on-one meetings to understand their perspective and address any concerns they had. During team meetings, I facilitated discussions to ensure everyone had the opportunity to contribute and be heard, while also keeping the focus on project objectives.\n
-- I also worked on creating an environment where constructive feedback was encouraged, and I set up regular check-ins to monitor progress and address any issues promptly. By maintaining a focus on the shared goals and demonstrating respect for their technical expertise, we were able to work together more effectively.\n
-- As a result, we successfully completed the project on time, and the engineer’s contributions were instrumental in its success. This experience taught me the importance of patience, clear communication, and finding ways to align individual strengths with team goals. It reinforced my belief that even challenging working relationships can lead to positive outcomes when managed with care and professionalism.""")
+    with st.expander("Tell me about a time how did you work with people who might be technically excellent but hard to work with?"):
+        st.write("""1. **Key summary:** \n
+I improved collaboration by understanding the root cause of the challenge, fostering open communication, and aligning strengths with team goals.\n  
+2. **Details:**  \n
+When we started working on the digital human product, a backend engineer joined my team after a reorg. They were technically excellent, with a deep understanding of backend systems, but had a reputation for being difficult in team settings. Their strong opinions and focus on technical details sometimes made collaboration challenging.\n  
+3. **Actions taken:**  \n
+- **Understanding their perspective:** I scheduled one-on-one meetings to learn more about their concerns and motivations. I found that their behavior stemmed from a desire to ensure high technical standards and long-term maintainability of the system.\n  
+- **Clear communication:** I acknowledged their expertise and emphasized that teamwork was essential to achieving the ambitious goals of our product. I also set clear expectations for collaboration and respectful communication with other team members.  \n
+- **Inclusive environment:** During team discussions, I ensured they had the space to share their ideas while encouraging others to contribute as well. This balanced approach reduced friction and kept conversations productive.  \n
+- **Constructive feedback:** I fostered an environment where feedback was encouraged. Regular check-ins allowed us to address any concerns early and ensure alignment with project objectives.  \n
+4. **Results:**  \n
+Over time, this approach helped improve the working relationship. The backend engineer’s contributions became a key asset to the team, and their insights significantly enhanced the scalability and reliability of the digital human product. We successfully launched on schedule, and the engineer became more integrated into the team dynamic.\n  
+5. **Reflection:**  \n
+This experience taught me the value of empathy, open communication, and focusing on shared goals. By taking the time to understand and address the concerns of a technically skilled but challenging team member, it’s possible to turn a difficult situation into a productive and successful collaboration.  """)
 
     with st.expander("Tell me about a time you solved a problem creatively."):
         st.write("""While working on the digital human product, we faced a challenge as users wanted to customize their own voices and avatars. Initially, with a small user base, the process was manual—users would send recordings via WeChat to our sales team, and our operations team would review the content to ensure quality. If the recordings didn’t meet the requirements, they had to be redone. Once approved, the recordings were passed to our machine learning engineers for custom model training. As the user base grew, this manual process became unscalable.\n
@@ -301,21 +336,22 @@ To address this, we developed a system that automated the entire process. Instea
 On the backend, our operations team could review the uploaded content within the same system and provide feedback for improvements. Machine learning engineers were notified automatically when new training tasks were ready, and once the custom models were trained, they could be deployed with a single click. The system would then notify users that their personalized avatars were ready for use.\n
 This automated solution not only scaled effectively with user growth but also enhanced the user experience and improved internal workflow efficiency.""")
 
-    with st.expander("How do you encourage innovation while ensuring alignment with technical constraints?"):
-        st.write("""Encouraging innovation while respecting constraints requires fostering creativity within a structured framework:\n
-1. Promote Exploration:\n
-  - I allocate dedicated time for research and experimentation, such as hackathons or innovation sprints. For example, during the digital human project, team members explored using GANs for realistic human facial animations, which eventually became a differentiating feature.\n
-2. Set Clear Guardrails:\n
-  - I define non-negotiable constraints like performance, scalability, or compliance. Within these boundaries, the team has freedom to experiment. For instance, when optimizing rendering, we constrained GPU usage to consumer-grade devices, which inspired innovative pipeline improvements.\n
-3. Encourage Knowledge Sharing:\n
-  - I create an environment where ideas are shared freely through tech talks, code reviews, and brainstorming sessions. Collaboration often sparks new approaches while identifying practical challenges early.\n
-4. Celebrate Wins and Learn from Failures:\n
-  - Recognizing and rewarding innovative contributions motivates the team to think creatively. Equally, I encourage learning from failures, ensuring a no-blame culture that values experimentation.\n
-5. Iterative Approach:\n
-  - I advocate for building prototypes to validate ideas quickly. For example, we built a lightweight version of the live Q&A system using RAG models before scaling it to production.\n
-6. Cross-functional Collaboration:\n
-  - By involving stakeholders early, such as product managers and designers, I ensure innovative ideas align with business needs and constraints.\n
-Through this balanced approach, I enable my team to innovate while ensuring technical feasibility and alignment with organizational goals.""")
+    with st.expander("Tell me about a time how you encourage innovation while ensuring alignment with technical constraints."):
+        st.write("""1. **Key summary:**\n
+I encouraged my team to combine the digital human live-streaming platform with GenAI while respecting technical constraints, leading to impactful AIGC features.\n  
+2. **Details:**  \n
+While working on the digital human project, I encouraged the team to push the boundaries of innovation by integrating more GenAI capabilities. Beyond generating live-stream scripts, we explored features like live-stream background generation and video script creation using AIGC technologies. This not only enhanced the platform’s functionality but also helped us stand out in a competitive market.\n  
+3. **Actions taken:**  \n
+- **Promote exploration:** I allocated time for the team to experiment with new ideas. For instance, we prototyped different ways to generate live-stream backgrounds using diffusion models, which became a key feature.\n  
+- **Set clear guardrails:** I defined constraints such as ensuring the platform worked on consumer-grade GPUs, which kept costs low. These constraints drove the team to optimize the rendering pipeline and improve system efficiency.\n  
+- **Encourage knowledge sharing:** I fostered an open environment for sharing ideas through brainstorming sessions and tech talks. This collaboration often revealed innovative approaches while addressing potential challenges early.  \n
+- **Celebrate wins and learn from failures:** When the first version of the background generator didn’t meet quality expectations, we analyzed the gaps, improved the training dataset, and refined the model. This iterative process made the final version a success.\n  
+- **Iterative approach:** We built lightweight prototypes of each feature to test feasibility and gather feedback. This iterative strategy helped us focus on the most promising innovations while aligning with technical constraints.  \n
+- **Cross-functional collaboration:** By involving product managers early, we ensured the new features met user needs and aligned with business priorities.  \n
+4. **Results:**  \n
+These AIGC features became a core part of our platform, significantly improving user satisfaction and positioning us ahead of competitors. The balance between encouraging creativity and respecting constraints enabled us to deliver innovative and practical solutions.\n  
+5. **Reflection:**  \n
+This experience demonstrated that fostering innovation within a structured framework allows the team to explore creative ideas while maintaining technical feasibility and alignment with organizational goals.""")
 
     with st.expander("Since you've managed sub teams, are you still technically hands on?"):
         st.write("""Yes, I consider myself still technically hands-on. During my time at Google as a Tech Lead Manager, it was a core part of the role to stay hands-on, and I brought that mindset to my role at CloudWalk. As my team grew from about 20 to over 30 members, I had more time to contribute technically when the team was smaller. For example, when we started the digital human project, I stepped in to design the initial architecture since we hadn't yet found the right architect.\n
@@ -323,15 +359,32 @@ Additionally, given how rapidly AI and large language models are evolving, I pri
 Although my day-to-day responsibilities involve more management, I make a conscious effort to stay technically involved, particularly in the early stages of projects and during key architectural decisions.  I try my best to join most design reviews, discuss technical details in meetings with engineers, lead group studies on new advancements in LLM, and always proactively experiment with new technologies. This approach ensures that I stay connected to the technical aspects while empowering my team with the latest knowledge and tools.""")
 
     st.header("Managing individuals")
-    with st.expander("Tell me about a few people on your team and the career development plans you created with them."):
-        st.write("""In my current role at CloudWalk, I managed a diverse engineering team working on our digital human live-streaming product. I made it a priority to understand each team member’s career goals and worked closely with them to create tailored development plans.\n
-One example is an architect with strong technical skills who wanted to take on leadership responsibilities. We created a development plan focused on expanding their leadership and management abilities, and I gave them the responsibility of leading the engineering development for our digital human product. I coached them in team management, communication, and resource allocation. Over time, they successfully transitioned into an engineering manager, driving key project milestones and leading a high-performing team.\n
-Another example involves an engineer who was interested in moving into product management. I paired them with our product manager, where they had the opportunity to shadow and participate in planning meetings. Eventually, I gave them ownership of a feature, allowing them to manage both the technical and product aspects. This hands-on experience helped them transition into a hybrid product and engineering role.\n
-In both cases, the development plans were designed to align their personal growth with the company's strategic needs. I also ensure that career development is an ongoing process, regularly checking in and adjusting plans to keep the team on track and motivated.""")
+    with st.expander("Tell me about a time you created a career development plan for a team member."):
+        st.write("""In my current role at CloudWalk, I lead a diverse engineering team working on the digital human live-streaming product. One of my priorities has been to understand each team member’s career aspirations and to work with them to create personalized development plans that align with both their goals and the needs of the organization.\n  
+One specific example involved an architect on my team who had strong technical skills but expressed a desire to take on leadership responsibilities. During our one-on-one discussions, they shared their interest in transitioning into a management role, but they lacked prior experience in areas like team leadership and project coordination.  \n
+To support their growth, I created a tailored career development plan. We focused on three key areas:  \n
+1. **Leadership and management skills:** I provided mentorship on topics such as effective team communication, conflict resolution, and decision-making. We also discussed strategies for resource allocation and managing competing priorities.\n  
+2. **Hands-on experience:** I gave them the responsibility of leading the engineering development for our digital human product. This included managing a team of engineers, coordinating with cross-functional stakeholders, and owning the delivery of key project milestones.\n  
+3. **Continuous feedback and coaching:** I held regular check-ins to discuss their progress, provide constructive feedback, and address challenges. I also encouraged them to reflect on their experiences to identify areas for improvement.  \n
+Over time, their confidence and skills as a leader grew significantly. They successfully transitioned into the role of an engineering manager, driving critical project milestones, building a high-performing team, and contributing to the product’s success.\n  
+This experience reinforced the importance of creating clear and actionable development plans, providing opportunities for hands-on growth, and offering ongoing support. It’s rewarding to see team members achieve their career goals while also adding value to the organization.""")
+
+    with st.expander("Another example of creating development plan for a team member."):
+        st.write("""In my role at CloudWalk, I focus on helping team members achieve their career goals by providing tailored development plans. Another example of this was with an engineer who expressed a strong interest in transitioning into product management. While they had great technical skills, they wanted to gain a deeper understanding of product strategy, customer needs, and market considerations.\n
+To support their career transition, I developed a personalized plan that allowed them to gradually gain experience in product management while still contributing as an engineer. The first step was pairing them with our product manager for mentorship. They had the opportunity to shadow our product manager during meetings, which gave them exposure to how product decisions were made, how user feedback was incorporated, and how to prioritize features in a roadmap.\n  
+As they became more comfortable, I gave them the opportunity to participate more actively in planning sessions, where they contributed ideas on feature development and learned how to balance technical constraints with user needs. This exposure helped them understand the broader context of product development.  \n
+The next step was to give them full ownership of a feature. They were responsible for both the technical implementation and managing the product side, which included collaborating with the design team, gathering feedback from stakeholders, and tracking user metrics. This hands-on experience helped them gain confidence in balancing both engineering and product management responsibilities.\n  
+Over time, they successfully transitioned into a hybrid role, taking on both engineering and product management responsibilities. They worked closely with the engineering team while also driving product decisions and collaborating with other departments. This experience allowed them to develop the skills and confidence needed to take on more leadership in product management, and they eventually became a key player in defining product strategy for future features.\n  
+This experience showed me the importance of providing practical learning opportunities, mentorship, and real-world responsibility to help team members achieve their career goals. It was rewarding to see them grow into a hybrid role that utilized both their engineering background and new product management skills.""")
 
     with st.expander("What is the structure of your 1:1s? How do you run 1:1s with your team?"):
         st.write("""I hold weekly 1:1s with my direct report, and the structure is designed to balance project updates, feedback, and career development. I usually start by checking in personally to build rapport and understand how they’re doing outside of work. Then, we discuss their current projects, focusing on progress, challenges, and how I can help remove blockers. I make sure to provide feedback and ask for feedback in return, fostering an open communication environment.\n
-We also regularly discuss career goals and growth opportunities. For instance, through regular 1:1 coaching, I’ve helped several teammates achieve promotions by working with them on priority management, communication strategies, and resource allocation. I adapt the structure based on each person’s needs, and I always follow up with action items to ensure accountability and continuous development.""")
+We also regularly discuss career goals and growth opportunities. For instance, through regular 1:1 coaching, I’ve helped several teammates achieve promotions by working with them on priority management, communication strategies, and resource allocation. I adapt the structure based on each person’s needs, and I always follow up with action items to ensure accountability and continuous development.\n\n
+**Detailed Version:**\n
+I hold weekly 1:1s with my direct reports, and the structure is designed to keep things balanced between work-related updates, feedback, and personal development. Each 1:1 typically starts with a personal check-in to build rapport and understand how they’re feeling, both at work and outside of work. This helps create a comfortable space for open conversation.\n  
+Next, we talk about their current projects. I ask about the progress they’ve made, any challenges they’re facing, and what kind of support they need from me to remove any blockers. I also provide feedback on their work and ask for their feedback on how I can improve as a manager. It’s important for me to foster an environment of open communication, so everyone feels comfortable sharing thoughts and concerns.\n  
+In addition to project-related discussions, we focus on their career goals. I regularly check in on their growth and where they want to go in their careers. For example, I’ve helped several team members work toward promotions by guiding them on areas like priority management, communication strategies, and resource allocation. We’ll set short-term goals and discuss ways to improve in specific areas that align with their ambitions.\n  
+I also make sure to adapt the structure depending on the person’s needs. For some, the focus might be more on technical challenges, while for others, it might be about leadership development. Finally, I always follow up with clear action items from our discussion, so there’s accountability and we can track progress over time. This helps ensure that everyone continues to grow and develop in their role.""")
 
     with st.expander("Have you ever promoted anyone? Describe the process."):    
         st.write("""I've helped several team members get promoted, but one case that stands out is when I first became a manager at Google.I promoted a junior engineer to a senior engineer role. This engineer had already shown strong technical skills and a proactive approach to problem-solving, but to move to the senior role, they needed to develop more leadership qualities and take ownership of larger projects.\n
