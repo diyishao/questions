@@ -132,40 +132,40 @@ When we started promoting our digital human live-streaming product, we landed a 
 Task:\n
 My task was to quickly lead the team in designing and building this management system while ensuring we met the client’s tight timeline without compromising on quality.\n
 Action:\n
-To move fast, I immediately gathered a cross-functional team, including engineers and product managers, to define the scope and prioritize the most critical features. Instead of building a full-fledged system from scratch, we leveraged existing components from our platform to accelerate development. I set up daily stand-ups to monitor progress, remove blockers, and ensure alignment. Additionally, I worked closely with the client to clarify requirements and iterate quickly on the design to meet their needs.\n
+To move fast, I immediately gathered a cross-functional team, including engineers and product managers, to define the scope and prioritize the most critical features. Instead of creating a complete system from the ground up, we used existing parts from our platform to speed up the development process. Specifically, we adapted features from our internal management system, enabling clients with multiple accounts to manage their accounts effectively. I set up daily stand-ups to monitor progress, remove blockers, and ensure alignment. Additionally, I worked closely with the client to clarify requirements and iterate quickly on the design to meet their needs.\n
 Result:\n
 Within just one month, we delivered a functional management system that met the client’s requirements. This secured the deal with the client, who became one of our most important customers, and the system later became a key feature that attracted similar enterprise clients. By acting with urgency and focusing on the highest-priority tasks, we not only retained the client but also enhanced our product offering.""")
 
-    with st.expander("Meta's core value: Build awesome things."):
+    with st.expander("Meta's core value: Build awesome things.(The digital huamn project.)"):
         st.write("""**Situation:**\n  
 At CloudWalk, I led the development of a digital human live-streaming product designed to revolutionize the live-streaming e-commerce industry. Traditional live hosts were expensive, and the barriers to entry for small businesses were high. We aimed to build a solution that was not just functional but also inspiring—enabling businesses to create engaging, personalized digital hosts and automate key parts of the live-streaming process.\n  
 **Task:**  \n
 My goal was to create a product that would amaze users by combining cutting-edge AI technologies like large language models, real-time rendering, and interactive features, all while ensuring the solution was cost-effective and easy to use.\n  
 **Action:**  \n
-To achieve this, I:\n  
+To achieve this, I focused on three aspects:\n  
 1. **Innovated in Real-Time Rendering:** Optimized the rendering engine pipeline and built a dedicated scheduling center to enable real-time, high-quality digital avatar rendering using consumer-grade GPUs.\n  
 2. **Enhanced User Experience:** Integrated a script-generation feature powered by fine-tuned large language models, allowing users to create professional live-streaming scripts effortlessly. We enabled real-time editing and used user feedback to improve the model continuously.\n  
 3. **Pioneered Interactive Features:** Built an automated Q&A system using Retrieval-Augmented Generation (RAG), which could extract relevant information from uploaded files and respond to audience questions in real time, creating a highly engaging experience.  \n
 **Result:**  \n
-The product became a game-changer for the industry, empowering over 10,000 paying users and generating tens of millions of dollars in annual revenue. It wasn’t just useful—it inspired businesses by making professional live-streaming accessible to everyone. The combination of advanced technology and an intuitive user experience left clients in awe, and the product became one of the company’s flagship offerings.""")
+The product became a game-changer for the industry, empowering over 10,000 paying users and generating tens of millions of dollars in annual revenue. It wasn’t just useful—it inspired businesses by making professional live-streaming accessible to everyone. The mix of cutting-edge technology and a simple, user-friendly design amazed our clients, making the product one of the company’s top highlights.""")
 
-    with st.expander("Meta's core value: Build awesome things. (Another example.)"):
+    with st.expander("Meta's core value: Build awesome things. (Another example: generating reports.)"):
         st.write("""**Situation:**  \n
 During the development of our digital human live-streaming product, we discovered through conversations with merchants that their teams spent significant time after each live stream analyzing what went well and what could be improved. This process was labor-intensive and often lacked actionable insights. To address this, we decided to develop a feature that would automatically generate a comprehensive post-stream analysis report.\n  
 **Task:**  \n
 The goal was to create a feature that not only provided basic live-stream metrics—such as peak viewers and best-selling products—but also leveraged large language models to analyze and summarize the live-stream content, including speech and audience interactions.\n  
 **Action:**  \n
-To build this feature, I:\n  
+To build this feature, I focused on three key aspects:\n  
 1. **Integrated Data Analytics:** Designed a system to capture and analyze key metrics from each live stream, such as viewer engagement and product performance.\n  
 2. **Utilized Large Language Models:** Implemented an AI-driven summary tool to review the live-stream script and interaction logs. This tool categorized audience questions, highlighted unanswered ones, and allowed users to add responses, improving future live streams.\n  
 3. **Enhanced User Experience:** Made the summaries actionable by providing merchants with clear insights and suggestions, enabling them to address gaps and optimize their future streams. We also iterated rapidly based on user feedback to ensure the feature met real-world needs.\n  
 **Result:**  \n
 The post-stream analysis feature became a standout capability of our product, saving merchants hours of manual work and providing them with actionable insights to improve their next live streams. Merchants were particularly impressed by the AI-driven summaries of audience questions, which helped them better address customer needs. This feature contributed significantly to the product’s success, attracting new clients and reinforcing our reputation for innovation.""")
 
-    with st.expander("Meta's core value: Be direct and respect your colleagues."):
+    with st.expander("Meta's core value: Be direct and respect your colleagues.(Conflict between pm and engineer.)"):
         st.write("""To answer this question, you should provide an example where you demonstrated the ability to have a direct, respectful conversation or provide constructive feedback, even in a challenging situation. Use the **STAR method** (Situation, Task, Action, Result) to structure your response. Highlight how you balanced being straightforward with maintaining respect and professionalism.\n
 **Situation:**  \n
-During the development of our digital human live-streaming product, we faced a significant conflict between the product manager and the engineering team. The product manager prioritized integrating a large language model as a key market differentiator, but the engineers were concerned about the technical challenges and timeline feasibility. This disagreement created tension and threatened to delay the project.\n  
+During the development of our digital human live-streaming product, we encountered a major conflict between the product manager and the engineering team. The product manager was eager to integrate a large language model into our system as soon as possible, seeing it as a critical market differentiator. While the engineering team fully agreed on the importance of this feature, they had serious concerns about the feasibility of the proposed timeline. This difference in priorities created tension and risked delaying the project.\n  
 **Task:**  \n
 As the leader of the team, my task was to address the conflict head-on, facilitate a resolution, and ensure the team could move forward with clarity and alignment.\n  
 **Action:**  \n
@@ -180,7 +180,7 @@ The phased approach was accepted by both parties, and the project moved forward 
     with st.expander("Meta's core value: Focus on long-term impact."):
         st.write("""""")
 
-    with st.expander("Meta's core value: Live in the future."):
+    with st.expander("Meta's core value: Live in the future.(Leverage Digital human to promote our product.)"):
         st.write("""**Situation:**  
 To promote our digital human live-streaming product, we decided to leverage Douyin (China’s mainstream social media platform, similar to TikTok) and other social media platform to attract small and medium-sized merchants. The goal was to demonstrate the product’s potential while also gaining insights into user needs by using the product ourselves.  
 **Task:**  
@@ -200,56 +200,61 @@ The campaign was a great success. Over half of our new users were acquired throu
 4. **Cultural Fit:** Aligns with Meta’s value by showing how you built a forward-thinking strategy that inspired and engaged your audience.  
 This example effectively illustrates your ability to adopt and shape innovative solutions, aligning with Meta’s "Live in the future" value.""")
 
-    with st.expander("Meta's core value: Meta, Metamates, me."):
-        st.write("""To answer this question, you should provide an example where you demonstrated responsibility for the success of your team, company, or mission, and how you supported or took care of your teammates. Use the **STAR method** (Situation, Task, Action, Result) to structure your response, and emphasize collaboration, team support, and a sense of collective ownership.
+    with st.expander("Meta's core value: Meta, Metamates, me.(Support engineer with personal challenge.)"):
+        st.write("""To answer this question, you should provide an example where you demonstrated responsibility for the success of your team, company, or mission, and how you supported or took care of your teammates. Use the **STAR method** (Situation, Task, Action, Result) to structure your response, and emphasize collaboration, team support, and a sense of collective ownership.\n
 
 ---
 
-**Example Answer:**  
+**Example Answer:**  \n
 
-**Situation:**  
-During the development of our digital human live-streaming product, our team was under significant pressure to deliver a high-quality product within a tight timeline. One of our engineers was struggling to meet deadlines due to personal challenges, which began to affect the team’s overall progress.  
+**Situation:**  \n
+During the development of our digital human live-streaming product, our team was under significant pressure to deliver a high-quality product within a tight timeline. One of our engineers was struggling to meet deadlines due to personal challenges, which began to affect the team’s overall progress.\n  
 
-**Task:**  
-As the leader, my responsibility was to ensure the project stayed on track while supporting the engineer and maintaining team morale. It was important to balance individual well-being with the collective success of the team and the company’s mission.  
+**Task:**  \n
+As the leader, my responsibility was to ensure the project stayed on track while supporting the engineer and maintaining team morale. It was important to balance individual well-being with the collective success of the team and the company’s mission.\n  
 
-**Action:**  
-1. **Supported the Engineer:** I had a one-on-one conversation with the engineer to understand their challenges. I assured them that the team valued their contributions and offered flexible working hours to accommodate their situation.  
-2. **Redistributed Workloads:** I worked with the team to redistribute some of the engineer’s tasks temporarily, ensuring the project timeline wasn’t compromised. I also personally took on some of the technical work to lighten the load for the team.  
-3. **Fostered Team Collaboration:** To maintain team cohesion, I encouraged open communication and collaboration. We held daily check-ins to ensure everyone felt supported and aligned.  
-4. **Kept the Bigger Picture in Mind:** Throughout the process, I reminded the team of our shared mission to deliver a product that could revolutionize live-streaming for small businesses, reinforcing the importance of working together.  
+**Action:**  \n
+1. **Supported the Engineer:** I had a one-on-one conversation with the engineer to understand their challenges. I assured them that the team valued their contributions and offered flexible working hours to accommodate their situation.\n  
+2. **Redistributed Workloads:** I worked with the team to redistribute some of the engineer’s tasks temporarily, ensuring the project timeline wasn’t compromised. I also personally took on some of the technical work to lighten the load for the team.\n  
+3. **Fostered Team Collaboration:** To maintain team cohesion, I encouraged open communication and collaboration. We held daily check-ins to ensure everyone felt supported and aligned.  \n
+4. **Kept the Bigger Picture in Mind:** Throughout the process, I reminded the team of our shared mission to deliver a product that could revolutionize live-streaming for small businesses, reinforcing the importance of working together.\n  
 
-**Result:**  
-The engineer was able to overcome their personal challenges without feeling isolated, and the team successfully delivered the project on time. The supportive environment strengthened team morale and fostered a deeper sense of trust and collaboration. The product went on to generate significant revenue and positive feedback, reflecting our collective success.  
+**Result:**  \n
+The engineer was able to overcome their personal challenges without feeling isolated, and the team successfully delivered the project on time. The supportive environment strengthened team morale and fostered a deeper sense of trust and collaboration. The product went on to generate significant revenue and positive feedback, reflecting our collective success.\n  
 
 ---
 
-**Why This Answer Works:**  
-1. **Responsibility:** Demonstrates your sense of responsibility for both the team’s success and the well-being of individual teammates.  
-2. **Teamwork:** Highlights how you fostered collaboration and supported your teammates in a challenging situation.  
-3. **Mission Alignment:** Connects the actions to the broader mission of delivering an impactful product.  
-4. **Cultural Fit:** Reflects the "Meta, Metamates, me" value by showing care for the company, the team, and individual members.  
+**Why This Answer Works:**  \n
+1. **Responsibility:** Demonstrates your sense of responsibility for both the team’s success and the well-being of individual teammates.\n  
+2. **Teamwork:** Highlights how you fostered collaboration and supported your teammates in a challenging situation.  \n
+3. **Mission Alignment:** Connects the actions to the broader mission of delivering an impactful product.  \n
+4. **Cultural Fit:** Reflects the "Meta, Metamates, me" value by showing care for the company, the team, and individual members.\n  
 
 This response illustrates how you prioritized collective success while supporting your teammates, embodying Meta’s value of "Meta, Metamates, me.""")
 
     st.header("Conflicts and other challenges")
     with st.expander("What systems have you put in place to resolve conflicts and maintain a healthy team dynamic?"):
-        st.write("""Situation:\n
-In my experience as a team leader, I’ve encountered situations where team members had different opinions on how to approach technical problems or where there were misunderstandings due to different working styles. These situations, if not addressed properly, can affect the team dynamic and project progress.\n
-Task:\n
-My goal was to create systems that allowed for open communication, quick conflict resolution, and a healthy team dynamic, where everyone felt heard and valued.\n
-Action:\n
-1. Open Communication Channels: I implemented regular one-on-one check-ins with each team member to ensure they had a space to voice concerns and provide feedback. This helped identify potential conflicts early, before they escalated.\n
-2. Transparent Team Meetings: I made sure our team meetings were transparent and inclusive. Everyone was encouraged to share their thoughts and concerns, and we fostered an environment where constructive criticism was welcomed.\n
-3. Clear Conflict Resolution Process: When conflicts arose, I made sure there was a clear, structured process for resolution. This included:\n
-- Active Listening: I ensured that each party involved in the conflict had the opportunity to speak and express their views without interruption.\n
-- Mediation: If necessary, I facilitated discussions to help team members understand each other’s perspectives and find common ground.\n
-- Focus on Solutions: I emphasized finding win-win solutions, where possible, that aligned with the team’s goals and the project’s success.\n
-4. Encouraging Collaboration: I encouraged cross-functional collaboration by pairing team members from different roles (e.g., ML engineers with front-end developers) to solve problems together. This helped build empathy and understanding across different perspectives.\n
-5. Team-Building Activities: I also organized team-building activities, both formal and informal, to strengthen the relationships within the team and promote trust. These activities helped break down barriers and created a more cohesive team environment.\n
-6. Clear Expectations and Accountability: I set clear expectations for communication, collaboration, and respect within the team. I also made sure there were consequences for behavior that disrupted the team dynamic, such as being disrespectful or not participating in team efforts.\n
-Result:\n
-These systems helped resolve conflicts quickly and effectively, preventing them from negatively impacting the team's morale or productivity. By creating an open and respectful environment, we were able to maintain a healthy dynamic where everyone felt comfortable sharing their ideas and concerns. As a result, our team was more collaborative and efficient, and we successfully delivered on our projects.""")
+        st.write("""**Situation:**  
+Yeah, so in my experience leading teams, I’ve definitely seen situations where people had different opinions on technical approaches or just clashed because of different working styles. If those kinds of things aren’t handled properly, they can really impact team morale and progress.  
+
+**Task:**  
+My goal has always been to set up systems that catch issues early, promote open communication, and create a collaborative, respectful environment where conflicts don’t derail the team or the project.  
+
+**Action:**  
+What I’ve found works well is a combination of proactive communication, structured conflict resolution, and fostering team trust:  
+
+- **Regular one-on-one check-ins:** I make time to talk individually with each team member. It’s a great way to **catch small issues early** and gives people a safe space to share feedback or concerns.  
+- **Transparent team meetings:** I keep meetings **open and inclusive**, encouraging everyone to share their thoughts and ideas. The focus is on creating an environment where **constructive criticism is welcomed** and no one feels dismissed.  
+- **Clear conflict resolution process:** When conflicts arise, I focus on:  
+  - **Active listening** to ensure everyone gets a chance to share their perspective.  
+  - **Mediating discussions** to help team members understand each other’s viewpoints.  
+  - **Finding solutions** that align with the team’s goals and create a win-win whenever possible.  
+- **Encouraging collaboration across roles:** For example, I’ve paired ML engineers with front-end developers to solve problems together. This approach helps build **empathy across different perspectives** and often leads to more creative solutions.  
+- **Team-building activities:** I organize both formal and informal activities, like workshops or casual team lunches. These moments help **strengthen relationships and build trust** within the team.  
+- **Setting clear expectations and accountability:** I make sure the team knows what’s expected in terms of communication, collaboration, and respect. And if someone’s behavior is disruptive, I address it directly but constructively.  
+
+**Result:**  
+These systems have worked really well for my teams. Conflicts get resolved quickly and don’t escalate into bigger issues. More importantly, we’ve been able to maintain a **healthy, open team dynamic** where people feel comfortable sharing their ideas. This has led to **better collaboration, stronger relationships, and successful project outcomes.**""")
 
     with st.expander("Tell me about a time you had to mediate a conflict inside your team.(LLM api)"):
         st.write("""While working on the digital human product, we faced a conflict between the frontend and backend engineers about how to integrate the LLM API into our system. The frontend engineer wanted to directly connect to the LLM API from the frontend, thinking it would be faster to implement and allow us to quickly showcase results. On the other hand, the backend engineer insisted that the API calls should go through the backend, like the other APIs we used, to keep things consistent and manageable.\n
@@ -311,7 +316,7 @@ On the leadership side, I want to further enhance my ability to coach and mentor
 Technically, I'm especially excited about advancing my expertise in Large Language Models (LLMs). With the rapid developments in this field, I see significant potential in pushing the boundaries of LLMs, particularly in fine-tuning them for specific tasks, improving the efficiency of model training and inference, and exploring how LLMs can be leveraged to build intelligent systems that better understand context, reason with data, and generate human-like responses.\n
 Additionally, I'm focused on improving my communication with non-technical stakeholders to ensure that the business impact of ML projects is clear and aligns with the company's strategic objectives.""")
 
-    with st.expander("Describe your failure. How did you conquer it?"):
+    with st.expander("Describe your failure. How did you conquer it? (Missed deadline for government project.)"):
         st.write("""One significant failure I encountered was during a project at CloudWalk for a government client, where we needed to develop a new feature for our knowledge engine to extract information from policy documents. We initially based our planning on sample documents provided, but the actual documents proved to be much more complex. They included a variety of formats, such as handwritten scans, which made accurate understanding and processing challenging.\n
 I underestimated the complexity of integrating this new feature with our existing systems. Consequently, we missed our launch deadline, which affected the team’s morale and delayed other projects.\n
 To address the issue, I led a thorough reassessment of the project requirements and identified gaps in our initial planning. We revised our approach by enhancing our model training processes to accommodate the diverse document formats and placing greater emphasis on risk management and regular progress reviews.\n
@@ -349,17 +354,26 @@ For example, when our company shifted its strategy to focus more on large langua
 I’ve learned that the key to adapting well is staying proactive, communicating regularly with stakeholders, and ensuring that I align my actions with the evolving business goals. By staying resilient and open to feedback, I’m able to turn changes into opportunities for growth and innovation.""")
 
     with st.expander("Another example about adapting to change.(Prioritize audience interaction.)"):
-        st.write("""1. **Key summary:**\n 
-I adapted to change by prioritizing a feature that addressed critical user needs and differentiated our product in a competitive market. \n
-2. **Details:**  \n
-While working on the digital human live-streaming product, we initially focused on enhancing script generation and creating high-quality virtual hosts. However, user feedback revealed that the most critical feature for success was automatic interaction with the audience in real time. Users emphasized that timely and engaging responses to audience questions were essential for live-streaming effectiveness.\n  
-3. **Action taken:**  \n
-I worked with the product manager and engineers to adjust our roadmap, moving the development of the audience interaction module to the top priority. Other competitors relied on users to manually fill FAQs for audience interaction, but we aimed for a more innovative solution. Our approach used a Retrieval Augmented Generation (RAG) system to extract answers from user-uploaded files and generate real-time responses automatically. This feature was a key differentiator, but it required extensive fine-tuning of the LLM and significant infrastructure work.\n  
-To ensure success, I reallocated resources to this module, dedicating additional engineers and adjusting deadlines for less critical features. I also facilitated collaboration between the machine learning team and infrastructure engineers to address the technical challenges efficiently.  \n
-4. **Results:**  \n
-The resulting feature combined automated responses with options for manual adjustments, offering users a flexible and powerful tool for engaging their audience. This innovation set our product apart from competitors and became a major selling point. User satisfaction and adoption rates significantly increased after its release.\n  
-5. **Reflection:**  \n
-This experience highlighted the importance of staying user-focused and being agile in a competitive landscape. By addressing the most important user pain points and investing in innovative solutions, we delivered a feature that not only met user needs but also strengthened our market position.  """)
+        st.write("""**Situation:**  
+Sure! While working on the digital human live-streaming product, we started out focusing on things like **enhancing script generation** and creating **high-quality virtual hosts**. But as we got more user feedback, it became clear that the real game-changer wasn’t just the hosts or the scripts—it was the ability to provide **real-time, automatic interaction with the audience** during live streams. Users told us that **timely and engaging responses** to audience questions were absolutely critical for live-streaming success.  
+
+**Task:**  
+Our challenge was to prioritize this audience interaction feature and make it stand out from competitors, who relied on manual FAQ setups for audience responses.  
+
+**Action:**  
+To tackle this, I worked closely with the product manager and engineering teams to **reprioritize our roadmap**. We made the development of the audience interaction module our **top priority**, pushing back less critical features to free up resources.  
+
+Instead of going the manual FAQ route, we aimed for something more innovative:  
+- We developed a **Retrieval Augmented Generation (RAG) system** that could extract answers directly from user-uploaded files and generate **real-time responses** automatically.  
+- This required a lot of **fine-tuning of the LLM** and significant collaboration between the **machine learning team and infrastructure engineers** to handle the technical challenges.  
+
+I also reallocated resources, assigning additional engineers to this module and adjusting deadlines to make sure we could deliver it without compromising quality.  
+
+**Result:**  
+The final feature combined **automated responses** with the option for **manual adjustments**, giving users a **flexible and powerful tool** to engage their audiences. It became a **key differentiator** for our product, setting us apart from competitors. After the release, we saw a big jump in **user satisfaction** and **adoption rates**.  
+
+**Reflection:**  
+This experience really reinforced the importance of staying **user-focused** and being **agile in a competitive market**. By listening to user feedback and addressing their most critical pain points, we didn’t just meet their needs—we delivered a feature that strengthened our product’s position in the market.""")
 
     with st.expander("Some other examples of adapting to change."):
         st.write("""Here are additional ideas:\n
@@ -387,17 +401,27 @@ This feedback was hard to accept because I saw myself as a supportive leader, an
 To address this, I began delegating more responsibility, trusting my team to handle challenges on their own, and stepping in only when necessary. Over time, this approach led to improved team morale, better decision-making, and allowed me to focus on higher-level strategic tasks. It was a tough lesson, but it made me a stronger and more effective leader.""")
 
     with st.expander("What was some difficult feedback that you received? **Another example** (Push the team too hard.)"):
-        st.write("""1. **Context:**\n
-While we were developing the digital human live-streaming product, our team faced immense pressure. Competition in the market was intense, and our team had a mix of members—some transitioned from B2B projects and others were newly hired. The workload was heavy, and deadlines were tight. The team started feeling burned out and unsure about how long this pace would last or how we compared to competitors. I received feedback that I was setting expectations too high and pushing the team too hard.\n
-2. **The Feedback**:\n
-It was tough to hear because the product was at a critical stage, and I felt it was necessary to push hard to meet our goals. However, I realized that the team needed more clarity, balance, and motivation to stay on track.\n
-3. **Reaction and Growth**:\n
-I took the feedback seriously and scheduled one-on-one meetings with every team member to understand their concerns and gather common themes. I worked with the product manager to analyze how we compared with competitors—highlighting areas where we were still catching up, areas where we were ahead, and our unique strengths.\n
-Next, I collaborated with the team, including product, marketing, and engineering, to set phased goals. We defined clear deliverables for the next three months, six months, and long-term, with realistic timelines. I also adjusted individual workloads to make targets more achievable and sustainable. Finally, I advocated for additional resources with senior management, which helped ease some of the team's burden.\n
-4. **Outcome**:\n
-The team gained a clearer understanding of their goals and how their work aligned with our strategy. Everyone’s workload became more balanced—challenging but manageable—and morale improved. Ultimately, this approach helped us stay on track and meet our deadlines while keeping the team motivated.\n
-5. **Why the Feedback Was Difficult**:\n
-This feedback was challenging because we were at a critical juncture for the product. I knew we had to push through to launch on time and compete effectively. Balancing the urgency of the project with the team’s well-being was tough, but it taught me the importance of addressing concerns proactively and communicating a clear vision to keep the team aligned and motivated.""")
+        st.write("""**Answer:**  
+
+**Situation:**  
+Yeah, I can think of a time when we were working on the digital human live-streaming product. The pressure was intense—competition in the market was tough, and our team was a mix of people transitioning from B2B projects and new hires. The workload was heavy, and deadlines were tight. At one point, I got feedback that I was **pushing the team too hard** and setting expectations too high.  
+
+**Task:**  
+It was tough feedback to hear because the product was at a critical stage, and I felt we needed to push hard to meet our goals. But I realized that if the team was feeling burned out and uncertain, we wouldn’t be able to sustain our momentum. My task was to find a way to balance the urgency of the project with the team’s well-being.  
+
+**Action:**  
+I took the feedback seriously and made several changes:  
+- **One-on-one meetings:** I sat down with each team member to understand their concerns and identify common themes.  
+- **Competitive analysis:** I worked with the product manager to analyze how we compared to competitors—highlighting areas where we were ahead, where we were catching up, and what made us unique. This helped provide **context and reassurance** to the team.  
+- **Phased goals:** We set clear, phased goals for the next three months, six months, and beyond. This broke the work into **manageable chunks** and gave the team a better sense of direction.  
+- **Adjusting workloads:** I rebalanced individual tasks to make them more achievable without sacrificing quality.  
+- **Advocating for resources:** I went to senior management and successfully secured additional resources to help ease the team’s burden.  
+
+**Result:**  
+These changes made a big difference. The team had a clearer understanding of our goals and how their work fit into the bigger picture. Workloads became more balanced—still challenging but manageable—and morale improved. Ultimately, we were able to **stay on track, meet our deadlines**, and keep the team motivated through a critical phase of the project.  
+
+**Reflection:**  
+This feedback was hard to hear because I knew we were at a make-or-break point for the product. But it taught me a lot about the importance of addressing concerns proactively, **communicating a clear vision**, and finding the right balance between urgency and sustainability. It was a valuable lesson in leadership.""")
 
     with st.expander("Tell me about a time you had to make a unpopular/tough decision.(Delay the LLM launch.)"):
         st.write("""When we launched the first version of our digital human product at CloudWalk, large language models were experiencing tremendous popularity. However, the initial version of our product didn’t have the model performance we wanted—it wasn’t delivering the level of quality and accuracy that our users would expect.\n
@@ -407,9 +431,26 @@ At the same time, I worked closely with the machine learning team, prioritizing 
 Though this decision was unpopular, especially with the pressure to capitalize on the hype around large language models, it proved to be the right call. When we finally launched the improved version, the product was much better received by users, and it helped establish our product as a high-quality offering in the market.""")
 
     with st.expander("Another example of unpopular/tough decision.(Rejected B2b request.)"):
-        st.write("""During the development of our digital human product at CloudWalk, we faced a difficult decision when a traditional B2B client approached us to build a customized version of the product. While the project promised immediate revenue, it required significant engineering resources and would have delayed the release of our main product. Additionally, the customized features didn’t align with our long-term vision or market strategy.\n  
-I decided to reject the offer and prioritize the timely release of our core product. This decision wasn’t popular initially, as both the marketing team and senior management were concerned about missing out on guaranteed revenue. I worked to convince them by highlighting the strategic importance of focusing on our target market and the scalability potential of our main product.  \n
-In the end, this decision paid off. We launched the product on time, gained over 10,000 paying users, and generated tens of millions in annual revenue, far surpassing what the customized project would have brought. It was a tough call but one that solidified our product's success and positioned us as a leader in the market.""")
+        st.write("""**Answer:**  
+
+**Situation:**  
+While working on the digital human product at CloudWalk, we faced a tough decision. A traditional B2B client approached us, asking for a customized version of our product. They wanted us to integrate their own live-streaming platform and add unique features, like deep support for some of their platform’s specialized live-streaming functions. The project promised quick revenue, but it would have required a lot of engineering resources and delayed the launch of our main product. On top of that, the custom features didn’t align with our long-term vision or market strategy.  
+
+**Task:**  
+I had to decide whether to take on this project for short-term gains or stay focused on finishing and launching our core product on time.  
+
+**Action:**  
+I made the tough call to **reject the B2B request** and prioritize our main product. It wasn’t a popular decision at first. The marketing team and senior management were worried about missing out on guaranteed money. To address their concerns, I explained why focusing on our core product was the better choice:
+
+ - Integrating with the client’s live-streaming platform would have added significant complexity and risk to our development timeline.
+ - Our core product had much greater potential for scalability and long-term success.
+ - Delaying the launch would weaken our position in the competitive market.
+
+**Result:**  
+In the end, the decision paid off. We launched the product on time, gained over **10,000 paying users**, and generated **tens of millions in annual revenue**. That was far more than what the custom project would’ve brought in. It was a tough choice, but it helped us solidify our position as a market leader and set us up for long-term success.  
+
+**Reflection:**  
+This experience taught me that sometimes you have to make hard calls and stick to your vision, even if it’s not the easiest or most popular choice at the moment.""")
 
     st.header("Cross functional collaboration")
     with st.expander("Describe a time when you successfully partnered with a cross-functional team. What made it successful?"):
@@ -428,7 +469,7 @@ To ensure success, I took several key steps:\n
 **Result**:\n
 The collaboration was a great success. We delivered the digital human live-streaming product on time and within budget. The product attracted over 10,000 paying users in its first year, generating tens of millions in revenue. It became a strategic asset for the company and significantly strengthened our market position.""")
 
-    with st.expander("Tell me about a situation where you had to influence stakeholders with competing priorities. How did you handle it?"):
+    with st.expander("Tell me about a situation where you had to influence stakeholders with competing priorities. How did you handle it? (Prioritize LLM finetuning.)"):
         st.write("""**Situation**:\n
 During the development of our digital human live-streaming product, we needed to fine-tune our in-house foundation large language model (LLM) to generate live-stream scripts and support real-time audience interaction. However, the foundation LLM team had limited experience with live-streaming data, and their roadmap was already packed with other high-priority tasks.\n
 **Task**:\n
@@ -517,13 +558,13 @@ I’m particularly excited about management roles at companies like Meta because
 
     with st.expander("Describe a few of your peers at your company and the type of relationship you have with them"):
         st.write("""1. Start with Context\n
-At my current company, I’ve developed relationships with a variety of peers across different roles, including mentors, colleagues at the same level, and key team members. These relationships fall into three main categories, each of which plays a critical role in my professional growth and the success of our projects.\n
+At my most recent company, I’ve developed relationships with a variety of peers across different roles, including mentors, colleagues at the same level, and key team members. These relationships fall into three main categories, each of which plays a critical role in my professional growth and the success of our projects.\n
 2. Mentors or Coaches\n
 The first category is mentors or coaches—people who guide me and provide valuable career advice. For example, when I was at CloudWalk, one of the co-founders acted as my mentor. They helped me navigate strategic decisions and offered insights into how to align technical innovation with business goals. Their guidance was instrumental in shaping my approach to leadership and product development.\n
 3. Peers at My Level\n
 The second category is peers who are my equals—my "battle partners." These are colleagues I’ve built trust with through collaboration, and we’ve achieved mutual success by working closely together. For instance, during my time at CloudWalk, I had a strong partnership with the leader of the infrastructure team and the foundation LLM team. Together, we solved critical challenges, such as optimizing LLM inference for real-time interaction and improving the foundation model for live-streaming use cases. These collaborations were built on mutual respect and shared ownership of outcomes.\n
 4. Core Team Members\n
-The third category is the core members of my own team. These are people I’ve worked with extensively, and we’ve built deep trust and understanding. I treat them not just as colleagues but as friends. For example, in the digital human project, I worked closely with a few key engineers and product managers. We supported each other through challenges, celebrated wins together, and created a strong sense of camaraderie that motivated the entire team.\n
+The third category is the core members of my own team. These are people I’ve worked with extensively, and we’ve built deep trust and understanding. I treat them not just as colleagues but as friends. For example, in the digital human project, I worked closely with a few key engineers and product managers. We helped each other during tough times, celebrated our successes together, and built a strong bond that kept everyone motivated.\n
 5. Reflect on the Impact\n
 These three types of relationships—mentors, peers, and team members—have been crucial to my success. My mentor helped me grow as a leader, my peers pushed me to achieve shared goals, and my team members created a collaborative environment where we could innovate and deliver impactful products.\n
 6. Tie It Back to the Role\n
@@ -764,10 +805,29 @@ Once they consistently demonstrated leadership and technical depth, I advocated 
 This experience not only boosted their career but also strengthened the team by adding a strong technical leader.""")
 
     with st.expander("Tell me about a time how you handled performance bias in your team. (Quiet engineer)"):
-        st.write("""Sure! Once, I noticed that one of the junior engineers wasn’t getting much recognition during team discussions. They were quieter and not the type to speak up a lot, so some teammates assumed they weren’t contributing as much. But when I looked closer, I realized they had fixed some important bugs in our digital human rendering system—work that had a big impact but wasn’t very visible to others.\n
-To fix this, I made a point to highlight their work in team meetings, explaining how their fixes had improved the system. I also encouraged them to share their updates more often and helped them feel more confident talking about their work.\n
-At the same time, I reminded the team that we should value results and impact, not just who talks the most. Over time, this helped shift the team’s mindset. The engineer felt more appreciated, started sharing ideas more often, and the team became better at recognizing everyone’s efforts equally.\n
-This experience taught me how important it is to look deeper and make sure everyone’s contributions are noticed.""")
+        st.write("""Sure! Once, I noticed a quiet junior engineer on my team wasn’t getting much recognition during team discussions. They rarely spoke up, so some teammates unconsciously assumed they weren’t contributing as much. I realized this was a performance bias—where more vocal or visible team members were perceived as higher performers, even if quieter members were making equally important contributions.
+
+The turning point for me was during a review of recent system improvements. I dug into the details and discovered that this engineer had fixed some critical bugs in our digital human rendering system. These fixes significantly improved the system's efficiency and reduced errors, but because their work happened behind the scenes, it wasn’t obvious to others.
+
+To address this, I made it a priority to highlight their contributions in team meetings. I explained to the team how their bug fixes had improved our system’s stability and efficiency, emphasizing the value of their work. I also had a one-on-one with the engineer to encourage them to share updates more often. I realized they were hesitant because they weren’t confident their work was "worth mentioning," so I reassured them that every contribution mattered.
+
+At the same time, I took steps to address the team’s overall mindset. I reminded everyone that impactful work doesn’t always look the same—some contributions are highly visible, like presenting ideas, while others are quieter but equally critical, like debugging or refining systems. I also encouraged a culture where team members actively ask quieter colleagues for their input during discussions.
+
+Over time, the engineer became more comfortable sharing their work, and the team grew better at recognizing contributions from everyone, not just the most vocal members. This experience taught me to be more mindful of performance bias and to actively look beyond surface-level impressions to ensure everyone’s efforts are acknowledged and valued.""")
+
+    with st.expander("Tell me about a time you had to gave some difficult feedback.(Teamwork issue)"):
+        st.write("""
+One time, I had to give tough feedback to an engineer on my team who was very talented but struggled with teamwork. They were used to working independently and often made decisions without involving others. This led to some friction in the team because others felt left out or had to redo work to align with the overall direction.
+
+I sat down with them one-on-one and started by acknowledging their strengths, like their technical skills and ability to deliver results quickly. Then, I shared specific examples of where their approach had caused issues, like when they implemented a major change without consulting the team, which delayed the project timeline.
+
+I made sure to focus on the impact of their actions, not their intentions. For example, I said, "I know you're trying to move fast and solve problems, which is great, but when decisions are made in isolation, it can slow the team down because we have to backtrack to align everything."
+
+We discussed ways they could improve, like involving others earlier in the process, asking for feedback, and sharing updates regularly. I also offered to support them by checking in during team meetings to make sure everyone was on the same page.
+
+It wasn’t easy because I knew they might feel criticized, but they appreciated the honesty and worked on improving. Over time, they became a much better team player, and the team dynamics improved significantly. 
+
+The key was balancing honesty with empathy and framing the feedback as an opportunity for growth rather than a critique of their character.""")
 
     with st.expander("How do you handle low performance and communicate negative feedback"):
         st.write("""When addressing poor performance, I start by trying to understand the root cause. Whether it’s a lack of clarity on expectations, a skill gap, personal challenges, or motivation issues, I believe it's important to diagnose the situation first. I approach this with empathy, ensuring that I understand the person’s perspective.\n
@@ -1017,13 +1077,21 @@ This experience highlighted the importance of balancing short-term needs with lo
 By combining these approaches, I created a supportive and purpose-driven environment where my team was motivated to overcome challenges and deliver an innovative, market-leading product.""")
 
     with st.expander("How do you manage multiple requests for your team, how do you deal with competing priorities?"):
-        st.write("""As a manager, handling multiple requests and competing priorities is an essential part of my role. To manage this effectively, I use a combination of prioritization, clear communication, and resource allocation.\n
-1. Prioritization: I start by assessing the urgency and impact of each request. I often use frameworks like Eisenhower Matrix or Impact vs. Effort analysis to help differentiate between what needs to be done immediately and what can be scheduled later. I focus on aligning requests with our strategic goals and company priorities, ensuring that tasks that will move the business forward are given the highest priority.\n
-2. For instance, when we were working on the digital human product, there were often conflicting requests from both internal teams and external stakeholders. I had to prioritize features that aligned with the strategic focus on consumer-facing applications, while balancing the ongoing infrastructure needs. I communicated these priorities to the team clearly, so everyone understood what needed to be prioritized and why.\n
-3. Clear Communication: I make sure that there’s constant, transparent communication with stakeholders about timelines, expectations, and trade-offs. When there’s a conflict between priorities, I bring key stakeholders together to discuss and agree on the best course of action. For example, when we had to choose between adding new features to the product or addressing technical debt, I had discussions with product managers, sales, and the tech team to come up with a solution that balanced both short-term deliverables and long-term stability.\n
-4. Resource Allocation: Once priorities are set, I assess the current workload and availability of the team. If there are multiple high-priority tasks, I might reassign resources or shift timelines accordingly. I also make sure that the team is not overwhelmed by ensuring that they have a manageable workload and sufficient time to focus on high-impact work.\n
-5. Delegation and Trust: I delegate tasks to the team based on their strengths and expertise, ensuring they have the autonomy to take ownership. For example, if I have multiple requests for different areas of the product, I might delegate certain tasks to team leads or senior engineers, empowering them to take responsibility and make decisions for their areas.\n
-By balancing these approaches—prioritizing tasks based on business impact, maintaining open communication with stakeholders, managing resources effectively, and empowering the team—I can navigate competing priorities and ensure that the team delivers the best possible outcomes.""")
+        st.write("""Sure! At CloudWalk, I often had to manage multiple requests from different stakeholders while working on our digital human live-streaming product. One specific instance was when the product was in its early stages, and I was juggling requests from the product manager, marketing team, and engineering team, all with competing priorities.
+
+Here’s how I handled it:
+
+1. **Understand and Prioritize**: I started by gathering all the requests and breaking them down into specific tasks. For example, the product manager wanted a new feature to differentiate us in the market, the marketing team needed a demo for an upcoming event, and the engineering team needed time to address technical debt that was slowing development. I evaluated each request based on urgency, impact on the product, and alignment with our goals.
+
+2. **Communicate Transparently**: I held a meeting with all stakeholders to share my understanding of their needs and explained the trade-offs. For example, I pointed out that if we focused on the marketing demo, the feature delivery might be delayed, but it could help attract early adopters. This open communication helped everyone understand the bigger picture.
+
+3. **Create a Plan**: Based on the discussion, I developed a plan that balanced short-term and long-term goals. We decided to allocate time for the marketing demo first since it had a hard deadline, while simultaneously starting initial work on the new feature. For technical debt, I scheduled dedicated time in the following sprint to address it.
+
+4. **Delegate and Monitor**: I delegated tasks based on team members’ strengths and ensured everyone was clear on their responsibilities. I also set up regular check-ins to track progress and quickly adjust if priorities shifted.
+
+5. **Reflect and Learn**: After the marketing event, I reviewed the process with the team to see what worked and what could be improved for the next time. This helped us streamline how we managed competing requests going forward.
+
+By staying organized, communicating clearly, and being flexible, I was able to meet the marketing deadline, make progress on the new feature, and address the technical debt in the next sprint. This experience taught me the importance of balancing immediate needs with long-term priorities and making sure everyone is aligned.""")
 
     with st.expander("Tell me about a time how did you setup projects for success?"):
         st.write("""Let me take the digital human project as an example, to set up it for success, I focused on three key areas: **defining success clearly**, **managing timelines effectively**, and **fostering strong communication and morale**.\n  
