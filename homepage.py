@@ -353,28 +353,6 @@ I’m eager to grow further in this area by learning from experts in marketing a
 For example, when our company shifted its strategy to focus more on large language model (LLM) applications after the release of ChatGPT, I conducted thorough research to understand the new landscape and identified a market opportunity in digital human technology. Despite this being a major change in direction, I successfully led the development of a new product that became a core offering and generated significant revenue for the company.\n
 I’ve learned that the key to adapting well is staying proactive, communicating regularly with stakeholders, and ensuring that I align my actions with the evolving business goals. By staying resilient and open to feedback, I’m able to turn changes into opportunities for growth and innovation.""")
 
-    with st.expander("Another example about adapting to change.(Prioritize audience interaction.)"):
-        st.write("""**Situation:**  
-Sure! While working on the digital human live-streaming product, we started out focusing on things like **enhancing script generation** and creating **high-quality virtual hosts**. But as we got more user feedback, it became clear that the real game-changer wasn’t just the hosts or the scripts—it was the ability to provide **real-time, automatic interaction with the audience** during live streams. Users told us that **timely and engaging responses** to audience questions were absolutely critical for live-streaming success.  
-
-**Task:**  
-Our challenge was to prioritize this audience interaction feature and make it stand out from competitors, who relied on manual FAQ setups for audience responses.  
-
-**Action:**  
-To tackle this, I worked closely with the product manager and engineering teams to **reprioritize our roadmap**. We made the development of the audience interaction module our **top priority**, pushing back less critical features to free up resources.  
-
-Instead of going the manual FAQ route, we aimed for something more innovative:  
-- We developed a **Retrieval Augmented Generation (RAG) system** that could extract answers directly from user-uploaded files and generate **real-time responses** automatically.  
-- This required a lot of **fine-tuning of the LLM** and significant collaboration between the **machine learning team and infrastructure engineers** to handle the technical challenges.  
-
-I also reallocated resources, assigning additional engineers to this module and adjusting deadlines to make sure we could deliver it without compromising quality.  
-
-**Result:**  
-The final feature combined **automated responses** with the option for **manual adjustments**, giving users a **flexible and powerful tool** to engage their audiences. It became a **key differentiator** for our product, setting us apart from competitors. After the release, we saw a big jump in **user satisfaction** and **adoption rates**.  
-
-**Reflection:**  
-This experience really reinforced the importance of staying **user-focused** and being **agile in a competitive market**. By listening to user feedback and addressing their most critical pain points, we didn’t just meet their needs—we delivered a feature that strengthened our product’s position in the market.""")
-
     with st.expander("Some other examples of adapting to change."):
         st.write("""Here are additional ideas:\n
 ---
@@ -855,6 +833,924 @@ When I communicated the layoff, I made sure to be transparent and direct about t
 I approached the conversation with empathy and respect. I acknowledged the impact this would have on the individual’s career and expressed gratitude for their hard work. During the conversation, I offered support, including severance[ˈsevərəns] packages, access to career coaching, and job placement assistance. I wanted to ensure they felt supported during this transition, and we discussed their next steps and options in detail.\n
 Afterward, I communicated with the rest of the team, being honest about the changes while focusing on how we could all contribute to the company’s new direction. I wanted to keep morale high and reassure everyone that we were committed to providing support as we navigated through these changes together.""")
 
+    st.header("Product & delivery")
+
+    with st.expander("How do you manage multiple requests for your team, how do you deal with competing priorities?"):
+        st.write("""Sure! At CloudWalk, I often had to manage multiple requests from different stakeholders while working on our digital human live-streaming product. One specific instance was when the product was in its early stages, and I was juggling requests from the product manager, marketing team, and engineering team, all with competing priorities.
+
+Here’s how I handled it:
+
+1. **Understand and Prioritize**: I started by gathering all the requests and breaking them down into specific tasks. For example, the product manager wanted a new feature to differentiate us in the market, the marketing team needed a demo for an upcoming event, and the engineering team needed time to address technical debt that was slowing development. I evaluated each request based on urgency, impact on the product, and alignment with our goals.
+
+2. **Communicate Transparently**: I held a meeting with all stakeholders to share my understanding of their needs and explained the trade-offs. For example, I pointed out that if we focused on the marketing demo, the feature delivery might be delayed, but it could help attract early adopters. This open communication helped everyone understand the bigger picture.
+
+3. **Create a Plan**: Based on the discussion, I developed a plan that balanced short-term and long-term goals. We decided to allocate time for the marketing demo first since it had a hard deadline, while simultaneously starting initial work on the new feature. For technical debt, I scheduled dedicated time in the following sprint to address it.
+
+4. **Delegate and Monitor**: I delegated tasks based on team members’ strengths and ensured everyone was clear on their responsibilities. I also set up regular check-ins to track progress and quickly adjust if priorities shifted.
+
+5. **Reflect and Learn**: After the marketing event, I reviewed the process with the team to see what worked and what could be improved for the next time. This helped us streamline how we managed competing requests going forward.
+
+By staying organized, communicating clearly, and being flexible, I was able to meet the marketing deadline, make progress on the new feature, and address the technical debt in the next sprint. This experience taught me the importance of balancing immediate needs with long-term priorities and making sure everyone is aligned.""")
+
+    with st.expander("Another example about adapting to change.(Prioritize audience interaction.)"):
+        st.write("""**Situation:**  
+Sure! While working on the digital human live-streaming product, we started out focusing on things like **enhancing script generation** and creating **high-quality virtual hosts**. But as we got more user feedback, it became clear that the real game-changer wasn’t just the hosts or the scripts—it was the ability to provide **real-time, automatic interaction with the audience** during live streams. Users told us that **timely and engaging responses** to audience questions were absolutely critical for live-streaming success.  
+
+**Task:**  
+Our challenge was to prioritize this audience interaction feature and make it stand out from competitors, who relied on manual FAQ setups for audience responses.  
+
+**Action:**  
+To tackle this, I worked closely with the product manager and engineering teams to **reprioritize our roadmap**. We made the development of the audience interaction module our **top priority**, pushing back less critical features to free up resources.  
+
+Instead of going the manual FAQ route, we aimed for something more innovative:  
+- We developed a **Retrieval Augmented Generation (RAG) system** that could extract answers directly from user-uploaded files and generate **real-time responses** automatically.  
+- This required a lot of **fine-tuning of the LLM** and significant collaboration between the **machine learning team and infrastructure engineers** to handle the technical challenges.  
+
+I also reallocated resources, assigning additional engineers to this module and adjusting deadlines to make sure we could deliver it without compromising quality.  
+
+**Result:**  
+The final feature combined **automated responses** with the option for **manual adjustments**, giving users a **flexible and powerful tool** to engage their audiences. It became a **key differentiator** for our product, setting us apart from competitors. After the release, we saw a big jump in **user satisfaction** and **adoption rates**.  
+
+**Reflection:**  
+This experience really reinforced the importance of staying **user-focused** and being **agile in a competitive market**. By listening to user feedback and addressing their most critical pain points, we didn’t just meet their needs—we delivered a feature that strengthened our product’s position in the market.""")
+
+    with st.expander("How do you evaluate the trade-offs between short-term deliverables and long-term strategic goals?"):
+        st.write("""When evaluating trade-offs between short-term deliverables and long-term strategic goals, I use a structured approach to balance immediate needs with future success.  
+
+---
+
+### **1. Understand the Context**  
+I start by understanding the business context and stakeholder priorities:  
+- **Short-term deliverables** address immediate needs like customer feedback, operational challenges, or market opportunities.  
+- **Long-term goals** focus on foundational improvements that enable scalability or future growth.  
+
+This understanding helps me assess the importance and urgency of each priority.  
+
+---
+
+### **2. Assess Impact and Dependencies**  
+I evaluate the potential impact of both short-term and long-term work:  
+- For **short-term deliverables**, I consider their immediate effect on customers, revenue, or operations.  
+- For **long-term goals**, I assess how they support scalability, reduce technical debt, or create future opportunities.  
+
+I also look for dependencies, such as whether delaying long-term work could create risks or increase future costs.  
+
+---
+
+### **3. Use Data to Inform Decisions**  
+I rely on data to guide decision-making. For example:  
+- **Customer data**: Will short-term deliverables significantly improve satisfaction or retention?  
+- **Operational metrics**: Are there inefficiencies or risks that need immediate attention?  
+- **Technical feasibility**: What are the risks or costs of delaying long-term improvements?  
+
+Data ensures decisions are objective and grounded in measurable impact.  
+
+---
+
+### **4. Collaborate with Stakeholders**  
+I involve stakeholders across product, engineering, and business teams to gather diverse perspectives.  
+- Product teams provide insight into user needs and roadmap alignment.  
+- Engineers highlight technical risks and trade-offs.  
+- Business teams share the financial and strategic implications.  
+
+This collaboration ensures alignment and transparency in decision-making.  
+
+---
+
+### **5. Make Balanced Decisions**  
+To balance short-term and long-term needs, I focus on delivering value incrementally. I prioritize work that addresses urgent issues without losing sight of strategic goals, often breaking larger efforts into manageable phases.  
+
+---
+
+### **6. Communicate Clearly**  
+Once a decision is made, I ensure the rationale is clearly communicated to the team. This helps align everyone on how we’re balancing immediate wins with long-term objectives and ensures transparency.  
+
+---
+
+### **Example: Rewriting the Resource Scheduling System**  
+In one project, we faced a choice:  
+- Should we continue using an existing engine call framework to deliver digital avatar videos quickly, or invest time in rewriting the resource scheduling system for long-term efficiency?  
+
+The short-term approach allowed us to meet immediate deadlines but was error-prone and inefficient. After evaluating customer impact, operational metrics, and technical risks, I decided to prioritize rewriting the scheduling system because:  
+- It would improve efficiency by 5x and significantly reduce errors.  
+- The long-term benefits outweighed the short-term costs.  
+
+To balance short-term needs, we broke the rewrite into phases, ensuring critical deliverables weren’t delayed. This decision allowed us to meet immediate goals while setting up a robust foundation for future scalability.  
+
+---
+
+By following this structured approach—understanding context, assessing impact, using data, collaborating with stakeholders, prioritizing effectively, and communicating clearly—I ensure trade-offs are evaluated thoughtfully and aligned with both short-term and long-term objectives.""")
+
+    with st.expander("How do you ensure your team is aligned with company or product goals(the overall business objectives)?"):
+        st.write("""To align my team with company or product goals, I focus on clear communication, connecting their work to the broader vision, and reinforcing alignment throughout the project lifecycle:\n  
+1. **Translate High-Level Goals into Team Objectives**: I break down company or product goals into clear, actionable objectives for the team. For example, at CloudWalk, when the company shifted its focus to large model applications after ChatGPT’s release, I translated this strategic priority into a roadmap for our digital human live-streaming product. I ensured the team understood how this project fit into the company’s vision and growth strategy.\n  
+2. **Communicate the “Why”**: I explain the purpose behind goals and how they align with market needs and company priorities. During our digital human project, I regularly reminded the team of the value we were delivering to users and how the product supported the company’s success.  \n
+3. **Regular Review and Adjust**: I establish check-ins to review progress and ensure ongoing alignment. For example, in bi-weekly sprint reviews, I revisited goals, addressed roadblocks, and adjusted plans as necessary to stay on track. \n
+4. **Empower Ownership**: I encourage team members to take ownership of their tasks, linking their responsibilities to company outcomes. This fosters a sense of purpose and accountability.  \n
+5. **Celebrate Successes**: Highlighting how the team’s work contributes to achieving larger goals reinforces alignment and boosts motivation. For instance, when our digital human product achieved revenue milestones, I shared these wins with the team to emphasize their impact.\n  
+This approach ensures my team stays focused, motivated, and aligned with overarching company or product goals.""")
+
+    with st.expander("Describe a situation where you had to align technical decisions with product or business needs. How did you manage this?"):
+        st.write("""### **Situation**  
+In our digital human live-streaming platform project, we aimed to expand beyond live-streaming to support video creation for use cases like educational videos. At first glance, video creation seemed simpler than live-streaming since it didn’t require real-time interaction.  
+
+We received requests from customers, such as schools, to create personalized avatars and voices for teachers—potentially dozens or even hundreds of unique profiles. The marketing team was eager to prioritize this feature, and the product manager also believed it would be easier to develop.  
+
+---
+
+### **Task**  
+The challenge was to align technical feasibility with product and business priorities. While video creation appeared promising, the engineering team raised concerns about its technical complexity and resource requirements. My task was to evaluate these trade-offs and guide the team toward the best decision.  
+
+---
+
+### **Action**  
+1. **Engage Stakeholders**:  
+   - I organized a meeting with marketing, product, and engineering teams to discuss the technical challenges and business goals.  
+
+2. **Assess Feasibility**:  
+   - After consulting with the digital human rendering ML engineers, I learned that creating highly personalized avatars and voices at scale was resource-intensive.  
+   - In contrast, live-streaming could leverage a few high-quality, pre-designed avatars, making it faster to implement and more broadly appealing.  
+
+3. **Use Data to Support Decisions**:  
+   - I presented data showing the broader market potential for live-streaming compared to the niche demand for highly customized avatars.
+
+4. **Align on Priorities**:  
+   - After thorough discussions, we agreed to prioritize live-streaming features for the initial release while planning avatar customization for the next phase.
+
+---
+
+### **Result**  
+This decision allowed us to deliver impactful features quickly, meeting customer needs and gaining traction in the market. At the same time, it addressed stakeholder concerns and set realistic expectations for future improvements. The process also strengthened cross-functional collaboration and trust, ensuring alignment across teams.  
+
+---
+
+By balancing technical feasibility with product and business priorities, I ensured we delivered value efficiently while laying the groundwork for future enhancements.""")
+
+    with st.expander("What processes or frameworks do you use to ensure your team delivers projects on time?"):
+        st.write("""### **1. Set Clear Goals and Milestones**  
+I start by defining clear project goals and breaking them into smaller, measurable milestones. Each milestone is tied to specific deliverables, ensuring the team has a clear understanding of expectations and timelines.  
+
+---
+
+### **2. Use Agile Methodologies**  
+I adopt agile practices like sprint planning, daily stand-ups, and regular retrospectives to maintain focus and adapt to changes. These processes help us track progress, identify blockers early, and make adjustments as needed.  
+
+---
+
+### **3. Plan for Risks and Dependencies**  
+I proactively identify risks and dependencies during project planning. For example:  
+- **Risk management**: I create contingency plans for potential delays or technical challenges.  
+- **Dependency tracking**: I work with cross-functional teams to ensure alignment on shared resources or deliverables.  
+
+---
+
+### **4. Foster Collaboration and Ownership**  
+I emphasize collaboration within the team and with stakeholders:  
+- **Collaboration**: Regular check-ins with product, engineering, and business teams ensure alignment on priorities.  
+- **Ownership**: I empower team members to take ownership of specific tasks, fostering accountability and motivation.  
+
+---
+
+### **5. Leverage Tools for Transparency**  
+I use project management tools like Jira or Asana to track progress and maintain visibility for all stakeholders. These tools help us:  
+- Monitor task completion and timelines.  
+- Identify bottlenecks and reallocate resources if needed.  
+
+---
+
+### **6. Conduct Regular Reviews**  
+I schedule regular reviews to assess progress against milestones. This includes:  
+- **Sprint reviews**: To showcase completed work and gather feedback.  
+- **Retrospectives**: To identify areas for improvement and apply lessons learned.  
+
+---
+
+### **Example**  
+In a previous project to develop a digital human live-streaming platform, we faced tight deadlines to deliver key features. By breaking the project into phases, using agile sprints, and maintaining clear communication through weekly updates, we delivered the MVP on time. The transparent process also built trust with stakeholders and allowed us to quickly pivot based on early feedback.  
+
+---
+
+### **Result**  
+By combining clear planning, agile execution, and proactive communication, I ensure projects stay on track, meet deadlines, and deliver high-quality outcomes.""")
+
+    with st.expander("How do you handle delays or blockers that arise during project execution?"):
+        st.write("""### **1. Identify the Root Cause**  
+When a delay or blocker arises, my first step is to diagnose the root cause. I work with the team to understand whether it’s due to technical challenges, resource constraints, external dependencies, or shifting priorities.  
+
+---
+
+### **2. Prioritize Transparency**  
+I ensure that all stakeholders are informed about the delay or blocker as early as possible. This includes explaining the impact on timelines and deliverables to maintain trust and alignment.  
+
+---
+
+### **3. Develop a Mitigation Plan**  
+I work with the team to create a plan to address the issue. This may involve:  
+- **Reallocating resources**: Assigning additional team members or leveraging external help.  
+- **Adjusting scope**: Prioritizing critical features while deferring less essential work.  
+- **Engaging stakeholders**: Collaborating with other teams to resolve dependencies.  
+
+---
+
+### **4. Leverage Expertise**  
+For technical blockers, I encourage brainstorming sessions or involve subject-matter experts to explore alternative solutions. For example, in one project, when a machine learning model failed to meet accuracy requirements, we quickly pivoted to a simpler rule-based system for the initial release while continuing to refine the model in parallel.  
+
+---
+
+### **5. Use Agile Practices to Adapt**  
+I leverage agile practices like shorter sprints and frequent check-ins to reassess priorities and ensure the team can adapt to changing circumstances.  
+
+---
+
+### **6. Reflect and Improve**  
+After resolving the issue, I conduct a retrospective to understand what went wrong and how we can prevent similar blockers in the future. This might include updating processes, improving communication, or addressing skill gaps.  
+
+---
+
+### **Example**  
+In the digital human live-streaming project, we encountered a delay when integrating the rendering engine with our scheduling system due to unexpected compatibility issues. I quickly convened a cross-functional meeting, where we decided to build a temporary workaround to keep development moving while engineers resolved the underlying issue. By maintaining transparency with stakeholders and focusing on phased delivery, we minimized the impact on the overall timeline.  
+
+---
+
+### **Result**  
+By addressing delays and blockers with a proactive, transparent, and solutions-oriented approach, I ensure the team stays focused, motivated, and aligned with project goals.""")
+
+    with st.expander("Can you share an example of a project where you ensured timely delivery despite challenges?"):
+        st.write("""### **Situation**  
+We were tasked with delivering the MVP for our digital human live-streaming platform within a tight deadline. The company was preparing to launch our in-house large language model (LLM), and we wanted to showcase the LLM’s capabilities in a real-world product. Missing this opportunity was not an option, as it was critical to demonstrate the LLM’s value.  
+
+However, we encountered a major challenge: the video rendering process was extremely slow, taking over one minute to render a 10-second video, which was completely unacceptable for a live-streaming application.  
+
+---
+
+### **Task**  
+As the engineering manager, I was responsible for ensuring the timely delivery of the MVP while addressing the performance bottleneck in rendering.  
+
+---
+
+### **Action**  
+1. **Identify the Problem**:  
+   - I worked closely with the engineering team to analyze the rendering pipeline and pinpoint the root cause of the delay.  
+
+2. **Develop a Temporary Solution**:  
+   - To meet the immediate deadline, we decided to use faster GPUs to speed up the rendering process.  
+   - We also implemented a distributed rendering approach by splitting the videos into smaller segments, allowing us to process them in parallel and reduce rendering time.  
+
+3. **Collaborate Across Teams**:  
+   - I coordinated with the product and operations teams to ensure that other parts of the platform were progressing as planned, while we focused on solving the rendering issue.  
+
+4. **Maintain Communication with Stakeholders**:  
+   - I kept stakeholders informed about our progress and the temporary nature of the solution, ensuring they understood the plan to continue optimization after the MVP launch.  
+
+---
+
+### **Result**  
+We successfully delivered the MVP on time, showcasing the LLM’s capabilities in a real product, which was a key milestone for the company. After the launch, we continued to optimize the rendering process, significantly improving performance and ensuring the platform could handle larger-scale use cases.  
+
+---
+
+### **Key Takeaways**  
+By implementing a temporary solution, collaborating across teams, and maintaining clear communication with stakeholders, we were able to meet the deadline and set the stage for future improvements.""")
+
+    with st.expander("How do you balance the need for speed in delivery with maintaining high-quality standards?"):
+        st.write("""### **1. Set Clear Expectations and Priorities**  
+To balance speed and quality, I start by clearly defining what "quality" means for the project and ensuring that both the team and stakeholders understand the trade-offs. For example, while we prioritize high performance and stability, we may decide to defer certain non-critical features or optimizations for future releases to meet the timeline.
+
+---
+
+### **2. Focus on Critical Path and MVP**  
+When working under tight deadlines, I ensure that we focus on delivering the most impactful features first, especially for the MVP. I work closely with the product team to identify the critical path and prioritize features that directly contribute to the core value of the product. This allows us to deliver quickly without compromising on the product’s key functionalities.
+
+---
+
+### **3. Use Agile Practices and Iterative Development**  
+I leverage agile methodologies to break down the project into manageable sprints, allowing us to deliver incremental value. We release early and often, ensuring that each iteration is of high quality. This approach also allows us to gather feedback early and adjust quickly, ensuring that we are on track to meet both speed and quality goals.
+
+---
+
+### **4. Implement Automated Testing and CI/CD**  
+To maintain high-quality standards while working quickly, I implement automated testing and continuous integration/continuous deployment (CI/CD) pipelines. This ensures that we can quickly identify and address bugs, reduce manual testing efforts, and release updates faster without sacrificing quality.
+
+---
+
+### **5. Mitigate Risk with Code Reviews and Pair Programming**  
+I encourage practices like code reviews and pair programming to ensure that the team maintains high standards in code quality. These practices help catch potential issues early, promote knowledge sharing, and ensure that we’re writing maintainable and scalable code.
+
+---
+
+### **6. Communicate and Manage Stakeholder Expectations**  
+Throughout the process, I maintain transparent communication with stakeholders, ensuring they understand the importance of balancing speed with quality. If there are any compromises or trade-offs, I make sure they are aligned with the overall business goals and timelines.
+
+---
+
+### **Example**  
+In the digital human live-streaming platform project, we faced a tight deadline to deliver the MVP. To meet the timeline without compromising quality, we focused on the most critical features, such as live-streaming with pre-designed avatars, and deferred more complex features like personalized avatars for future releases. We used agile sprints to incrementally deliver and implemented automated testing to catch bugs early. This approach allowed us to deliver the MVP on time while maintaining a high-quality user experience.
+
+---
+
+### **Result**  
+By focusing on the critical path, using agile practices, and ensuring high-quality standards through automated testing and collaboration, we successfully balanced speed and quality. This allowed us to deliver a product that met business needs while setting the stage for future enhancements.""")
+
+    with st.expander("Describe a situation where a project was delayed because of quality concerns. How did you address it?"):
+        st.write("""### **Situation**  
+While working on the script generation feature for our digital human live-streaming platform, we encountered significant quality concerns with the model. The model wasn’t generating scripts as accurately or coherently as expected, which could have negatively impacted the user experience. As a result, we had to delay the project to address these issues.
+
+---
+
+### **Task**  
+As the engineering manager, my responsibility was to ensure that we didn’t compromise on quality while still delivering the feature in a timely manner. I needed to find a solution that would improve the model’s performance while maintaining the project’s overall momentum.
+
+---
+
+### **Action**  
+1. **Analyze the Root Cause**:  
+   - I worked closely with the machine learning and engineering teams to analyze why the model was underperforming. We identified that the model needed more fine-tuning and additional high-quality training data to improve its accuracy.  
+
+2. **Implement Optimizations**:  
+   - We decided to optimize the model by retraining it with more diverse and high-quality data. This helped improve the output quality significantly.  
+   - We also shifted the script generation feature from autopilot mode, where the model would generate scripts entirely on its own, to copilot mode. In this mode, the model would generate drafts, but users could make edits and provide feedback, giving them more control over the output.  
+
+3. **Maintain Stakeholder Communication**:  
+   - I communicated the delay to stakeholders, explaining the quality concerns and the improvements we were implementing. I ensured they understood that the delay was necessary to ensure a higher-quality product and better user experience.
+
+4. **Iterative Testing and Feedback**:  
+   - We tested the model’s output with real user feedback, iterating on it to refine the results further. This helped ensure that the feature would meet the quality standards we set.
+
+---
+
+### **Result**  
+By addressing the quality concerns and optimizing the model, we were able to deliver a much more reliable and user-friendly script generation feature. Shifting to copilot mode also allowed users to feel more involved and in control, which improved overall satisfaction. Although the project was delayed, the end result was a higher-quality feature that better aligned with user needs and expectations.
+
+---
+
+### **Key Takeaways**  
+This experience taught me the importance of prioritizing quality, even if it means delaying a project. By communicating transparently with stakeholders and making thoughtful adjustments to the feature, we were able to improve both the user experience and the product’s long-term success.""")
+
+    with st.expander("How do you manage requests from stakeholders to avoid overloading your team?"):
+        st.write("""### **1. Set Clear Priorities and Boundaries**  
+To avoid overloading the team, I start by setting clear priorities based on the business goals and the impact of each request. I work closely with stakeholders to understand the urgency and importance of their requests, and I make sure the team’s capacity is aligned with the most critical needs. I also establish clear boundaries, ensuring that we don’t take on additional tasks unless we’ve completed the current priorities or have capacity.
+
+---
+
+### **2. Use a Transparent Process for Request Evaluation**  
+I implement a formalized process for evaluating and prioritizing requests. This includes gathering detailed information about each request, assessing its impact, and determining the resources required. I then share this evaluation with stakeholders, making sure they understand the trade-offs and how requests fit into the broader product roadmap.
+
+---
+
+### **3. Regular Communication with Stakeholders**  
+I maintain ongoing communication with stakeholders to ensure that they are aware of the team’s capacity and the current workload. If a new request comes in, I discuss it with them to determine whether it should be prioritized over existing work or if it can be deferred. I also provide regular updates on progress and any potential delays, so stakeholders are aware of the team’s bandwidth and any adjustments that may be necessary.
+
+---
+
+### **4. Align with Product and Business Goals**  
+I work closely with the product and business teams to ensure that requests are aligned with the overall strategic goals of the company. This helps ensure that we’re focusing on the most impactful work and avoiding distractions from lower-priority tasks. When necessary, I push back on requests that don’t align with the immediate goals or the team’s capacity, offering alternatives or deferring them to a later phase.
+
+---
+
+### **5. Empower the Team to Speak Up**  
+I create an environment where the team feels comfortable raising concerns about workload. If they feel overloaded, I encourage them to speak up, and I work with them to redistribute tasks or adjust timelines. This helps prevent burnout and ensures that the team remains focused on delivering high-quality work without being overwhelmed.
+
+---
+
+### **Example**  
+In our digital human live-streaming platform project, we had a constant stream of feature requests from various stakeholders, including marketing, product, and business teams. To manage these requests, I set up a transparent request intake process, where each request was evaluated based on its impact and urgency. We then worked with stakeholders to prioritize the most important features for the MVP, while deferring less critical requests to future releases. This approach allowed us to focus on delivering the most valuable features without overloading the team.
+
+---
+
+### **Result**  
+By implementing a clear prioritization process and maintaining open communication with stakeholders, we were able to manage the workload effectively and avoid overloading the team. This ensured that we met our deadlines while maintaining a high level of quality and team morale.""")
+
+    with st.expander("Have you ever had to say “no” to a stakeholder to protect your team’s capacity? How did you communicate this?"):
+        st.write("""### **Situation**  
+While working on the digital human product at CloudWalk, we faced a tough decision when a traditional B2B client approached us with a request for a customized version of our product. They wanted us to integrate their live-streaming platform and add specialized features tailored to their needs. While this project promised quick revenue, it would have required significant engineering resources and delayed the launch of our core product. Moreover, the custom features didn’t align with our long-term market strategy or vision.
+
+---
+
+### **Task**  
+As the engineering manager, I needed to decide whether to take on this custom project for short-term revenue or stay focused on delivering our core product on time, which was crucial for our long-term growth.
+
+---
+
+### **Action**  
+I made the difficult decision to say “no” to the client’s request and prioritize the launch of our core product. This wasn’t an easy choice, and it wasn’t well-received initially. The marketing team and senior management were concerned about missing out on guaranteed revenue. To address their concerns, I communicated the following points:
+
+1. **Complexity and Risk**: Integrating with the client’s platform would have added significant complexity and risk to our already tight development timeline.
+2. **Long-Term Potential**: Our core product had much greater scalability and long-term market potential, which would provide more sustainable revenue.
+3. **Market Position**: Delaying the launch would have weakened our position in the market, potentially allowing competitors to gain an advantage.
+
+---
+
+### **Result**  
+In the end, prioritizing our core product paid off. We launched on time, gained over 10,000 paying users, and generated tens of millions in annual revenue—far exceeding the revenue the custom project would have generated. This decision helped us solidify our position as a market leader and set the stage for long-term success.
+
+---
+
+### **Reflection**  
+This experience reinforced the importance of sticking to your vision and making tough decisions to protect the team’s capacity. Even though it wasn’t the easiest choice, it ultimately led to a more impactful and sustainable outcome.""")
+
+    with st.expander("How do you ensure your team avoids burnout while meeting delivery expectations?"):
+        st.write("""### **1. Set Realistic Expectations**  
+To prevent burnout, I ensure that delivery expectations are realistic and achievable. This involves working closely with stakeholders to understand the scope of the project and ensuring we have the necessary resources and time to meet those expectations. I avoid overcommitting the team by aligning on what can reasonably be delivered within a given timeframe.
+
+---
+
+### **2. Prioritize and Focus**  
+I help the team stay focused on the highest-priority tasks that have the most impact. One tool I use is the **Eisenhower Matrix**, which helps us categorize tasks based on urgency and importance. The matrix divides tasks into four quadrants:
+- **Urgent and Important**: Tasks that need to be done immediately.
+- **Not Urgent but Important**: Tasks that are important but can be scheduled for later.
+- **Urgent but Not Important**: Tasks that are urgent but can be delegated.
+- **Not Urgent and Not Important**: Tasks that can be eliminated or deferred.
+
+By using this framework, I guide the team to focus on critical tasks while deprioritizing or delegating less important ones, ensuring we aren’t spreading ourselves too thin.
+
+---
+
+### **3. Break Work into Manageable Chunks**  
+I encourage breaking down large tasks into smaller, manageable chunks, which makes the workload feel less overwhelming and helps maintain momentum. This also allows for regular check-ins and course corrections, ensuring that the team stays on track without feeling burdened by a large, undefined task.
+
+---
+
+### **4. Encourage Regular Breaks and Time Off**  
+I foster a culture where taking regular breaks is encouraged. I also ensure that the team has time off when needed, particularly after completing major milestones. This helps them recharge and come back with renewed energy and focus. I lead by example, showing the importance of work-life balance and ensuring that we don’t sacrifice well-being for productivity.
+
+---
+
+### **5. Foster Open Communication**  
+I maintain open communication with the team about workload and stress levels. I create an environment where team members feel comfortable discussing any concerns about burnout or workload. If someone feels overwhelmed, I work with them to adjust their tasks or redistribute work to ensure they aren’t carrying an unsustainable load.
+
+---
+
+### **6. Monitor Workload and Adjust as Needed**  
+I regularly check in with the team to assess their workload and well-being. If any team member is at risk of burnout, I make adjustments, such as reassigning tasks, extending deadlines, or bringing in additional resources. I also encourage a healthy pace of work, ensuring that the team is working efficiently without overexerting themselves.
+
+---
+
+### **Example**  
+In our digital human live-streaming platform project, we had tight deadlines, and there were concerns about burnout as we approached the MVP launch. To manage this, I set clear priorities and focused on delivering the most impactful features. We broke down the tasks into smaller, achievable goals and ensured that team members took regular breaks to avoid fatigue. I also communicated with stakeholders about realistic timelines and potential risks, which helped manage expectations. As a result, we were able to meet our deadlines while maintaining a healthy work-life balance for the team.
+
+---
+
+### **Result**  
+By maintaining clear priorities, open communication, and ensuring a balanced workload, we were able to deliver the MVP on time without overwhelming the team. The team remained motivated, productive, and energized throughout the process.""")
+
+    with st.expander("How do you balance long-term sustainability with short-term delivery pressures?"):
+        st.write("""### **1. Set Clear Priorities**  
+Balancing long-term sustainability with short-term delivery pressures starts with setting clear priorities. I ensure that we have a well-defined roadmap that aligns with both immediate business needs and long-term goals. For example, while meeting short-term deadlines is important, I make sure that the team is also focused on building scalable and maintainable solutions that won’t create bottlenecks or technical debt down the line.
+
+---
+
+### **2. Align Stakeholders and Communicate Trade-offs**  
+It’s crucial to align with stakeholders on the trade-offs between short-term gains and long-term sustainability. I proactively communicate the potential risks of prioritizing speed over quality, such as accumulating technical debt or compromising the scalability of the product. By providing data-driven insights and examples, I ensure that all stakeholders understand the long-term impact of their decisions and are on the same page.
+
+---
+
+### **3. Implement Incremental Improvements**  
+To address short-term pressures while maintaining long-term sustainability, I encourage incremental improvements. Instead of building everything at once, we focus on delivering a minimum viable product (MVP) or smaller, manageable features that can be iterated upon. This allows us to meet deadlines without sacrificing the overall quality or scalability of the product. After each release, we revisit and refine the product, addressing any technical debt or scalability concerns.
+
+---
+
+### **4. Invest in Automation and Best Practices**  
+To maintain long-term sustainability, I prioritize investing in automation and best practices. For example, automating testing, deployment, and monitoring ensures that we can deliver quickly without sacrificing quality. By implementing CI/CD pipelines and adhering to coding standards, we reduce the risk of introducing bugs and improve the maintainability of the codebase, which is crucial for future scalability.
+
+---
+
+### **5. Build a Flexible Team Culture**  
+I foster a flexible team culture that can adapt to both short-term delivery pressures and long-term strategic goals. This includes balancing the workload, encouraging open communication, and allowing the team to voice concerns about burnout or technical debt. By keeping the team motivated and ensuring they feel supported, we can meet deadlines without compromising their well-being or the long-term quality of the product.
+
+---
+
+### **Example**  
+In our digital human live-streaming platform project, we had a tight deadline for the MVP launch to showcase the product with our in-house LLM. While we faced pressure to deliver quickly, I ensured that the team focused on building a scalable solution. We prioritized core features that could be expanded upon in future releases, and we took incremental steps to optimize the system post-launch. After the MVP launch, we continued to address performance issues and improve scalability, ensuring the long-term sustainability of the product.
+
+---
+
+### **Result**  
+By balancing short-term delivery pressures with long-term sustainability, we successfully launched the MVP on time while setting the stage for future enhancements. The product was able to scale effectively, and we minimized the impact of technical debt. This approach also helped maintain the team’s morale and kept the project on track for long-term success.""")
+
+    with st.expander("How do you manage conflicting priorities from product, engineering, and business stakeholders?"):
+        st.write("""### **1. Understand and Clarify Stakeholder Needs**  
+The first step in managing conflicting priorities is to fully understand the needs and objectives of each stakeholder group. I ensure that I have one-on-one conversations with product, engineering, and business stakeholders to clarify their goals, concerns, and expectations. This helps me understand the underlying motivations and constraints that drive their priorities. 
+
+---
+
+### **2. Align on Common Goals**  
+Once I have a clear understanding of each stakeholder's perspective, I focus on aligning them around common goals. I emphasize the broader business objectives, such as customer satisfaction, market competitiveness, and revenue growth. By framing the conversation in terms of these shared goals, I help stakeholders see how their priorities fit into the bigger picture and encourage collaboration rather than competition.
+
+---
+
+### **3. Use Data to Drive Decisions**  
+To resolve conflicts, I rely on data to inform decisions. I gather data on customer feedback, market trends, and performance metrics to objectively evaluate the impact of different priorities. For example, if there’s a debate between prioritizing a new feature versus improving system performance, I use data to show which option would deliver the most value to customers or have the greatest business impact. This helps to ground the decision-making process in facts rather than subjective opinions.
+
+---
+
+### **4. Prioritize Using a Framework**  
+I use frameworks, such as the **Eisenhower Matrix** or a cost-benefit analysis, to prioritize tasks and make trade-offs. These frameworks help us categorize tasks based on urgency and importance, allowing us to identify which initiatives should be prioritized immediately and which can be deferred. For example, if there’s a conflict between engineering needing more time for technical debt reduction and the business pushing for a new feature launch, we can evaluate the long-term benefits of addressing technical debt versus the short-term revenue potential of the new feature.
+
+---
+
+### **5. Communicate Trade-offs and Set Expectations**  
+Clear communication is key to managing conflicting priorities. I ensure that I communicate the trade-offs involved in any decision, explaining the potential risks and benefits. For example, if we need to delay a feature release to fix technical debt, I’ll explain how this will ultimately lead to a more stable product and a better customer experience in the long run. I also set realistic expectations by providing timelines, outlining dependencies, and keeping stakeholders updated on progress.
+
+---
+
+### **6. Collaborate and Negotiate**  
+When conflicts arise, I facilitate collaborative discussions to find a compromise that works for all parties. I may need to negotiate between product, engineering, and business teams, ensuring that everyone feels heard and that we reach a balanced decision. In some cases, this may involve compromising on scope, adjusting timelines, or re-prioritizing features. I aim to ensure that no stakeholder feels sidelined, and that we reach a consensus that supports the overall success of the project.
+
+---
+
+### **Example**  
+In our digital human live-streaming platform project, we faced conflicting priorities from the product team, which wanted to add new features for customer engagement, and the engineering team, which was focused on improving system performance. The business team was eager to deliver new features to attract more customers. 
+
+I facilitated a meeting where we discussed the trade-offs and aligned on the most impactful priorities. We used data to show that improving system performance would lead to better user experience and retention, which was more valuable in the long run. We agreed to delay some feature additions and focus on optimization first. Afterward, we reprioritized features in a phased approach to balance both short-term and long-term goals.
+
+---
+
+### **Result**  
+By aligning stakeholders around shared goals, using data to inform decisions, and facilitating collaboration, we were able to manage conflicting priorities effectively. We launched a more stable and performant product, which led to higher customer satisfaction, and then added new features in subsequent releases, keeping the business team happy as well.""")
+
+    with st.expander("Describe a time when you had to mediate a disagreement between stakeholders. How did you resolve it?"):
+        st.write("""### **Example**  
+In our digital human live-streaming platform project, I had to mediate a disagreement between three key stakeholders:  
+
+- **Product Team**: Pushed for new AIGC features, such as generating backgrounds and decorations for live-stream rooms, to attract more users.  
+- **Engineering Team**: Wanted to prioritize improving infrastructure, including rewriting the rendering resource scheduling system, to handle a larger scale of users and ensure system stability.  
+- **Business Team**: Was eager to launch new features quickly to drive short-term revenue, fearing that delays would result in missed market opportunities.  
+
+### **Action Taken**  
+To resolve this, I organized a cross-functional meeting to align priorities. During the meeting:  
+
+1. **Understanding Priorities**: I facilitated open discussions where each team explained their goals and concerns. This helped everyone see the broader picture and understand the trade-offs.  
+2. **Data-Driven Decision Making**: I presented metrics showing that without infrastructure improvements, the system risked performance issues under the expected growth, which could damage user experience and retention.  
+3. **Phased Approach**: I proposed a compromise:  
+   - Engineering would prioritize rewriting the rendering resource scheduling system to support larger-scale users and improve system efficiency.  
+   - Meanwhile, we would develop a few less resource-intensive AIGC features, like basic live-stream decorations, to meet immediate business needs.  
+4. **Clear Communication**: I reassured the business team that this approach would allow us to capture short-term opportunities while ensuring long-term scalability.  
+
+### **Result**  
+This phased approach helped align the teams. The engineering team delivered the infrastructure improvements on time, ensuring the platform could scale effectively. Simultaneously, we launched basic AIGC features, satisfying the product and business teams' immediate goals. The improved infrastructure later enabled us to roll out more advanced features without risking performance, leading to sustained growth and a better user experience.  
+
+### **Reflection**  
+This experience reinforced the importance of facilitating open communication, using data to inform decisions, and finding balanced solutions that address both short-term needs and long-term goals.""")
+
+    with st.expander("How do you involve stakeholders in decision-making without slowing down progress?"):
+        st.write("""### **Answer**  
+Involving stakeholders in decision-making is essential to ensure alignment and buy-in, but it’s equally important to maintain momentum. I follow a structured approach to achieve this balance:  
+
+1. **Define Clear Goals and Scope**: At the start of any project, I establish clear objectives and boundaries. This ensures everyone understands the desired outcomes and reduces unnecessary debates later.  
+
+2. **Use Structured Communication**: I create a streamlined process for stakeholder input, such as scheduled review meetings, feedback forms, or collaborative tools. This prevents ad-hoc interruptions while ensuring everyone has a voice.  
+
+3. **Segment Decisions**: I categorize decisions into levels of impact:  
+   - **High Impact**: Require stakeholder involvement (e.g., major feature prioritization or strategy shifts).  
+   - **Low Impact**: Empower the team to make these decisions independently to avoid bottlenecks.  
+
+4. **Leverage Data for Clarity**: I use data to frame discussions, helping stakeholders focus on facts rather than opinions. For example, presenting user analytics or performance metrics often speeds up consensus.  
+
+5. **Timebox Discussions**: For high-impact decisions, I set strict timelines for feedback and decision-making. This ensures we stay on track and avoid analysis paralysis.  
+
+6. **Communicate Trade-offs**: I clearly outline the trade-offs of each option, helping stakeholders make informed decisions quickly.  
+
+### **Example**  
+When we were working on the digital human live-streaming platform, we faced a decision about whether to prioritize advanced AIGC features or infrastructure improvements. I involved the product, engineering, and business teams by:  
+- Hosting a focused workshop to gather their perspectives and present data on the risks and benefits of each option.  
+- Using a structured decision-making framework to prioritize tasks based on impact and feasibility.  
+- Setting a one-week deadline for final input, after which we committed to a phased plan that balanced all priorities.  
+
+This approach ensured all stakeholders felt heard, while the team maintained focus and delivered results on time.  
+
+### **Reflection**  
+By combining structured communication, data-driven discussions, and clear timelines, I ensure stakeholder involvement enhances decision-making without slowing progress.""")
+
+    with st.expander("Can you share an example where you had to make a tough decision about what to work on next, considering diverse stakeholder input?"):
+        st.write("""### **Answer**  
+While working on the digital human live-streaming product, we faced a tough decision about what to prioritize next.  
+
+### **Situation**  
+The product team wanted to add more AIGC features, such as generating backgrounds and decorations for live-stream rooms. The marketing team pushed to prioritize video creation to meet the needs of education clients who wanted personalized teacher avatars. Meanwhile, the engineering team advocated for improving infrastructure to support a larger user base.  
+
+However, user feedback revealed a clear priority: the most desired feature was real-time, automatic interaction during live streams. Users emphasized that timely and engaging responses to audience questions were critical for live-streaming success.  
+
+### **Task**  
+The challenge was to balance these diverse stakeholder priorities while addressing the users’ top request.  
+
+### **Action**  
+After gathering input from all stakeholders, I facilitated a focused discussion to align on priorities. Using data from user feedback and competitive analysis, I highlighted the potential impact of real-time interaction on user satisfaction and market differentiation.  
+
+We decided to:  
+1. **Prioritize the audience interaction feature**: This became the top focus of our roadmap.  
+2. **Delay non-critical features**: AIGC enhancements and video creation were pushed to later phases.  
+3. **Allocate resources strategically**: I reallocated engineers to focus on building a Retrieval Augmented Generation (RAG) system that could extract answers from user-uploaded files and generate real-time responses.  
+
+The engineering team worked closely with the machine learning team to fine-tune the LLM for this use case. We also implemented infrastructure adjustments to ensure the system could handle the demands of real-time processing without compromising performance.  
+
+### **Result**  
+The real-time interaction feature became a standout capability, combining automated responses with the option for manual adjustments. This flexibility made it a key differentiator, significantly boosting user satisfaction and adoption rates. The decision to prioritize this feature not only met user needs but also strengthened our position in the competitive market.  
+
+### **Reflection**  
+This experience underscored the importance of staying user-focused and aligning diverse stakeholder priorities through clear communication and data-driven decision-making. By addressing the most critical user pain point, we delivered a feature that had a lasting impact on the product’s success.""")
+
+    with st.expander("What metrics do you use to measure the success of a product or delivery process?"):
+        st.write("""### **Answer**  
+Measuring the success of a product or delivery process involves using a mix of metrics to evaluate user impact, business value, and operational efficiency. During the development of the **digital human live-streaming platform**, we tracked the following metrics to ensure success:  
+
+### **1. Product Success Metrics**  
+- **User Adoption and Retention**: We monitored the number of users leveraging key features like script generation and real-time interaction, as well as retention rates over time. For instance, after launching the real-time interaction feature, active user numbers increased by over 30% in the first quarter.  
+- **Customer Satisfaction**: Post-launch surveys and Net Promoter Score (NPS) were used to gather feedback. Users consistently rated the real-time interaction feature as a standout capability.  
+- **Feature Utilization**: We tracked how often users engaged with features such as automated audience Q&A and live-streaming customization, ensuring they aligned with user needs.  
+- **Revenue Impact**: The platform generated tens of millions in annual revenue, demonstrating its strong business value and market fit.  
+- **Time-to-Value**: By prioritizing impactful features, users could quickly experience the core benefits of the product, like automated interaction, within their first few live streams.  
+
+### **2. Delivery Process Metrics**  
+- **On-Time Delivery**: Despite tight deadlines tied to the company’s LLM launch, we delivered the MVP on schedule, ensuring alignment with business goals.  
+- **Team Velocity**: We tracked sprint progress and maintained consistent output, reallocating resources when necessary to focus on high-priority tasks.  
+- **Defect Rate**: Quality was monitored closely by tracking and resolving bugs during development and after release, ensuring a smooth user experience.  
+- **Cycle Time**: We optimized processes to shorten the time from feature ideation to implementation, allowing us to quickly deliver features like distributed rendering for video generation.  
+- **Stakeholder Satisfaction**: Regular updates and alignment meetings ensured all stakeholders, including product, marketing, and engineering teams, were informed and engaged throughout the process.  
+
+### **Example in Practice**  
+When developing the **real-time interaction feature**, we identified it as the most desired capability based on user feedback.  
+- **Adoption and Retention**: User engagement increased significantly after its launch, with many citing it as a reason for choosing our platform over competitors.  
+- **Time-to-Market**: We delivered this feature on time by reallocating resources and focusing on technical innovations, such as a Retrieval-Augmented Generation (RAG) system for automated audience responses.  
+- **Revenue Impact**: This feature contributed directly to revenue growth, attracting new users and increasing retention among existing ones.  
+
+By leveraging these metrics, we ensured that the product delivered value to users, met business objectives, and maintained high-quality standards, all while fostering collaboration across teams.""")
+
+    with st.expander("How do you ensure the team understands and is motivated by these metrics?"):
+        st.write("""### **Answer**  
+Ensuring the team understands and is motivated by key metrics involves clear communication, alignment with goals, and fostering a sense of ownership. During the development of the **digital human live-streaming platform**, I used the following strategies:  
+
+### **1. Clear Communication of Metrics**  
+- **Transparent Goals**: I ensured the team knew the purpose behind each metric, such as how user adoption, revenue, and retention tied to the company’s success. For example, we emphasized that increasing user adoption of the real-time interaction feature would differentiate us in the competitive market.  
+- **Regular Updates**: Metrics were shared during sprint reviews and team meetings, showing progress and areas needing improvement. Visual dashboards helped make data accessible and actionable.  
+
+### **2. Alignment with Team Objectives**  
+- **Connecting Metrics to Impact**: I linked metrics to the team’s work, showing how their efforts contributed to success. For instance, when we launched the distributed rendering system to improve video creation, I highlighted how it directly reduced rendering times and improved user satisfaction.  
+- **Celebrating Wins**: Achievements tied to metrics, such as surpassing revenue targets or hitting adoption milestones, were celebrated to reinforce their importance and motivate the team.  
+
+### **3. Fostering Ownership and Engagement**  
+- **Collaborative Goal-Setting**: The team was involved in defining success criteria for features, such as performance benchmarks for the real-time interaction module. This gave them a sense of ownership over the outcomes.  
+- **Encouraging Innovation**: We empowered engineers and designers to suggest improvements that could impact key metrics. For example, the idea to implement Retrieval-Augmented Generation (RAG) for audience Q&A originated from a brainstorming session.  
+- **Providing Context**: I regularly explained how achieving these metrics aligned with the company’s broader vision, such as showcasing the platform as a flagship product to highlight our in-house LLM capabilities.  
+
+### **Example in Practice**  
+When user feedback highlighted the demand for real-time interaction, I shared this insight with the team, explaining how it would enhance adoption and retention metrics.  
+- **Motivation**: The team felt driven by the clear connection between their work and user impact.  
+- **Results**: The focus on this feature not only improved user satisfaction but also drove revenue growth, reinforcing the value of their efforts.  
+
+By making metrics meaningful, tying them to real-world impact, and creating a collaborative environment, I ensured the team stayed motivated and aligned with our goals.""")
+
+    with st.expander("After delivering a product, how do you evaluate its success and gather learnings for future projects?"):
+        st.write("""### **Answer**  
+Evaluating a product’s success and gathering learnings is a structured process that combines data analysis, stakeholder feedback, and retrospective discussions. Here’s how I approached this for the **digital human live-streaming platform**:  
+
+---
+
+### **1. Defining Success Metrics**  
+Before the product launch, we established clear success metrics to measure its performance, such as:  
+- **User Adoption**: Number of paying users and active users within the first three months.  
+- **Engagement**: Average session duration and the usage frequency of key features like real-time audience interaction.  
+- **Revenue**: Total revenue generated within a specific timeframe.  
+- **Feedback**: User satisfaction scores and feedback from surveys.  
+
+For example, our goal was to acquire at least 10,000 paying users and generate tens of millions in revenue within the first year, which we exceeded.
+
+---
+
+### **2. Post-Launch Monitoring**  
+We actively monitored the platform’s performance through analytics and user feedback:  
+- **Real-Time Data Tracking**: Dashboards tracked metrics like feature usage and system performance (e.g., rendering speed improvements after infrastructure optimizations).  
+- **User Feedback Channels**: We gathered insights through surveys, customer support tickets, and direct interviews with key users, such as e-commerce streamers and educational institutions.  
+
+---
+
+### **3. Stakeholder Reviews**  
+I conducted review sessions with internal teams to evaluate the product's impact:  
+- **Product Team**: Analyzed whether features like real-time interaction addressed user needs effectively.  
+- **Engineering Team**: Assessed technical challenges and identified areas for improvement, such as optimizing the rendering pipeline further.  
+- **Business Team**: Reviewed whether the product met revenue targets and aligned with market strategy.  
+
+---
+
+### **4. Retrospective Discussions**  
+We held a cross-functional retrospective to identify what went well and what could be improved:  
+- **Successes**: Launching the MVP on time and the strong adoption of real-time interaction features.  
+- **Challenges**: Initial inefficiencies in rendering and delayed implementation of some AIGC features.  
+- **Learnings**: The need for earlier prototyping and more user testing during development.  
+
+---
+
+### **5. Actionable Next Steps**  
+Based on the evaluation, we created a roadmap for future iterations:  
+- Prioritized adding AIGC features like background and decoration generation.  
+- Focused on scaling the infrastructure to support more concurrent users.  
+- Enhanced the feedback loop by integrating automated sentiment analysis into user surveys.  
+
+---
+
+### **Example in Practice**  
+After the launch, we noticed that real-time interaction was the most-used feature, driving high user satisfaction. However, we also learned that users wanted more customization options for digital avatars. This insight guided our next development phase, ensuring we addressed evolving user needs while building on the product’s success.
+
+By combining quantitative metrics, qualitative feedback, and collaborative retrospectives, I ensured we not only evaluated the product’s success effectively but also applied those learnings to future projects.""")
+
+    with st.expander("Can you share an example of a retrospective that led to significant improvements in your delivery process?"):
+        st.write("""### **Answer**  
+One retrospective that led to significant improvements in our delivery process occurred during the development of the **digital human live-streaming platform**. This was after we launched the MVP on a tight deadline to showcase the company’s in-house LLM capabilities.
+
+---
+
+### **Situation**  
+Our MVP was a success, but the development process revealed several challenges:  
+1. **Rendering Inefficiencies**: The rendering pipeline was too slow, taking over a minute to render a 10-second video.  
+2. **Resource Bottlenecks**: Teams were stretched thin, leading to delays in feature development and testing.  
+3. **Communication Gaps**: Cross-functional coordination needed improvement, as last-minute changes caused misalignment between product, engineering, and business teams.
+
+---
+
+### **Retrospective Structure**  
+The retrospective was structured around three key questions:  
+1. **What went well?**  
+2. **What didn’t go well?**  
+3. **What can we improve?**
+
+#### **1. What went well?**  
+- The MVP launch was on time, and we successfully demonstrated the LLM’s real-world applications.  
+- The real-time interaction feature became a standout success, exceeding user expectations.  
+
+#### **2. What didn’t go well?**  
+- Rendering inefficiencies caused delays and stress for the engineering team.  
+- Insufficient prototyping led to last-minute adjustments, especially for infrastructure-related tasks.  
+- Feedback loops with users were not integrated early enough in the development process.  
+
+#### **3. What can we improve?**  
+- Optimize the rendering pipeline to reduce processing time.  
+- Improve resource allocation to ensure teams are not overloaded.  
+- Establish clearer communication channels and processes for cross-functional collaboration.
+
+---
+
+### **Actionable Improvements**  
+From this retrospective, we implemented several changes:  
+
+1. **Rendering Optimization**  
+   - Introduced distributed rendering, splitting videos into smaller segments for parallel processing.  
+   - Upgraded to faster GPUs temporarily while refactoring the rendering engine for long-term efficiency.  
+
+2. **Prototyping and Testing**  
+   - Allocated more time for prototyping, especially for infrastructure-heavy features.  
+   - Increased the use of beta testing with early adopters to gather feedback earlier.  
+
+3. **Cross-Functional Communication**  
+   - Established regular syncs between product, engineering, and business teams to align priorities.  
+   - Created a shared roadmap with clear timelines and dependencies to reduce last-minute surprises.  
+
+4. **Team Well-Being**  
+   - Introduced stricter workload management to avoid overburdening team members.  
+   - Encouraged teams to raise potential blockers earlier during planning meetings.  
+
+---
+
+### **Results**  
+These changes had a noticeable impact:  
+- Rendering times improved by 5x, significantly enhancing user experience and reducing stress on the engineering team.  
+- Subsequent feature releases were smoother, with fewer delays and better alignment across teams.  
+- User feedback became a more integral part of the development process, leading to higher satisfaction with new features.  
+
+---
+
+### **Reflection**  
+This retrospective highlighted the importance of continuous improvement in both technical processes and team collaboration. By addressing these issues, we not only improved our delivery process but also set a strong foundation for scaling the product further.""")
+
+    with st.expander("How do you collaborate with other teams to ensure seamless delivery of cross-functional projects?"):
+        st.write("""### **Answer**  
+Collaboration with other teams is essential for the successful delivery of cross-functional projects. A great example of this is the **digital human live-streaming platform** project, which required close coordination between product, engineering, marketing, and business teams.
+
+---
+
+### **Approach**  
+
+#### **1. Clear Communication and Alignment**  
+- **Kickoff Meetings**: At the start of the project, I organized a kickoff meeting with all stakeholders to align on goals, timelines, and key deliverables.  
+- **Shared Roadmap**: We created a centralized roadmap outlining dependencies between teams, ensuring everyone understood how their work contributed to the overall project.  
+
+#### **2. Defined Roles and Responsibilities**  
+- To avoid confusion, I worked with team leads to clearly define roles and ownership for each task. For instance:  
+  - The product team focused on user requirements and feature prioritization.  
+  - The engineering team handled technical feasibility and development timelines.  
+  - The marketing team prepared campaigns for the launch.  
+
+#### **3. Regular Updates and Check-Ins**  
+- **Weekly Syncs**: I facilitated weekly cross-functional meetings to track progress, address blockers, and adjust plans as needed.  
+- **Status Reports**: Teams shared concise updates to ensure transparency without creating unnecessary overhead.  
+
+#### **4. Proactive Conflict Resolution**  
+- When priorities conflicted, such as engineering wanting to optimize infrastructure while the product team pushed for more AIGC features, I mediated discussions to balance short-term needs with long-term goals.  
+- For example, we agreed to focus on infrastructure improvements after the MVP launch while delivering a smaller set of AIGC features in parallel.  
+
+#### **5. Leveraging Tools for Collaboration**  
+- We used tools like Jira for task tracking, Confluence for documentation, and Slack for quick communication. These tools ensured everyone stayed informed and could easily access project details.
+
+---
+
+### **Example in Action**  
+During the project, one critical milestone was integrating the real-time interaction feature. This required:  
+- **Engineering**: Developing the Retrieval Augmented Generation (RAG) system for automated responses.  
+- **Product**: Defining user experience and ensuring it met customer needs.  
+- **Marketing**: Highlighting this feature in campaigns to differentiate us from competitors.  
+
+By fostering close collaboration, we delivered the feature on time, and it became a key driver of user adoption and satisfaction.
+
+---
+
+### **Results**  
+- The project launched on schedule, gaining over 10,000 paying users and generating tens of millions in revenue.  
+- Teams reported improved alignment and reduced friction, setting a precedent for future projects.  
+
+---
+
+### **Reflection**  
+This experience reinforced the importance of clear communication, defined roles, and regular check-ins in cross-functional collaboration. By building trust and aligning on shared goals, we ensured seamless delivery despite the complexity of the project.""")
+
+    with st.expander("Describe a situation where cross-team dependencies caused delays. How did you manage this?"):
+        st.write("""### **Answer**
+
+While working on the **digital human product** at CloudWalk, we encountered a situation where **cross-team dependencies** caused delays. The **backend architect** and an **engineer from the infrastructure team** had differing views on the system's resource scheduling needs. The backend architect argued that a **new scheduling system** was necessary to meet the unique demands of digital human rendering for a **consumer-facing product**, while the infrastructure engineer believed the **existing system**, designed for B2B projects, could be adapted with only minor adjustments.
+
+As the engineering manager, I stepped in to **mediate** the situation. Here's how I approached it:
+
+---
+
+### **1. Understand Concerns and Align Teams**  
+First, I met with both engineers individually to **understand their perspectives**. The backend architect was concerned about the system’s ability to **scale** for high user demand, while the infrastructure engineer wanted to **avoid unnecessary complexity** and cost by sticking with the existing system. It became clear that both had valid points, but the path forward needed to balance short-term efficiency with long-term scalability.
+
+---
+
+### **2. Collaborate with Cross-Functional Teams**  
+Next, I involved the **manager of the infrastructure team** in the discussion. We conducted a **thorough assessment** of both approaches, estimating the required resources, task complexity, and timeline for each. This collaborative effort helped us better understand the trade-offs between redesigning the system versus making incremental improvements to the existing one.
+
+---
+
+### **3. Make a Data-Driven Decision**  
+After evaluating both options, we concluded that **redesigning the resource scheduling system** was the best solution for ensuring **scalability and performance** in the long run. The existing system was not capable of handling the expected growth, and adapting it would have led to more complications down the line.
+
+---
+
+### **4. Adjust Project Scope and Timeline**  
+To move forward, we **adjusted the project scope** and timeline to accommodate the redesign. We ensured both teams had the necessary **resources** and **time** to complete the work without overloading anyone. This also meant re-prioritizing certain tasks to ensure that we didn’t compromise on the quality of the final product.
+
+---
+
+### **5. Maintain Open Communication**  
+Throughout the process, I kept communication open between the teams, ensuring everyone was aligned on the goals and expectations. By **fostering collaboration** and focusing on the long-term impact, we were able to transform the conflict into an opportunity to build a more **robust** and **scalable system**.
+
+---
+
+### **Result**  
+In the end, we successfully redesigned the resource scheduling system, which not only supported the **scalability** of the digital human product but also positioned us for future growth. The delay was mitigated by adjusting the scope and timelines, and the teams were able to deliver a higher-quality, more sustainable solution.
+
+---
+
+### **Reflection**  
+This experience reinforced the importance of **open communication** and **collaboration** in resolving cross-team dependencies. By focusing on shared goals and aligning teams on the long-term vision, we were able to turn a potential delay into a strategic advantage for the project.""")
+
+    with st.expander("How do you guide your team when the product vision or requirements are unclear? / How do you make decisions when faced with incomplete or ambiguous information?"):
+        st.write("""Decision-making in uncertain situations requires balancing speed and quality:\n
+1. Gather Available Data:\n
+  - I collect as much relevant data as possible within the given constraints. For example, during the early phases of developing the knowledge engine at CloudWalk, I relied on partial user feedback and historical project data to guide initial decisions.\n
+2. Leverage Frameworks:\n
+  - Decision Trees: I map out possible outcomes of each option, weighing their likelihood and impact.\n
+  - Cost-Benefit Analysis: I compare the potential benefits of a decision against its risks and costs. For instance, when deciding whether to refactor the rendering engine for digital humans, this approach helped me justify the resource investment.\n
+3. Consult Experts:\n
+  - I leverage the expertise within my team or network. Collaborative brainstorming often surfaces perspectives I hadn’t considered, reducing ambiguity.\n
+4. Emphasize Iteration:\n
+  - I adopt an iterative approach, making incremental decisions where possible. By starting small, such as building a proof-of-concept, I gather insights that guide the next steps.\n
+5. Document Assumptions:\n
+  - I ensure all decisions are accompanied by documented assumptions. If outcomes don’t align with expectations, this helps in revisiting and refining the decision.\n
+This approach enables me to act decisively, even in ambiguous situations, while minimizing the risk of failure.""")
+
+    with st.expander("Share an example of a project where you had to work with incomplete or evolving requirements. / Tell me about a time you made decision with incomplete information."):
+        st.write("""1. **Key summary:** \n
+I made decisions by gathering as much relevant information as possible, analyzing risks and trade-offs, and using a phased approach to test and validate assumptions.\n  
+2. **Details:**  \n
+When we started developing the digital human live-streaming product, the concept of using large language models (LLMs) for live-stream script generation was new, and the market response was uncertain. We had limited data on how users would interact with the feature and whether it would truly solve their pain points.\n  
+3. **Action taken:**  \n
+- **Gathering information:** I conducted user interviews and market research to understand live-streaming pain points. Users consistently mentioned challenges in creating engaging and professional scripts, which gave us confidence in the core idea.\n  
+- **Analyzing trade-offs:** Despite this input, there was still uncertainty about whether the auto-generated scripts would meet users' expectations. Instead of committing to a fully automated system immediately, we opted to combine automation with user input, turning the feature into a "co-pilot" where users could edit and enhance generated scripts.\n  
+- **Phased rollout:** We developed an MVP with basic script generation and launched it to a small group of users to gather feedback. This allowed us to test our assumptions without investing too much time or resources upfront.  \n
+4. **Results:**  \n
+The phased approach helped us validate the feature while addressing ambiguity. User feedback showed that they valued the co-pilot feature because it saved time and offered creative suggestions while still allowing customization. This insight guided our development of more advanced features, like improving script personalization and fine-tuning the LLM for specific user needs.\n  
+5. **Reflection:**  \n
+This experience taught me the value of embracing uncertainty by making informed decisions and testing hypotheses early. Breaking complex challenges into smaller steps and validating them through real-world feedback reduces risks and allows for better outcomes.""")
+
+    with st.expander("Tell me about a time you made decision with incomplete information. **Another example**"):
+        st.write("""Situation:\n
+When we were developing the real-time interaction feature for the digital human product, we faced a critical challenge due to the hallucination problem of large language models (LLMs). The LLM would sometimes generate inaccurate or irrelevant responses, which could harm the user experience and trust in the product. At the time, Retrieval-Augmented Generation (RAG) was emerging as a potential solution, but it was still relatively new, and there was uncertainty about how well it would perform in production or how the market would respond.\n
+Task:\n
+My goal was to ensure that the real-time interaction feature could provide accurate and reliable responses while mitigating the risk of LLM hallucinations. I needed to make a decision about whether to adopt the RAG approach despite the incomplete information and uncertainties surrounding its effectiveness and market acceptance.\n
+Action:\n
+I started by gathering information on the RAG approach, including reviewing existing research and talking to experts in the field to understand its potential benefits and limitations. After gathering this information, I carefully analyzed the trade-offs, considering the potential risks of adopting a new technology versus the opportunity to improve the product’s reliability. I decided to proceed with RAG, but I opted for a phased rollout. We began with a small-scale proof of concept, closely monitoring performance and user feedback. This allowed us to refine the system gradually, making adjustments based on real-world usage while minimizing the impact of potential issues.\n
+Result:\n
+The results were encouraging. RAG significantly reduced hallucinations, and user feedback was positive, highlighting the improved accuracy and reliability of the responses. Over time, we iteratively enhanced the knowledge base and fine-tuned the system, which led to a much better product experience. This decision not only addressed a critical technical challenge but also helped us differentiate our product in the market and gain user trust.""")
+
     st.header("Project retrospective")
     with st.expander("Can you talk about a gap you identified during a project? How did you address it?"):
         st.write("""Situation:\n
@@ -906,45 +1802,6 @@ By following this method, I ensure the team delivers on deadlines without compro
 The deadline was tight, and we had a lot to figure out—making sure the real-time interaction was smooth, integrating the LLM, and preparing a demo that would impress both the company and potential customers.\n
 To make it happen, we prioritized tasks carefully, focused only on what was absolutely necessary for the showcase, and worked closely as a team. For example, I made sure engineers, designers, and product managers were all aligned and constantly in sync. We even worked late a few nights to fix some tricky bugs.\n
 In the end, we finished everything on time, and the demo went really well. The product’s real-time interaction feature was a big hit and showed off the LLM’s potential in a practical, exciting way. It was a great example of how we pulled together as a team under pressure and made something amazing happen.""")
-
-    with st.expander("How do you make decisions when faced with incomplete or ambiguous information?"):
-        st.write("""Decision-making in uncertain situations requires balancing speed and quality:\n
-1. Gather Available Data:\n
-  - I collect as much relevant data as possible within the given constraints. For example, during the early phases of developing the knowledge engine at CloudWalk, I relied on partial user feedback and historical project data to guide initial decisions.\n
-2. Leverage Frameworks:\n
-  - Decision Trees: I map out possible outcomes of each option, weighing their likelihood and impact.\n
-  - Cost-Benefit Analysis: I compare the potential benefits of a decision against its risks and costs. For instance, when deciding whether to refactor the rendering engine for digital humans, this approach helped me justify the resource investment.\n
-3. Consult Experts:\n
-  - I leverage the expertise within my team or network. Collaborative brainstorming often surfaces perspectives I hadn’t considered, reducing ambiguity.\n
-4. Emphasize Iteration:\n
-  - I adopt an iterative approach, making incremental decisions where possible. By starting small, such as building a proof-of-concept, I gather insights that guide the next steps.\n
-5. Document Assumptions:\n
-  - I ensure all decisions are accompanied by documented assumptions. If outcomes don’t align with expectations, this helps in revisiting and refining the decision.\n
-This approach enables me to act decisively, even in ambiguous situations, while minimizing the risk of failure.""")
-
-    with st.expander("Tell me about a time you made decision with incomplete information."):
-        st.write("""1. **Key summary:** \n
-I made decisions by gathering as much relevant information as possible, analyzing risks and trade-offs, and using a phased approach to test and validate assumptions.\n  
-2. **Details:**  \n
-When we started developing the digital human live-streaming product, the concept of using large language models (LLMs) for live-stream script generation was new, and the market response was uncertain. We had limited data on how users would interact with the feature and whether it would truly solve their pain points.\n  
-3. **Action taken:**  \n
-- **Gathering information:** I conducted user interviews and market research to understand live-streaming pain points. Users consistently mentioned challenges in creating engaging and professional scripts, which gave us confidence in the core idea.\n  
-- **Analyzing trade-offs:** Despite this input, there was still uncertainty about whether the auto-generated scripts would meet users' expectations. Instead of committing to a fully automated system immediately, we opted to combine automation with user input, turning the feature into a "co-pilot" where users could edit and enhance generated scripts.\n  
-- **Phased rollout:** We developed an MVP with basic script generation and launched it to a small group of users to gather feedback. This allowed us to test our assumptions without investing too much time or resources upfront.  \n
-4. **Results:**  \n
-The phased approach helped us validate the feature while addressing ambiguity. User feedback showed that they valued the co-pilot feature because it saved time and offered creative suggestions while still allowing customization. This insight guided our development of more advanced features, like improving script personalization and fine-tuning the LLM for specific user needs.\n  
-5. **Reflection:**  \n
-This experience taught me the value of embracing uncertainty by making informed decisions and testing hypotheses early. Breaking complex challenges into smaller steps and validating them through real-world feedback reduces risks and allows for better outcomes.""")
-
-    with st.expander("Tell me about a time you made decision with incomplete information. **Another example**"):
-        st.write("""Situation:\n
-When we were developing the real-time interaction feature for the digital human product, we faced a critical challenge due to the hallucination problem of large language models (LLMs). The LLM would sometimes generate inaccurate or irrelevant responses, which could harm the user experience and trust in the product. At the time, Retrieval-Augmented Generation (RAG) was emerging as a potential solution, but it was still relatively new, and there was uncertainty about how well it would perform in production or how the market would respond.\n
-Task:\n
-My goal was to ensure that the real-time interaction feature could provide accurate and reliable responses while mitigating the risk of LLM hallucinations. I needed to make a decision about whether to adopt the RAG approach despite the incomplete information and uncertainties surrounding its effectiveness and market acceptance.\n
-Action:\n
-I started by gathering information on the RAG approach, including reviewing existing research and talking to experts in the field to understand its potential benefits and limitations. After gathering this information, I carefully analyzed the trade-offs, considering the potential risks of adopting a new technology versus the opportunity to improve the product’s reliability. I decided to proceed with RAG, but I opted for a phased rollout. We began with a small-scale proof of concept, closely monitoring performance and user feedback. This allowed us to refine the system gradually, making adjustments based on real-world usage while minimizing the impact of potential issues.\n
-Result:\n
-The results were encouraging. RAG significantly reduced hallucinations, and user feedback was positive, highlighting the improved accuracy and reliability of the responses. Over time, we iteratively enhanced the knowledge base and fine-tuned the system, which led to a much better product experience. This decision not only addressed a critical technical challenge but also helped us differentiate our product in the market and gain user trust.""")
 
     with st.expander("What frameworks or principles guide your decision-making as a leader?"):
         st.write("""Several core principles guide my leadership decisions:\n
@@ -1076,23 +1933,6 @@ This experience highlighted the importance of balancing short-term needs with lo
 **6. Resolving obstacles:** I proactively worked to eliminate blockers. For instance, I negotiated additional GPU resources with senior management to address rendering bottlenecks, ensuring the team had the tools needed to deliver high-quality results on time.  \n
 By combining these approaches, I created a supportive and purpose-driven environment where my team was motivated to overcome challenges and deliver an innovative, market-leading product.""")
 
-    with st.expander("How do you manage multiple requests for your team, how do you deal with competing priorities?"):
-        st.write("""Sure! At CloudWalk, I often had to manage multiple requests from different stakeholders while working on our digital human live-streaming product. One specific instance was when the product was in its early stages, and I was juggling requests from the product manager, marketing team, and engineering team, all with competing priorities.
-
-Here’s how I handled it:
-
-1. **Understand and Prioritize**: I started by gathering all the requests and breaking them down into specific tasks. For example, the product manager wanted a new feature to differentiate us in the market, the marketing team needed a demo for an upcoming event, and the engineering team needed time to address technical debt that was slowing development. I evaluated each request based on urgency, impact on the product, and alignment with our goals.
-
-2. **Communicate Transparently**: I held a meeting with all stakeholders to share my understanding of their needs and explained the trade-offs. For example, I pointed out that if we focused on the marketing demo, the feature delivery might be delayed, but it could help attract early adopters. This open communication helped everyone understand the bigger picture.
-
-3. **Create a Plan**: Based on the discussion, I developed a plan that balanced short-term and long-term goals. We decided to allocate time for the marketing demo first since it had a hard deadline, while simultaneously starting initial work on the new feature. For technical debt, I scheduled dedicated time in the following sprint to address it.
-
-4. **Delegate and Monitor**: I delegated tasks based on team members’ strengths and ensured everyone was clear on their responsibilities. I also set up regular check-ins to track progress and quickly adjust if priorities shifted.
-
-5. **Reflect and Learn**: After the marketing event, I reviewed the process with the team to see what worked and what could be improved for the next time. This helped us streamline how we managed competing requests going forward.
-
-By staying organized, communicating clearly, and being flexible, I was able to meet the marketing deadline, make progress on the new feature, and address the technical debt in the next sprint. This experience taught me the importance of balancing immediate needs with long-term priorities and making sure everyone is aligned.""")
-
     with st.expander("Tell me about a time how did you setup projects for success?"):
         st.write("""Let me take the digital human project as an example, to set up it for success, I focused on three key areas: **defining success clearly**, **managing timelines effectively**, and **fostering strong communication and morale**.\n  
 **1. Defining success clearly:**  \n
@@ -1126,15 +1966,6 @@ To track impact effectively, I used a mix of quantitative metrics (like revenue,
 To balance these priorities, I start by understanding each team member’s strengths, career aspirations, and development areas through one-on-ones and feedback sessions. I then align their growth with the team’s needs. For instance, if someone wants to improve their leadership skills, I might assign them as the lead for a critical project or a mentor for a junior team member. Similarly, if someone wants to deepen their technical expertise, I ensure they work on challenging technical problems that align with the team’s goals.\n
 For example, during the development of the digital human product at CloudWalk, I noticed that one of my engineers was interested in transitioning to a more architectural role. I assigned them to lead the design of a new rendering pipeline, which was a key component of the project. This not only supported their growth but also significantly advanced the project by increasing the rendering efficiency.\n
 By regularly checking in and adjusting responsibilities as needed, I ensure that individuals continue to grow while the team meets its objectives. This approach has helped me maintain a motivated team that consistently delivers results.""")
-
-    with st.expander("How do you ensure your team is aligned with company or product goals?"):
-        st.write("""To align my team with company or product goals, I focus on clear communication, connecting their work to the broader vision, and reinforcing alignment throughout the project lifecycle:\n  
-1. **Translate High-Level Goals into Team Objectives**: I break down company or product goals into clear, actionable objectives for the team. For example, at CloudWalk, when the company shifted its focus to large model applications after ChatGPT’s release, I translated this strategic priority into a roadmap for our digital human live-streaming product. I ensured the team understood how this project fit into the company’s vision and growth strategy.\n  
-2. **Communicate the “Why”**: I explain the purpose behind goals and how they align with market needs and company priorities. During our digital human project, I regularly reminded the team of the value we were delivering to users and how the product supported the company’s success.  \n
-3. **Regular Review and Adjust**: I establish check-ins to review progress and ensure ongoing alignment. For example, in bi-weekly sprint reviews, I revisited goals, addressed roadblocks, and adjusted plans as necessary to stay on track. \n
-4. **Empower Ownership**: I encourage team members to take ownership of their tasks, linking their responsibilities to company outcomes. This fosters a sense of purpose and accountability.  \n
-5. **Celebrate Successes**: Highlighting how the team’s work contributes to achieving larger goals reinforces alignment and boosts motivation. For instance, when our digital human product achieved revenue milestones, I shared these wins with the team to emphasize their impact.\n  
-This approach ensures my team stays focused, motivated, and aligned with overarching company or product goals.""")
 
     with st.expander("Creating Quarterly Team OKRs."):
         st.write("""When creating quarterly OKRs for my team, I start by reflecting on the purpose of OKRs and their role in aligning and motivating the team. Clear OKRs provide direction and a shared focus, which are crucial for driving team performance and achieving our objectives. Here’s how I approach the process:\n
