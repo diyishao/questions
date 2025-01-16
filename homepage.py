@@ -865,6 +865,28 @@ This decision allowed us to deliver impactful features quickly, meeting customer
 
 By balancing technical feasibility with product and business priorities, I ensured we delivered value efficiently while laying the groundwork for future enhancements.""")
 
+    with st.expander("Describe a situation where you had to align technical decisions with product or business needs. How did you manage this?(Generate reports.)"):
+        st.write("""**Situation:**  
+During the development of our digital human live-streaming product, we identified a pain point through conversations with merchants: after each live stream, their teams spent significant time manually analyzing what went well and what needed improvement. This process was not only labor-intensive but also often failed to yield actionable insights. To address this, we decided to align our technical roadmap with business needs by developing a feature that would automatically generate a comprehensive post-stream analysis report.
+
+**Task:**  
+Our objective was to create a feature that went beyond basic metrics like peak viewers and best-selling products. We aimed to leverage AI, specifically large language models, to analyze live-stream content, summarize audience interactions, and provide actionable insights that merchants could use to improve their future streams.
+
+**Action:**  
+To align technical decisions with business needs, I focused on three key aspects:  
+
+1. **Integrated Data Analytics:**  
+   Designed and implemented a system to capture and analyze key live-stream metrics, including viewer engagement and product performance.  
+
+2. **Leveraging Large Language Models:**  
+   Built an AI-powered tool to analyze live-stream scripts and audience interaction logs. This tool categorized audience questions, highlighted unanswered ones, and allowed merchants to add responses, creating a feedback loop for continuous improvement.  
+
+3. **User-Centric Design:**  
+   Ensured the feature delivered actionable insights by presenting clear recommendations and improvement strategies. We engaged users throughout the development process, iterating based on their feedback to ensure the feature met real-world needs effectively.  
+
+**Result:**  
+The post-stream analysis feature became a cornerstone of our product, saving merchants hours of manual work while providing valuable, actionable insights. Merchants particularly appreciated the AI-driven summaries of audience interactions, which helped them address customer needs more effectively. This feature not only boosted user satisfaction but also contributed significantly to the product’s success, attracting new clients and enhancing our competitive edge in the market.""")
+
     with st.expander("What processes or frameworks do you use to ensure your team delivers projects on time?"):
         st.write("""### **1. Set Clear Goals and Milestones**  
 I start by defining clear project goals and breaking them into smaller, measurable milestones. Each milestone is tied to specific deliverables, ensuring the team has a clear understanding of expectations and timelines.  
