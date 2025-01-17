@@ -2091,6 +2091,194 @@ By embedding these practices, I aim to build a team that not only reflects diver
 By fostering open communication, collaboration, and mutual understanding, I ensure recruiters and hiring managers work effectively together to achieve our shared goal: hiring the best talent for the team.""")
 
 with tab3:
+    with st.expander("Presentation notes"):
+        st.write("""## **Motivation & Timeline**
+
+I’m particularly proud of a project I led at CloudWalk, where we developed a digital human live-streaming product. CloudWalk, traditionally focused on B2B and government clients, saw a unique opportunity to explore consumer-facing applications following the rise of large language models, especially after ChatGPT’s release in late 2022.  
+
+The idea for this product originated while we were working on a knowledge engine for enterprise clients. Some of our e-commerce customers in the live-streaming industry expressed a need for intelligent customer service solutions. This got us thinking. In China, live-streaming e-commerce is a massive industry, contributing ¥4.9 trillion to the economy in 2023. However, it’s also incredibly expensive to hire human hosts, and smaller businesses often struggle with the high barriers to entry.  
+
+We asked ourselves: what if we could leverage AI to solve this problem? What if digital humans could assist or even partially replace live hosts? This sparked the creation of a product that combined large language models with digital avatars. Users could customize their virtual host’s appearance and voice, automatically generate product presentation scripts, and even add interactive features to engage with viewers in real time.  
+
+This product quickly became a core strategic application within CloudWalk, demonstrating its value by solving real market challenges. It was adopted by over 10,000 paying users, generating millions in revenue and proving the power of AI-driven innovation.  
+
+---
+
+The timeline of this project highlights how quickly we moved from idea to success:  
+
+- **November 2022:** The release of ChatGPT inspired us to explore the potential of large language models in consumer-facing applications.  
+- **February 2023:** We officially kicked off the project, assembling a cross-functional team and laying the foundation.  
+- **May 2023:** Just three months later, we launched the Minimum Viable Product (MVP). It featured basic functionality like script generation and avatar customization, allowing us to gather user feedback early.  
+- **April 2024:** The product reached a major milestone with 10,000 paying users, solidifying its position as a key driver of CloudWalk’s success.  
+
+This project was not only about building a product but also about identifying the right market opportunity, understanding user pain points, and delivering a solution that combined cutting-edge AI with practical applications. It’s a journey that I’m incredibly proud of and one that showcases the transformative potential of AI in solving real-world problems.
+
+---
+
+## **The Team Set Up**  
+
+To bring the digital human live-streaming product to life, we needed a highly skilled and collaborative team. Building this team was one of the most critical aspects of the project’s success.  
+
+From the start, I knew this project required expertise across multiple domains. We needed people who could work seamlessly together to tackle challenges in areas like natural language processing, rendering technology, and backend systems. With this in mind, I assembled a cross-functional team that included:  
+
+- **NLP & LLM Fine-tuning Experts:** Their role was to customize large language models to generate live-stream scripts and ensure the AI could understand and respond to audience questions in real time.  
+- **Frontend Engineers:** They focused on creating an intuitive and user-friendly interface where customers could customize their digital avatars and manage their live streams.  
+- **Backend Engineers:** They handled the system architecture, ensuring our platform could scale to meet growing demand while maintaining performance and reliability.  
+- **Product and Design Team:** They ensured the product met user needs by designing a seamless experience and gathering continuous feedback from our customers.  
+
+Beyond the core team, we collaborated closely with other departments at CloudWalk:  
+
+- **Infrastructure Team:** They provided the cloud computing resources needed for real-time rendering and AI processing.  
+- **Foundation LLM Team:** They supported us in fine-tuning and deploying large language models tailored to our specific use case.    
+- **Digital Human Rendering Specialists:** This team worked on the technical challenges of creating realistic digital avatars, from rendering lifelike expressions to optimizing performance for real-time applications.  
+- **TTS & ASR Engineers:** These experts worked on Text-to-Speech and Automatic Speech Recognition, enabling digital humans to speak naturally and respond accurately to user inputs.
+
+Besides the engineering team, there are additional supporting teams:
+- **Marketing & Sales**: Drives user acquisition and revenue.
+- **Operations & Customer Service**: Provides user support and ensures smooth operations.
+
+Building this team wasn’t just about assigning roles—it was about creating a culture of collaboration and shared vision. I communicated the project’s goals and potential impact early on, ensuring every team member understood their role in delivering a product that could transform the live-streaming industry.  
+
+As the project progressed, the team grew from around 20 people to over 30. Early on, when the team was smaller, I was hands-on, stepping in to help with the initial design and system architecture. As we scaled, I focused more on leadership—resolving conflicts, securing resources, and maintaining alignment across teams.  
+
+This collaborative and well-structured setup was a key reason we could deliver a complex product on time and exceed market expectations. It’s a testament to the power of bringing together diverse expertise under a shared mission.  
+
+---
+
+## **Core Features**  
+
+The digital human live-streaming product was designed to address two major use cases: **live-streaming e-commerce** and **video creation**. While these features share some underlying modules, they are tailored to serve very different user needs.  
+
+### **E-commerce Live Streaming**  
+Live-streaming e-commerce is a massive industry in China, and our product was built to make it more accessible and cost-effective. The core features for live streaming include:  
+
+- **Customized Avatar and Voice:** Users can create a virtual host that matches their brand image, selecting everything from appearance to voice tone.  
+- **Live Stream Room Decoration:** We provided tools to personalize the virtual live-stream environment, ensuring it felt professional and engaging.  
+- **Script Generation Copilot:** With the help of our customized large language model, users could automatically generate detailed product presentation scripts tailored to their audience.  
+- **Real-Time Audience Interaction:** This feature allowed digital hosts to answer audience questions dynamically, making the live stream feel more interactive and engaging.  
+- **Social Platform Integration:** We enabled seamless integration with major social platforms, allowing users to broadcast their live streams directly to their target audience.  
+
+This suite of features was designed to replicate and enhance the experience of a traditional live-stream host, significantly lowering costs while maintaining high levels of engagement.  
+
+### **Video Creation**  
+On the other hand, video creation catered to users who needed pre-recorded, polished content. This was particularly useful for businesses creating promotional videos or product demos. Key features included:  
+
+- **Customized Avatar and Voice:** Similar to live streaming, users could create a digital host for their videos.  
+- **Video Background Editing:** We provided tools to customize and edit video backgrounds, making the final output visually appealing and on-brand.  
+- **Script Generation Copilot:** The same AI-driven script generation module was used here, helping users quickly draft compelling narratives for their videos.  
+- **Background Music & Captions:** Users could add background music and captions automatically, saving time and ensuring a professional touch.  
+- **Rendered Videos:** Once everything was set up, the platform would render high-quality videos that could be downloaded and shared.  
+
+### **Shared Modules and Differentiation**  
+Both live-streaming and video creation relied on shared core modules, such as the **customized avatar** and **script generation copilot**. This modular approach allowed us to optimize development resources and maintain consistency across features.  
+
+However, the two use cases were fundamentally different in their focus. Live streaming prioritized **real-time interaction** and integration with social platforms, making it ideal for businesses engaging with audiences directly. Video creation, on the other hand, emphasized **polished production** and flexibility, catering to users who needed high-quality, pre-recorded content.  
+
+By addressing these distinct needs while leveraging shared technology, we created a versatile product that could serve a wide range of users, from small business owners to large e-commerce platforms. This adaptability was one of the key reasons the product gained such strong traction in the market.  
+
+---
+
+## **Customized Avatar**  
+
+One of the standout features of our digital human product was the ability for users to create fully customized avatars, including both appearance and voice. This feature allowed businesses to craft a virtual host that perfectly aligned with their brand identity, but achieving this level of customization required solving several technical challenges, both in **offline preparation** and **online serving**.  
+
+### **Offline Preparation**  
+When we first launched the product, the customization process was entirely manual. Users would send their recordings—typically audio and video—via WeChat to our sales team. The operations team would then review these recordings to ensure they met quality standards. If they didn’t, the user had to redo the recordings. Once approved, the recordings were handed over to our machine learning engineers for custom model training. While this worked for a small user base, it became unscalable as the number of users grew.  
+
+To address this, we developed a fully automated system to streamline the entire workflow:  
+
+- **User-Friendly Upload System:** Users could upload their audio and video recordings directly through the platform. We included step-by-step recording guides to ensure high-quality submissions.  
+- **Gamified Audio Recording:** Audio recording had more steps compared to video, so we gamified the process to make it engaging and less tedious for users.  
+- **Streamlined Review and Feedback:** On the backend, our operations team could review uploaded content directly within the system and provide feedback for improvements if necessary.  
+- **Automated Training Workflow:** Once recordings were approved, the system automatically notified machine learning engineers, who could start training custom models with just a single click.  
+- **Seamless Deployment:** After training, the custom models were deployed automatically, and users were notified when their personalized avatars were ready to use.  
+
+This automated pipeline not only scaled effectively with the growing user base but also improved the overall user experience and significantly reduced internal operational overhead.  
+
+### **Online Serving**  
+Once the customized avatars were ready, the system had to support **real-time rendering** and other lower-priority tasks. This required careful optimization of the rendering pipeline.  
+
+- **Text-to-Speech (TTS) Integration:** The digital human rendering model was designed to accept audio as input. For live streams and pre-recorded videos, this meant converting scripts into audio using our TTS engine before passing them to the rendering model.  
+- **Real-Time vs. Lower-Priority Rendering:** Real-time rendering was prioritized for live-streaming scenarios, where the digital human needed to respond dynamically to audience interactions. For lower-priority tasks, such as rendering pre-written scripts or non-interactive videos, we implemented a queue-based system to process these tasks in the background.  
+
+This dual-priority approach ensured that real-time use cases were always responsive, while non-urgent tasks could be handled efficiently without impacting performance.  
+
+### **The Result**  
+By addressing both the offline and online challenges, we created a seamless and scalable system for avatar customization. Users could easily create avatars that felt personal and professional, while the backend systems ensured smooth and efficient operation. This feature became a key differentiator for our product, helping it stand out in the competitive digital human market.
+
+---
+
+## **Script Generation Copilot**  
+
+One of the most innovative and practical features of our digital human product was the **Script Generation Copilot**. This feature was designed to simplify the process of creating engaging and professional scripts for live streams and videos, addressing a major pain point for users who often struggled with scriptwriting.  
+
+### **The Problem**  
+In live-streaming e-commerce, hosts need well-crafted scripts to present products effectively. These scripts not only need to highlight product features but also engage the audience with a conversational tone. Writing such scripts is time-consuming, especially for small businesses or individuals without professional copywriting experience.  
+
+### **The Solution**  
+We developed the Script Generation Copilot to help users create high-quality scripts quickly and easily. This feature leveraged the power of large language models (LLMs) to automate the scriptwriting process while allowing users to maintain creative control.  
+
+#### **Core Capabilities**  
+- **Automated Script Drafting:** Users could simply input a product description, a few key details, or even just a product link. The system would then generate a complete script tailored to their needs.  
+- **Customizable Style and Tone:** Users could specify the tone they wanted—whether formal, casual, humorous, or professional—and the system would adjust the script accordingly.  
+- **Iterative Editing:** The system allowed users to edit the generated script directly, offering suggestions for improvements or alternative phrasing as they worked.  
+- **Real-Time Feedback:** As users made edits, the system learned from their preferences, continuously improving its ability to generate scripts that aligned with their style.  
+
+### **Integration with Other Features**  
+The Script Generation Copilot was seamlessly integrated into the broader workflow of the digital human product:  
+- **Live Stream and Video Creation:** While live-streaming and video creation shared some common modules, their users had different needs. For live streams, the Copilot generated scripts that were dynamic and conversational, ideal for real-time audience interaction. For videos, it focused on more polished and structured content.  
+- **TTS and Rendering Pipeline:** Once the script was finalized, it could be passed directly to the TTS engine, converting it into audio for digital human rendering.  
+
+### **User Experience Enhancements**  
+To make the feature even more user-friendly, we added:  
+- **Templates for Common Scenarios:** Pre-designed templates for product introductions, promotions, and Q&A sessions, giving users a head start.  
+- **Multi-Language Support:** Recognizing the global nature of e-commerce, we enabled the system to generate scripts in multiple languages, allowing users to reach a broader audience.  
+
+### **The Impact**  
+The Script Generation Copilot became a favorite feature among users, especially small business owners who lacked the resources to hire professional scriptwriters. It not only saved them time but also boosted the quality of their presentations, helping them stand out in the competitive live-streaming e-commerce space.  
+
+By integrating cutting-edge AI technology with user-centric design, the Script Generation Copilot demonstrated the power of AI to simplify complex tasks and empower users to achieve professional results with minimal effort. This feature played a crucial role in the overall success of the digital human product, further solidifying its value in the market.
+
+---
+
+## **Real-Time Audience Interaction**  
+
+One of the most compelling aspects of our digital human product was its ability to support **real-time audience interaction**. This feature added a dynamic layer to live-streaming, enabling digital hosts to engage with viewers in a way that felt natural and immediate.  
+
+### **The Problem**  
+In live-streaming e-commerce, audience interaction is a key driver of engagement and sales. Viewers often ask questions about the product, seek recommendations, or simply want to connect with the host. Human hosts can respond in real-time, but with digital humans, this presented a unique challenge. How could we ensure that digital hosts could handle audience questions accurately, promptly, and in a way that felt conversational?  
+
+### **The Solution**  
+We designed a real-time audience interaction system that leveraged large language models and retrieval-augmented generation (RAG) techniques. This allowed the digital human to respond to audience queries with precision and relevance, creating an engaging and interactive experience.  
+
+#### **Core Capabilities**  
+- **Live Q&A Handling:** The system could process audience questions in real time, extract relevant context, and generate responses on the fly.  
+- **Knowledge Base Integration:** To ensure accuracy, the system was integrated with a knowledge base that users could populate with product details, FAQs, and other relevant information. This made the responses not only timely but also highly specific.  
+- **Unanswered Questions Logging:** If the system encountered a question it couldn’t answer, it logged the query for later review. Users could then add the answer to the knowledge base, ensuring continuous improvement.  
+- **Conversational Flow Management:** The system was designed to keep the interaction smooth, transitioning seamlessly between answering questions and returning to the main presentation.  
+
+### **How It Worked**  
+1. **Audience Questions:** During a live stream, viewers could type questions in the chat.  
+2. **Query Processing:** The system used natural language processing (NLP) to interpret the question and retrieve relevant information from the knowledge base.  
+3. **Response Generation:** The RAG model combined the retrieved information with conversational phrasing to generate a natural, engaging response.  
+4. **Delivery:** The response was converted into audio using the TTS engine and rendered in real-time by the digital human.  
+
+### **Integration with Other Features**  
+- **Script Generation Copilot:** Predefined Q&A scripts could be integrated into the knowledge base, allowing the system to handle common questions more effectively.  
+- **Avatar Customization:** The tone and style of responses could be tailored to match the personality of the customized digital human, ensuring consistency in branding and user experience.  
+
+### **Enhancements for User Experience**  
+To further refine the interaction, we added:  
+- **Fallback Mechanisms:** If the system couldn’t generate a satisfactory response, it could gracefully acknowledge the question and promise to follow up later.  
+- **Interactive Prompts:** The digital human could proactively encourage audience engagement by asking questions or responding to comments, creating a more lively atmosphere.  
+- **Multi-Language Support:** Real-time interaction was available in multiple languages, broadening the appeal of the product for global audiences.  
+
+### **The Impact**  
+The real-time audience interaction feature transformed the way users perceived digital hosts. By making the experience feel dynamic and responsive, it bridged the gap between human and digital hosts, addressing one of the biggest barriers to adopting digital human technology.  
+
+For users in the live-streaming e-commerce space, this feature not only increased viewer engagement but also drove higher conversion rates. By enabling digital humans to handle real-time Q&A seamlessly, we delivered a solution that was both innovative and practical, further solidifying the value of our digital human product in the market.""")
+
+
     with st.expander("Tell me about a project you are proud of."):
         st.write("""I’m particularly proud of a project I led at CloudWalk, where we developed a digital human live-streaming product. CloudWalk is an AI company that traditionally focused on B2B and government clients, but we saw an opportunity to leverage the growing interest in large language models, especially after the rise of ChatGPT, to explore consumer-facing applications.\n
 The idea came about while we were working on a knowledge engine product for enterprise clients. We had a few e-commerce clients in the live-streaming industry who needed intelligent customer service solutions. This sparked an idea: in China, live-streaming e-commerce is huge, but it's also very expensive to hire human hosts, and the barriers to entry are high. We thought, why not build a solution where digital humans could assist or even partially replace live hosts?\n
@@ -2140,7 +2328,7 @@ Finally, the product expectations are different. For the knowledge engine, our m
         st.write("""If I had the opportunity to do the project again, one improvement would be in the initial resource planning. For example, at the start, we were missing some key roles like a UI designer. Later, once we hired a professional UI designer, we had to spend significant time redesigning elements that could have been set up correctly from the beginning. Ensuring we had the right team in place from the start would have made the process more efficient.\n
 Additionally, in terms of integrating the large language model (LLM), we initially fine-tuned an open-source model like LLaMA, but the results weren't ideal. Eventually, we decided to incorporate more live-streaming data directly during the training phase of our foundational LLM. This significantly improved the model's ability to generate live-streaming scripts, which could have been addressed earlier to enhance quality from the start.""")
 
-    with st.expander("What do you want to do to enhance the product if you continue to work on it?"):
+    with st.expander("What do you want to do to enhance the product if you continue to work on it?(general ideas)"):
         st.write("""There are four key areas I’d like to focus on for enhancing the digital human product:  \n
 ### 1. **Improving Visual Quality**  \n
 Currently, our solution based on Wav2Lip is approaching its limits. While it works well for simple lip-syncing, it doesn’t capture more complex expressions or gestures. Diffusion-based methods, which are emerging in research, offer a way to generate not only matching lip movements but also facial expressions and even body movements, taking the realism to a whole new level. Although these methods aren't yet widely adopted in industry due to cost and rendering speed, I believe continuing to explore and optimize them will lead to a major leap in quality.\n  
@@ -2151,6 +2339,29 @@ The automatic responses generated during live interactions can sometimes feel me
 ### 4. **Building a User Community Platform**  \n
 As more users adopt the digital human product, I’d like to create a platform where they can share their creations, such as videos or live streams. This would allow users to see each other’s work, foster creativity, and increase engagement. A community-driven platform could also serve as a way for users to learn from each other and grow their capabilities, leading to a more active and loyal user base.\n  
 These improvements would collectively make the product more engaging, versatile, and valuable to its users.""")
+
+    with st.expander("What do you want to do to enhance the product if you continue to work on it?(personalized host)"):
+        st.write("""**Answer:**  
+
+If I were to continue working on the digital human live-streaming product, my goal would be to enable businesses to create even more personalized digital hosts. Beyond the current capabilities of customizing appearance and voice, I would focus on providing customization for live-streaming styles, including the language used during streams and the interaction style with users. This would involve integrating specific business knowledge, predefined styles set by the business, and consistency with all historical live-streaming styles to ensure a cohesive and tailored user experience.  
+
+**Technical Approach:**  
+1. **Style Fine-Tuning:**  
+   - Use fine-tuning techniques on large language models (LLMs) to adapt the digital human’s live-streaming scripts and interaction style based on the business's uploaded documents and specific requirements.  
+   - Incorporate Reinforcement Learning with Human Feedback (RLHF) to refine interaction patterns and ensure alignment with business needs.  
+
+2. **Knowledge Integration:**  
+   - Employ Retrieval-Augmented Generation (RAG) to extract and utilize relevant knowledge from the business's uploaded files or databases.  
+   - Develop a knowledge graph to maintain consistency across streams and ensure accurate responses.  
+
+3. **Historical Data Utilization:**  
+   - Leverage historical live-streaming data to analyze and extract consistent patterns in language and style.  
+   - Train models using a mix of supervised learning and unsupervised clustering techniques to identify and replicate the desired style in future streams.  
+
+4. **User-Friendly Customization Tools:**  
+   - Build an intuitive interface allowing businesses to define live-streaming preferences, upload specific materials, and preview the digital host’s behavior before going live.  
+
+By integrating these advancements, the digital human live-streaming product would become a powerful tool for businesses to connect with their audience in a highly personalized and effective way.""")
 
     with st.expander("How does wav2lip work."):
         st.write("""Wav2Lip is a deep learning model designed to generate realistic lip-sync for a given video based on audio input. Here’s an explanation of its working principle:\n
