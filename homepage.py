@@ -2096,11 +2096,17 @@ with tab3:
 
 I’m particularly proud of a project I led at CloudWalk, where we developed a digital human live-streaming product. CloudWalk, traditionally focused on B2B and government clients, saw a unique opportunity to explore consumer-facing applications following the rise of large language models, especially after ChatGPT’s release in late 2022.  
 
-The idea for this product originated while we were working on a knowledge engine for enterprise clients. Some of our e-commerce customers in the live-streaming industry expressed a need for intelligent customer service solutions. This got us thinking. In China, live-streaming e-commerce is a massive industry, contributing ¥4.9 trillion to the economy in 2023. However, it’s also incredibly expensive to hire human hosts, and smaller businesses often struggle with the high barriers to entry.  
+At the time, the company encouraged us to explore customer-facing ideas, so we conducted extensive market research to identify areas where AI could make a real impact. The idea for this product originated while we were working on a knowledge engine for enterprise clients. Some of our e-commerce customers in the live-streaming industry expressed a need for intelligent customer service solutions. This got us thinking. In China, live-streaming e-commerce is a massive industry, contributing ¥4.9 trillion to the economy in 2023. However, it’s also incredibly expensive to hire human hosts, and smaller businesses often struggle with the high barriers to entry.  
+
+I had previously collaborated with the digital human team on a B2B project, where we helped the government implement intelligent administrative services. Citizens could interact with digital humans to access policy information, powered by our knowledge engine. This experience not only deepened my understanding of digital human technology but also sparked my interest in how large language models could act as the "brains" behind digital humans, creating virtual hosts with a sense of "soul."  
+
+When we engaged with clients in the e-commerce industry, we discovered a strong demand for an intelligent system to assist them. At the same time, we noticed some pioneering competitors already offering digital human live-streaming products. We tested their solutions and realized there was room to innovate and deliver a better product.  
 
 We asked ourselves: what if we could leverage AI to solve this problem? What if digital humans could assist or even partially replace live hosts? This sparked the creation of a product that combined large language models with digital avatars. Users could customize their virtual host’s appearance and voice, automatically generate product presentation scripts, and even add interactive features to engage with viewers in real time.  
 
-This product quickly became a core strategic application within CloudWalk, demonstrating its value by solving real market challenges. It was adopted by over 10,000 paying users, generating millions in revenue and proving the power of AI-driven innovation.  
+Getting the project approved wasn’t easy. We had to present our case through three rounds of internal "defense," where we outlined the market opportunity, technical feasibility, and potential impact of our product. Finally, we convinced the CEO to approve the product kickoff. Around the same time, several other LLM-related projects were also greenlit, including an English learning app and an AI-powered presentation tool. However, out of all these initiatives, our digital human live-streaming product was one of only two that persisted through to the final promotion stage.  
+
+This product quickly became a core strategic application within CloudWalk, demonstrating its value by solving real market challenges. It was adopted by over 10,000 paying users, generating millions in revenue and proving the power of AI-driven innovation.
 
 ---
 
